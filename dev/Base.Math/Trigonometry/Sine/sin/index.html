@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>sin · EndlessTesting.jl</title><script data-outdated-warner src="../../../../assets/warner.js"></script><link rel="canonical" href="https://inkydragon.github.io/EndlessTesting.jl/Base.Math/Trigonometry/Sine/sin/"/><link href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/juliamono/0.045/juliamono.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/solid.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.24/katex.min.css" rel="stylesheet" type="text/css"/><script>documenterBaseURL="../../../.."</script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" data-main="../../../../assets/documenter.js"></script><script src="../../../../siteinfo.js"></script><script src="../../../../../versions.js"></script><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../../../../assets/themes/documenter-dark.css" data-theme-name="documenter-dark" data-theme-primary-dark/><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../../../../assets/themes/documenter-light.css" data-theme-name="documenter-light" data-theme-primary/><script src="../../../../assets/themeswap.js"></script></head><body><div id="documenter"><nav class="docs-sidebar"><div class="docs-package-name"><span class="docs-autofit"><a href="../../../../">EndlessTesting.jl</a></span></div><form class="docs-search" action="../../../../search/"><input class="docs-search-query" id="documenter-search-query" name="q" type="text" placeholder="Search docs"/></form><ul class="docs-menu"><li><a class="tocitem" href="../../../../">Home</a></li><li><span class="tocitem">Base.Math</span><ul><li><input class="collapse-toggle" id="menuitem-2-1" type="checkbox" checked/><label class="tocitem" for="menuitem-2-1"><span class="docs-label">Trigonometry</span><i class="docs-chevron"></i></label><ul class="collapsed"><li><input class="collapse-toggle" id="menuitem-2-1-1" type="checkbox" checked/><label class="tocitem" for="menuitem-2-1-1"><span class="docs-label">Sine</span><i class="docs-chevron"></i></label><ul class="collapsed"><li><a class="tocitem" href="../">Sine</a></li><li class="is-active"><a class="tocitem" href><code>sin</code></a><ul class="internal"><li><a class="tocitem" href="#Methods"><span>Methods</span></a></li><li><a class="tocitem" href="#Examples"><span>Examples</span></a></li></ul></li><li><a class="tocitem" href="../sind/"><code>sind</code></a></li><li><a class="tocitem" href="../sinpi/"><code>sinpi</code></a></li><li><a class="tocitem" href="../sinh/"><code>sinh</code></a></li><li><a class="tocitem" href="../asin/"><code>asin</code></a></li><li><a class="tocitem" href="../asind/"><code>asind</code></a></li><li><a class="tocitem" href="../asinh/"><code>asinh</code></a></li></ul></li><li><a class="tocitem" href="../../Cosine/">Cosine</a></li><li><a class="tocitem" href="../../Tangent/">Tangent</a></li><li><a class="tocitem" href="../../Cotangent/">Cotangent</a></li><li><a class="tocitem" href="../../Secant/">Secant</a></li><li><a class="tocitem" href="../../Cosecant/">Cosecant</a></li></ul></li></ul></li></ul><div class="docs-version-selector field has-addons"><div class="control"><span class="docs-label button is-static is-size-7">Version</span></div><div class="docs-selector control is-expanded"><div class="select is-fullwidth is-size-7"><select id="documenter-version-selector"></select></div></div></div></nav><div class="docs-main"><header class="docs-navbar"><nav class="breadcrumb"><ul class="is-hidden-mobile"><li><a class="is-disabled">Base.Math</a></li><li><a class="is-disabled">Trigonometry</a></li><li><a class="is-disabled">Sine</a></li><li class="is-active"><a href><code>sin</code></a></li></ul><ul class="is-hidden-tablet"><li class="is-active"><a href><code>sin</code></a></li></ul></nav><div class="docs-right"><a class="docs-edit-link" href="https://github.com/inkydragon/EndlessTesting.jl/blob/main/docs/src/Base.Math/Trigonometry/Sine/sin.md#" title="Edit on GitHub"><span class="docs-icon fab"></span><span class="docs-label is-hidden-touch">Edit on GitHub</span></a><a class="docs-settings-button fas fa-cog" id="documenter-settings-button" href="#" title="Settings"></a><a class="docs-sidebar-button fa fa-bars is-hidden-desktop" id="documenter-sidebar-button" href="#"></a></div></header><article class="content" id="documenter-page"><h1 id="sin"><a class="docs-heading-anchor" href="#sin"><code>sin</code></a><a id="sin-1"></a><a class="docs-heading-anchor-permalink" href="#sin" title="Permalink"></a></h1><h2 id="Methods"><a class="docs-heading-anchor" href="#Methods">Methods</a><a id="Methods-1"></a><a class="docs-heading-anchor-permalink" href="#Methods" title="Permalink"></a></h2><p>With <code>Number</code> input:</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; methods(sin, (Any,), [Core, Base, Base.Math, Base.MathConstants, Base.MPFR])</code><code class="nohighlight hljs ansi" style="display:block;"># 8 methods for generic function &quot;sin&quot;:
+[1] sin(x::T) where T&lt;:Union{Float32, Float64} in Base.Math at special/trig.jl:29
+[2] sin(::Irrational{:π}) in Base.MathConstants at mathconstants.jl:126
+[3] sin(x::BigFloat) in Base.MPFR at mpfr.jl:750
+[4] sin(::Missing) in Base.Math at math.jl:1374
+[5] sin(a::ComplexF16) in Base.Math at math.jl:1353
+[6] sin(z::Complex{T}) where T in Base at complex.jl:873
+[7] sin(a::Float16) in Base.Math at math.jl:1352
+[8] sin(x::Real) in Base.Math at math.jl:1369</code></pre><p>With <code>Array</code> like input:</p><pre><code class="language-julia-repl hljs" style="display:block;">julia&gt; methods(sin, (Any,), [LinearAlgebra])</code><code class="nohighlight hljs ansi" style="display:block;"># 6 methods for generic function &quot;sin&quot;:
+[1] sin(D::LinearAlgebra.Diagonal) in LinearAlgebra at /opt/hostedtoolcache/julia/1.8.2/x64/share/julia/stdlib/v1.8/LinearAlgebra/src/diagonal.jl:674
+[2] sin(J::LinearAlgebra.UniformScaling) in LinearAlgebra at /opt/hostedtoolcache/julia/1.8.2/x64/share/julia/stdlib/v1.8/LinearAlgebra/src/uniformscaling.jl:173
+[3] sin(A::LinearAlgebra.Hermitian{var&quot;#s884&quot;, S} where {var&quot;#s884&quot;&lt;:Complex, S&lt;:(AbstractMatrix{&lt;:var&quot;#s884&quot;})}) in LinearAlgebra at /opt/hostedtoolcache/julia/1.8.2/x64/share/julia/stdlib/v1.8/LinearAlgebra/src/symmetric.jl:731
+[4] sin(A::Union{LinearAlgebra.Hermitian{var&quot;#s885&quot;, S}, LinearAlgebra.Symmetric{var&quot;#s885&quot;, S}} where {var&quot;#s885&quot;&lt;:Real, S}) in LinearAlgebra at /opt/hostedtoolcache/julia/1.8.2/x64/share/julia/stdlib/v1.8/LinearAlgebra/src/symmetric.jl:727
+[5] sin(A::AbstractMatrix{&lt;:Real}) in LinearAlgebra at /opt/hostedtoolcache/julia/1.8.2/x64/share/julia/stdlib/v1.8/LinearAlgebra/src/dense.jl:948
+[6] sin(A::AbstractMatrix{&lt;:Complex}) in LinearAlgebra at /opt/hostedtoolcache/julia/1.8.2/x64/share/julia/stdlib/v1.8/LinearAlgebra/src/dense.jl:955</code></pre><h2 id="Examples"><a class="docs-heading-anchor" href="#Examples">Examples</a><a id="Examples-1"></a><a class="docs-heading-anchor-permalink" href="#Examples" title="Permalink"></a></h2><h3 id="Int-and-Float"><a class="docs-heading-anchor" href="#Int-and-Float">Int and Float</a><a id="Int-and-Float-1"></a><a class="docs-heading-anchor-permalink" href="#Int-and-Float" title="Permalink"></a></h3><pre><code class="language-julia-repl hljs">julia&gt; sin(0)
+0.0
+
+julia&gt; sin(0.5*pi)
+1.0
+
+julia&gt; sin(pi)
+0.0
+
+julia&gt; pi
+π = 3.1415926535897...
+
+julia&gt; sin.([0 0.5*pi pi 1.5*pi 2*pi])
+1×5 Matrix{Float64}:
+ 0.0  1.0  1.22465e-16  -1.0  -2.44929e-16</code></pre><div class="admonition is-success"><header class="admonition-header">dot-style function call</header><div class="admonition-body"><p><code>f.(args)</code> means eval args one by one.</p></div></div><p>big float, <code>sin(pi/6) == sin(30°) == 1/2</code>:</p><pre><code class="language-julia-repl hljs">julia&gt; sin(pi/6)
+0.49999999999999994
+
+julia&gt; sin(pi/big&quot;6&quot;)
+0.4999999999999999999999999999999999999999999999999999999999999999999999999999957</code></pre><p>special float <code>NaN</code>, <code>Inf</code>:</p><pre><code class="language-julia-repl hljs">julia&gt; sin(NaN)
+NaN
+
+julia&gt; sin(Inf)
+ERROR: DomainError with Inf:
+sin(x) is only defined for finite x.
+[...]</code></pre><h3 id="Complex"><a class="docs-heading-anchor" href="#Complex">Complex</a><a id="Complex-1"></a><a class="docs-heading-anchor-permalink" href="#Complex" title="Permalink"></a></h3><pre><code class="language-julia-repl hljs">julia&gt; sin(0+0im)
+0.0 + 0.0im</code></pre><h3 id="Missing-and-Nothing"><a class="docs-heading-anchor" href="#Missing-and-Nothing">Missing and Nothing</a><a id="Missing-and-Nothing-1"></a><a class="docs-heading-anchor-permalink" href="#Missing-and-Nothing" title="Permalink"></a></h3><pre><code class="language-julia-repl hljs">julia&gt; sin(missing)
+missing
+
+julia&gt; sin(nothing)
+ERROR: MethodError: no method matching sin(::Nothing)
+[...]</code></pre><h3 id="Matrix"><a class="docs-heading-anchor" href="#Matrix">Matrix</a><a id="Matrix-1"></a><a class="docs-heading-anchor-permalink" href="#Matrix" title="Permalink"></a></h3><pre><code class="language-julia-repl hljs">julia&gt; sin([1 2; 3 4])
+2×2 Matrix{Float64}:
+ -0.465581  -0.148424
+ -0.222637  -0.688218
+
+julia&gt; sin.([1 2; 3 4])
+2×2 Matrix{Float64}:
+ 0.841471   0.909297
+ 0.14112   -0.756802
+
+julia&gt; sin([1 2; 3 4]) == sin.([1 2; 3 4])
+false</code></pre></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../">« Sine</a><a class="docs-footer-nextpage" href="../sind/"><code>sind</code> »</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 0.27.23 on <span class="colophon-date" title="Sunday 2 October 2022 16:10">Sunday 2 October 2022</span>. Using Julia version 1.8.2.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
