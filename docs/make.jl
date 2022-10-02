@@ -35,8 +35,13 @@ makedocs(;
     sitename="EndlessTesting.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
+        canonical="https://inkydragon.github.io/EndlessTesting.jl",
         edit_link="main",
         assets=String[],
     ),
     pages=all_pages,
+)
+
+deploydocs(;
+    repo="github.com/inkydragon/EndlessTesting.jl",
 )
