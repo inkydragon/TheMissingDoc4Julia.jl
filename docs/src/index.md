@@ -8,7 +8,3 @@ Documentation for [EndlessTesting](https://github.com/inkydragon/EndlessTesting.
 
 ```@index
 ```
-
-```@autodocs
-Modules = [EndlessTesting]
-```
