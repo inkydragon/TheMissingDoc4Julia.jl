@@ -5,7 +5,7 @@ DocMeta.setdocmeta!(EndlessTesting, :DocTestSetup, :(using EndlessTesting); recu
 
 makedocs(;
     modules=[EndlessTesting],
-    authors="git <git@users.noreply.github.com> and contributors",
+    authors="woclass <git@wo-class.cn> and contributors",
     repo="https://github.com/inkydragon/EndlessTesting.jl/blob/{commit}{path}#{line}",
     sitename="EndlessTesting.jl",
     format=Documenter.HTML(;

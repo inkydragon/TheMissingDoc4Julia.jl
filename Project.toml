@@ -1,6 +1,6 @@
 name = "EndlessTesting"
 uuid = "a2d587bb-f694-4225-843f-aa0665c48f41"
-authors = ["git <git@users.noreply.github.com> and contributors"]
+authors = ["woclass <git@wo-class.cn> and contributors"]
 version = "0.1.0"
 
 [compat]
