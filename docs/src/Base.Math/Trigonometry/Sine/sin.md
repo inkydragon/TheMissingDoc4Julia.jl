@@ -97,6 +97,10 @@ ERROR: MethodError: no method matching sin(::Nothing)
 ```
 
 ### Matrix
+```@docs
+Base.sin(AbstractMatrix)
+```
+
 ```jldoctest
 julia> sin([1 2; 3 4])
 2×2 Matrix{Float64}:
