@@ -40,6 +40,7 @@ makedocs(;
         canonical="https://inkydragon.github.io/EndlessTesting.jl",
         edit_link="main",
         assets=String[],
+        ansicolor=true,
     ),
     pages=all_pages,
 )

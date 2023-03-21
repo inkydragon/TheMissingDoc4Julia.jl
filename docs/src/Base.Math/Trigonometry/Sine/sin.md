@@ -60,20 +60,29 @@ sin(x) is only defined for finite x.
 [...]
 ```
 
+plot
+```@repl
+using UnicodePlots
+lineplot(sin, -π, π)
+```
+
 ### Complex
 ```jldoctest
 julia> sin(0+0im)
 0.0 + 0.0im
 ```
 
+plot real part
+```@repl
+using UnicodePlots
+sin_real(x, y) = real(sin(x + y*im))
+surfaceplot(-2pi:0.01:2pi, -2pi:0.01:2pi, sin_real, colormap=:jet)
+```
+
 ### Missing
 ```jldoctest
 julia> sin(missing)
 missing
-
-julia> sin(nothing)
-ERROR: MethodError: no method matching sin(::Nothing)
-[...]
 ```
 
 ### Nothing
