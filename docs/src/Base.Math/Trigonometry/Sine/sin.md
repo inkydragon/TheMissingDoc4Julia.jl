@@ -76,7 +76,7 @@ plot real part
 ```@repl
 using UnicodePlots
 sin_real(x, y) = real(sin(x + y*im))
-surfaceplot(-2pi:0.01:2pi, -2pi:0.01:2pi, sin_real, colormap=:jet)
+surfaceplot(-2pi:0.01:2pi, -pi:0.01:pi, sin_real)
 ```
 
 ### Missing
