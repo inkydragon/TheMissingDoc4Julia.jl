@@ -3,6 +3,10 @@
 using LinearAlgebra
 ```
 
+```@docs
+Base.sin
+```
+
 
 ## Methods
 

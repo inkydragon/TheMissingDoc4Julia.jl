@@ -10,8 +10,8 @@ all_pages = [
     ],
     "Base.Math" => Any[
         "Trigonometry" => Any[
+            "Trigonometry" => "Base.Math/Trigonometry/Trigonometry.md",
             "Sine" => Any[
-                "Base.Math/Trigonometry/Sine.md",
                 "Base.Math/Trigonometry/Sine/sin.md",
                 "Base.Math/Trigonometry/Sine/sind.md",
                 "Base.Math/Trigonometry/Sine/sinpi.md",
@@ -31,7 +31,7 @@ all_pages = [
 
 
 makedocs(;
-    modules=[EndlessTesting],
+    modules=[Base, EndlessTesting],
     authors="woclass <git@wo-class.cn> and contributors",
     repo="https://github.com/inkydragon/EndlessTesting.jl/blob/{commit}{path}#{line}",
     sitename="EndlessTesting.jl",
@@ -42,6 +42,8 @@ makedocs(;
         assets=String[],
         ansicolor=true,
     ),
+    doctest=false,
+    checkdocs=:none,
     pages=all_pages,
 )
 

@@ -1,1 +1,5 @@
 # `asinh`
+
+```@docs
+Base.asinh
+```

@@ -1,1 +1,5 @@
 # `sinh`
+
+```@docs
+Base.sinh
+```

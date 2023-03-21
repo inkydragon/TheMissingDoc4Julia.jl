@@ -1,1 +1,5 @@
 # `asin`
+
+```@docs
+Base.asin
+```

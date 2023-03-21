@@ -1,1 +1,5 @@
 # `sind`
+
+```@docs
+Base.sind
+```

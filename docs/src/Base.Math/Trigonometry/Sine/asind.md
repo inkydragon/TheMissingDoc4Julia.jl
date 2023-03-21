@@ -1,1 +1,5 @@
 # `asind`
+
+```@docs
+Base.asind
+```

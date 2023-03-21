@@ -1,1 +1,5 @@
 # `sinpi`
+
+```@docs
+Base.sinpi
+```
