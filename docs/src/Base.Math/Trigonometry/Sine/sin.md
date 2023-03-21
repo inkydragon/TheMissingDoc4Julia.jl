@@ -6,15 +6,16 @@ using LinearAlgebra
 
 ## Methods
 
-With `Number` input:
+With `Number` and `Missing` input:
 ```@repl 
-methods(sin, (Any,), [Core, Base, Base.Math, Base.MathConstants, Base.MPFR])
+methods(sin, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ```
 
 With `Array` like input:
 ```@repl repl_only
 methods(sin, (Any,), [LinearAlgebra])
 ```
+
 
 ## Examples
 ### Int and Float
@@ -65,11 +66,18 @@ julia> sin(0+0im)
 0.0 + 0.0im
 ```
 
-### Missing and Nothing
+### Missing
 ```jldoctest
 julia> sin(missing)
 missing
 
+julia> sin(nothing)
+ERROR: MethodError: no method matching sin(::Nothing)
+[...]
+```
+
+### Nothing
+```jldoctest
 julia> sin(nothing)
 ERROR: MethodError: no method matching sin(::Nothing)
 [...]
