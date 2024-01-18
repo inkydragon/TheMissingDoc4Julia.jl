@@ -7,6 +7,7 @@
 - [`exp10`](@ref)
 
 ## Power
+- [`ldexp`](@ref)
 - [`ispow2`](@ref)
 - [`prevpow`](@ref)
 - [`nextpow`](@ref)
@@ -30,6 +31,7 @@ Base.expm1
 Base.exp2
 Base.exp10
 
+Base.ldexp
 Base.ispow2
 Base.prevpow
 Base.nextpow
