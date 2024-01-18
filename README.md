@@ -19,7 +19,24 @@ julia --project=docs docs/make.jl
 - DLMF:     https://dlmf.nist.gov/4#PT3
 - wikip:    https://en.wikipedia.org/wiki/Sine_and_cosine
 
+### wolfram
+- Details, Some definitions and facts
+- Background & Context
+- Examples
+    + Basic Examples: most common use cases
+    + Scope: Survey of the scope of standard use cases
+    + Applications: Sample problems that can be solved with this function
+    + Properties & Relations: Properties of the function, and connections to other functions
+    + Possible Issues: Common pitfalls and unexpected behavior
+    + Neat Examples: Surprising or curious use cases
+- See Also (links)
+- Tech Notes (links)
+- Related Guides (links)
+- Related Links
+- History
+
 ### R
+https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Trig
 - Description
 - Usage
 - Arguments
