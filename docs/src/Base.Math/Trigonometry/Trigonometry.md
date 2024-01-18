@@ -62,13 +62,11 @@
 ## Conversions
 - [`rad2deg`](@ref)
 - [`deg2rad`](@ref)
-- [`angle`](@ref)
 
 
 ## Others
 ```@docs
 Base.pi
-Base.exp
 Base.cis
 Base.cispi
 ```

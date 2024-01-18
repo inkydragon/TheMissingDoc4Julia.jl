@@ -7,7 +7,6 @@ all_pages = [
     "Home" => "index.md",
     "Base.Math" => Any[
         "Arithmetic" => "Base.Math/Arithmetic/Arithmetic.md",
-        "Exponents and Logarithms" => "Base.Math/Exp-and-Log/exp-and-log.md",
         "Trigonometry" => Any[
             "Trigonometry" => "Base.Math/Trigonometry/Trigonometry.md",
             "Sine" => Any[
@@ -29,7 +28,9 @@ all_pages = [
             "Cosecant" => "Base.Math/Trigonometry/Cosecant.md",
             "Hypotenuse" => "Base.Math/Trigonometry/Hypotenuse.md",
             "Conversions" => "Base.Math/Trigonometry/Conversions.md",
-        ],        
+        ],
+        "Exponents and Logarithms" => "Base.Math/Exp-and-Log/exp-and-log.md",
+        "Complex Numbers" => "Base.Math/Complex/Complex.md",
     ],
 ] # all_pages
 
