@@ -67,7 +67,7 @@ sin(x) is only defined for finite x.
 plot
 ```@repl
 using UnicodePlots
-lineplot(sin, -π, π)
+lineplot(-π, π, sin)
 ```
 
 ### Complex
