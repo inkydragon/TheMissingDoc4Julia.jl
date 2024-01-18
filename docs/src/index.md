@@ -22,6 +22,7 @@ Documentation for [EndlessTesting](https://github.com/inkydragon/EndlessTesting.
 - [Python numpy - sin](https://numpy.org/doc/stable/reference/generated/numpy.sin.html)
 - [DLMF - Trigonometric Functions](https://dlmf.nist.gov/4#PT3)
 - [WikiPedia - Sine and Cosine](https://en.wikipedia.org/wiki/Sine_and_cosine)
+- [R - Trig](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Trig)
 
 ### matlab
 - One sentence description
@@ -60,7 +61,6 @@ Documentation for [EndlessTesting](https://github.com/inkydragon/EndlessTesting.
 - Examples, with plot
 
 ### R
-https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Trig
 - Description
 - Usage
 - Arguments
