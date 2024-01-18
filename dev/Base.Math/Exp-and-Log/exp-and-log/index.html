@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Exponents and Logarithms · EndlessTesting.jl</title><meta name="title" content="Exponents and Logarithms · EndlessTesting.jl"/><meta property="og:title" content="Exponents and Logarithms · EndlessTesting.jl"/><meta property="twitter:title" content="Exponents and Logarithms · EndlessTesting.jl"/><meta name="description" content="Documentation for EndlessTesting.jl."/><meta property="og:description" content="Documentation for EndlessTesting.jl."/><meta property="twitter:description" content="Documentation for EndlessTesting.jl."/><meta property="og:url" content="https://inkydragon.github.io/EndlessTesting.jl/Base.Math/Exp-and-Log/exp-and-log/"/><meta property="twitter:url" content="https://inkydragon.github.io/EndlessTesting.jl/Base.Math/Exp-and-Log/exp-and-log/"/><link rel="canonical" href="https://inkydragon.github.io/EndlessTesting.jl/Base.Math/Exp-and-Log/exp-and-log/"/><script data-outdated-warner src="../../../assets/warner.js"></script><link href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/juliamono/0.050/juliamono.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/solid.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.8/katex.min.css" rel="stylesheet" type="text/css"/><script>documenterBaseURL="../../.."</script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" data-main="../../../assets/documenter.js"></script><script src="../../../search_index.js"></script><script src="../../../siteinfo.js"></script><script src="../../../../versions.js"></script><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../../../assets/themes/documenter-dark.css" data-theme-name="documenter-dark" data-theme-primary-dark/><link class="docs-theme-link" rel="stylesheet" type="text/css" href="../../../assets/themes/documenter-light.css" data-theme-name="documenter-light" data-theme-primary/><script src="../../../assets/themeswap.js"></script></head><body><div id="documenter"><nav class="docs-sidebar"><div class="docs-package-name"><span class="docs-autofit"><a href="../../../">EndlessTesting.jl</a></span></div><button class="docs-search-query input is-rounded is-small is-clickable my-2 mx-auto py-1 px-2" id="documenter-search-query">Search docs (Ctrl + /)</button><ul class="docs-menu"><li><a class="tocitem" href="../../../">Home</a></li><li><span class="tocitem">Base.Math</span><ul><li><a class="tocitem" href="../../Arithmetic/Arithmetic/">Arithmetic</a></li><li><input class="collapse-toggle" id="menuitem-2-2" type="checkbox"/><label class="tocitem" for="menuitem-2-2"><span class="docs-label">Trigonometry</span><i class="docs-chevron"></i></label><ul class="collapsed"><li><a class="tocitem" href="../../Trigonometry/Trigonometry/">Trigonometry</a></li><li><input class="collapse-toggle" id="menuitem-2-2-2" type="checkbox"/><label class="tocitem" for="menuitem-2-2-2"><span class="docs-label">Sine</span><i class="docs-chevron"></i></label><ul class="collapsed"><li><a class="tocitem" href="../../Trigonometry/Sine/sin/"><code>sin</code></a></li><li><a class="tocitem" href="../../Trigonometry/Sine/sind/"><code>sind</code></a></li><li><a class="tocitem" href="../../Trigonometry/Sine/sinpi/"><code>sinpi</code></a></li><li><a class="tocitem" href="../../Trigonometry/Sine/sinh/"><code>sinh</code></a></li><li><a class="tocitem" href="../../Trigonometry/Sine/sincos/"><code>sincos</code></a></li><li><a class="tocitem" href="../../Trigonometry/Sine/sincosd/"><code>sincosd</code></a></li><li><a class="tocitem" href="../../Trigonometry/Sine/sincospi/"><code>sincospi</code></a></li><li><a class="tocitem" href="../../Trigonometry/Sine/asin/"><code>asin</code></a></li><li><a class="tocitem" href="../../Trigonometry/Sine/asind/"><code>asind</code></a></li><li><a class="tocitem" href="../../Trigonometry/Sine/asinh/"><code>asinh</code></a></li></ul></li><li><a class="tocitem" href="../../Trigonometry/Cosine/">Cosine</a></li><li><a class="tocitem" href="../../Trigonometry/Tangent/">Tangent</a></li><li><a class="tocitem" href="../../Trigonometry/Cotangent/">Cotangent</a></li><li><a class="tocitem" href="../../Trigonometry/Secant/">Secant</a></li><li><a class="tocitem" href="../../Trigonometry/Cosecant/">Cosecant</a></li><li><a class="tocitem" href="../../Trigonometry/Hypotenuse/">Hypotenuse</a></li><li><a class="tocitem" href="../../Trigonometry/Conversions/">Conversions</a></li></ul></li><li class="is-active"><a class="tocitem" href>Exponents and Logarithms</a><ul class="internal"><li><a class="tocitem" href="#Exponents"><span>Exponents</span></a></li><li><a class="tocitem" href="#Power"><span>Power</span></a></li><li><a class="tocitem" href="#Root-functions"><span>Root functions</span></a></li><li><a class="tocitem" href="#Logarithms"><span>Logarithms</span></a></li><li><a class="tocitem" href="#temp-ref"><span>temp-ref</span></a></li></ul></li><li><a class="tocitem" href="../../Complex/Complex/">Complex Numbers</a></li></ul></li></ul><div class="docs-version-selector field has-addons"><div class="control"><span class="docs-label button is-static is-size-7">Version</span></div><div class="docs-selector control is-expanded"><div class="select is-fullwidth is-size-7"><select id="documenter-version-selector"></select></div></div></div></nav><div class="docs-main"><header class="docs-navbar"><a class="docs-sidebar-button docs-navbar-link fa-solid fa-bars is-hidden-desktop" id="documenter-sidebar-button" href="#"></a><nav class="breadcrumb"><ul class="is-hidden-mobile"><li><a class="is-disabled">Base.Math</a></li><li class="is-active"><a href>Exponents and Logarithms</a></li></ul><ul class="is-hidden-tablet"><li class="is-active"><a href>Exponents and Logarithms</a></li></ul></nav><div class="docs-right"><a class="docs-navbar-link" href="https://inkydragon.github.io/EndlessTesting.jl" title="View the repository on GitHub"><span class="docs-icon fa-brands"></span><span class="docs-label is-hidden-touch">GitHub</span></a><a class="docs-navbar-link" href="https://github.com/inkydragon/EndlessTesting.jl/blob/main/docs/src/Base.Math/Exp-and-Log/exp-and-log.md#" title="Edit source on GitHub"><span class="docs-icon fa-solid"></span></a><a class="docs-settings-button docs-navbar-link fa-solid fa-gear" id="documenter-settings-button" href="#" title="Settings"></a><a class="docs-article-toggle-button fa-solid fa-chevron-up" id="documenter-article-toggle-button" href="javascript:;" title="Collapse all docstrings"></a></div></header><article class="content" id="documenter-page"><h1 id="Exponents-and-Logarithms"><a class="docs-heading-anchor" href="#Exponents-and-Logarithms">Exponents and Logarithms</a><a id="Exponents-and-Logarithms-1"></a><a class="docs-heading-anchor-permalink" href="#Exponents-and-Logarithms" title="Permalink"></a></h1><h2 id="Exponents"><a class="docs-heading-anchor" href="#Exponents">Exponents</a><a id="Exponents-1"></a><a class="docs-heading-anchor-permalink" href="#Exponents" title="Permalink"></a></h2><ul><li><a href="#Base.exp"><code>exp</code></a></li><li><a href="#Base.expm1"><code>expm1</code></a></li><li><a href="#Base.exp2"><code>exp2</code></a></li><li><a href="#Base.exp10"><code>exp10</code></a></li></ul><h2 id="Power"><a class="docs-heading-anchor" href="#Power">Power</a><a id="Power-1"></a><a class="docs-heading-anchor-permalink" href="#Power" title="Permalink"></a></h2><ul><li><a href="#Base.Math.ldexp"><code>ldexp</code></a></li><li><a href="#Base.ispow2"><code>ispow2</code></a></li><li><a href="#Base.prevpow"><code>prevpow</code></a></li><li><a href="#Base.nextpow"><code>nextpow</code></a></li><li><a href="@ref"><code>powermod</code></a></li></ul><h2 id="Root-functions"><a class="docs-heading-anchor" href="#Root-functions">Root functions</a><a id="Root-functions-1"></a><a class="docs-heading-anchor-permalink" href="#Root-functions" title="Permalink"></a></h2><ul><li><a href="#Base.sqrt"><code>sqrt</code></a></li><li><a href="#Base.isqrt"><code>isqrt</code></a></li></ul><h2 id="Logarithms"><a class="docs-heading-anchor" href="#Logarithms">Logarithms</a><a id="Logarithms-1"></a><a class="docs-heading-anchor-permalink" href="#Logarithms" title="Permalink"></a></h2><ul><li><a href="#Base.log"><code>log</code></a></li><li><a href="#Base.log2"><code>log2</code></a></li><li><a href="#Base.log10"><code>log10</code></a></li><li><a href="#Base.log1p"><code>log1p</code></a></li></ul><h2 id="temp-ref"><a class="docs-heading-anchor" href="#temp-ref">temp-ref</a><a id="temp-ref-1"></a><a class="docs-heading-anchor-permalink" href="#temp-ref" title="Permalink"></a></h2><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.exp" href="#Base.exp"><code>Base.exp</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">exp(x)</code></pre><p>Compute the natural base exponential of <code>x</code>, in other words <span>$ℯ^x$</span>.</p><p>See also <a href="#Base.exp2"><code>exp2</code></a>, <a href="#Base.exp10"><code>exp10</code></a> and <a href="../../Trigonometry/Trigonometry/#Base.cis"><code>cis</code></a>.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; exp(1.0)
+2.718281828459045
+
+julia&gt; exp(im * pi) ≈ cis(pi)
+true</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/special/exp.jl#L332-L347">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.expm1" href="#Base.expm1"><code>Base.expm1</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">expm1(x)</code></pre><p>Accurately compute <span>$e^x-1$</span>. It avoids the loss of precision involved in the direct evaluation of exp(x)-1 for small values of x.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; expm1(1e-16)
+1.0e-16
+
+julia&gt; exp(1e-16) - 1
+0.0</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/special/exp.jl#L488-L501">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.exp2" href="#Base.exp2"><code>Base.exp2</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">exp2(x)</code></pre><p>Compute the base 2 exponential of <code>x</code>, in other words <span>$2^x$</span>.</p><p>See also <a href="#Base.Math.ldexp"><code>ldexp</code></a>, <a href="@ref"><code>&lt;&lt;</code></a>.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; exp2(5)
+32.0
+
+julia&gt; 2^5
+32
+
+julia&gt; exp2(63) &gt; typemax(Int)
+true</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/special/exp.jl#L349-L367">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.exp10" href="#Base.exp10"><code>Base.exp10</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">exp10(x)</code></pre><p>Compute the base 10 exponential of <code>x</code>, in other words <span>$10^x$</span>.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; exp10(2)
+100.0
+
+julia&gt; 10^2
+100</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/special/exp.jl#L370-L383">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.Math.ldexp" href="#Base.Math.ldexp"><code>Base.Math.ldexp</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">ldexp(x, n)</code></pre><p>Compute <span>$x \times 2^n$</span>.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; ldexp(5., 2)
+20.0</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/math.jl#L925-L935">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.ispow2" href="#Base.ispow2"><code>Base.ispow2</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">ispow2(n::Number) -&gt; Bool</code></pre><p>Test whether <code>n</code> is an integer power of two.</p><p>See also <a href="@ref"><code>count_ones</code></a>, <a href="#Base.prevpow"><code>prevpow</code></a>, <a href="#Base.nextpow"><code>nextpow</code></a>.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; ispow2(4)
+true
+
+julia&gt; ispow2(5)
+false
+
+julia&gt; ispow2(4.5)
+false
+
+julia&gt; ispow2(0.25)
+true
+
+julia&gt; ispow2(1//8)
+true</code></pre><div class="admonition is-compat"><header class="admonition-header">Julia 1.6</header><div class="admonition-body"><p>Support for non-<code>Integer</code> arguments was added in Julia 1.6.</p></div></div></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/intfuncs.jl#L425-L452">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.prevpow" href="#Base.prevpow"><code>Base.prevpow</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">prevpow(a, x)</code></pre><p>The largest <code>a^n</code> not greater than <code>x</code>, where <code>n</code> is a non-negative integer. <code>a</code> must be greater than 1, and <code>x</code> must not be less than 1.</p><p>See also <a href="#Base.nextpow"><code>nextpow</code></a>, <a href="#Base.isqrt"><code>isqrt</code></a>.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; prevpow(2, 7)
+4
+
+julia&gt; prevpow(2, 9)
+8
+
+julia&gt; prevpow(5, 20)
+5
+
+julia&gt; prevpow(4, 16)
+16</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/intfuncs.jl#L501-L523">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.nextpow" href="#Base.nextpow"><code>Base.nextpow</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">nextpow(a, x)</code></pre><p>The smallest <code>a^n</code> not less than <code>x</code>, where <code>n</code> is a non-negative integer. <code>a</code> must be greater than 1, and <code>x</code> must be greater than 0.</p><p>See also <a href="#Base.prevpow"><code>prevpow</code></a>.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; nextpow(2, 7)
+8
+
+julia&gt; nextpow(2, 9)
+16
+
+julia&gt; nextpow(5, 20)
+25
+
+julia&gt; nextpow(4, 16)
+16</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/intfuncs.jl#L457-L479">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.sqrt" href="#Base.sqrt"><code>Base.sqrt</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">sqrt(x)</code></pre><p>Return <span>$\sqrt{x}$</span>. Throws <a href="@ref"><code>DomainError</code></a> for negative <a href="@ref"><code>Real</code></a> arguments. Use complex negative arguments instead. The prefix operator <code>√</code> is equivalent to <code>sqrt</code>.</p><p>See also: <a href="../../Trigonometry/Hypotenuse/#Base.Math.hypot"><code>hypot</code></a>.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; sqrt(big(81))
+9.0
+
+julia&gt; sqrt(big(-81))
+ERROR: DomainError with -81.0:
+NaN result for non-NaN input.
+Stacktrace:
+ [1] sqrt(::BigFloat) at ./mpfr.jl:501
+[...]
+
+julia&gt; sqrt(big(complex(-81)))
+0.0 + 9.0im
+
+julia&gt; .√(1:4)
+4-element Vector{Float64}:
+ 1.0
+ 1.4142135623730951
+ 1.7320508075688772
+ 2.0</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/math.jl#L690-L720">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.isqrt" href="#Base.isqrt"><code>Base.isqrt</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">isqrt(n::Integer)</code></pre><p>Integer square root: the largest integer <code>m</code> such that <code>m*m &lt;= n</code>.</p><pre><code class="language-julia-repl hljs">julia&gt; isqrt(5)
+2</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/intfuncs.jl#L1002-L1011">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.log" href="#Base.log"><code>Base.log</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">log(b,x)</code></pre><p>Compute the base <code>b</code> logarithm of <code>x</code>. Throws <a href="@ref"><code>DomainError</code></a> for negative <a href="@ref"><code>Real</code></a> arguments.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; log(4,8)
+1.5
+
+julia&gt; log(4,2)
+0.5
+
+julia&gt; log(-2, 3)
+ERROR: DomainError with -2.0:
+log was called with a negative real argument but will only return a complex result if called with a complex argument. Try log(Complex(x)).
+Stacktrace:
+ [1] throw_complex_domainerror(::Symbol, ::Float64) at ./math.jl:31
+[...]
+
+julia&gt; log(2, -3)
+ERROR: DomainError with -3.0:
+log was called with a negative real argument but will only return a complex result if called with a complex argument. Try log(Complex(x)).
+Stacktrace:
+ [1] throw_complex_domainerror(::Symbol, ::Float64) at ./math.jl:31
+[...]</code></pre><div class="admonition is-info"><header class="admonition-header">Note</header><div class="admonition-body"><p>If <code>b</code> is a power of 2 or 10, <a href="#Base.log2"><code>log2</code></a> or <a href="#Base.log10"><code>log10</code></a> should be used, as these will typically be faster and more accurate. For example,</p><pre><code class="language-julia-repl hljs">julia&gt; log(100,1000000)
+2.9999999999999996
+
+julia&gt; log10(1000000)/2
+3.0</code></pre></div></div></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/math.jl#L354-L394">source</a></section><section><div><pre><code class="language-julia hljs">log(x)</code></pre><p>Compute the natural logarithm of <code>x</code>. Throws <a href="@ref"><code>DomainError</code></a> for negative <a href="@ref"><code>Real</code></a> arguments. Use complex negative arguments to obtain complex results.</p><p>See also <a href="@ref"><code>ℯ</code></a>, <a href="#Base.log1p"><code>log1p</code></a>, <a href="#Base.log2"><code>log2</code></a>, <a href="#Base.log10"><code>log10</code></a>.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; log(2)
+0.6931471805599453
+
+julia&gt; log(-3)
+ERROR: DomainError with -3.0:
+log was called with a negative real argument but will only return a complex result if called with a complex argument. Try log(Complex(x)).
+Stacktrace:
+ [1] throw_complex_domainerror(::Symbol, ::Float64) at ./math.jl:31
+[...]
+
+julia&gt; log.(exp.(-1:1))
+3-element Vector{Float64}:
+ -1.0
+  0.0
+  1.0</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/math.jl#L576-L602">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.log2" href="#Base.log2"><code>Base.log2</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">log2(x)</code></pre><p>Compute the logarithm of <code>x</code> to base 2. Throws <a href="@ref"><code>DomainError</code></a> for negative <a href="@ref"><code>Real</code></a> arguments.</p><p>See also: <a href="#Base.exp2"><code>exp2</code></a>, <a href="#Base.Math.ldexp"><code>ldexp</code></a>, <a href="#Base.ispow2"><code>ispow2</code></a>.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; log2(4)
+2.0
+
+julia&gt; log2(10)
+3.321928094887362
+
+julia&gt; log2(-2)
+ERROR: DomainError with -2.0:
+log2 was called with a negative real argument but will only return a complex result if called with a complex argument. Try log2(Complex(x)).
+Stacktrace:
+ [1] throw_complex_domainerror(f::Symbol, x::Float64) at ./math.jl:31
+[...]
+
+julia&gt; log2.(2.0 .^ (-1:1))
+3-element Vector{Float64}:
+ -1.0
+  0.0
+  1.0</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/math.jl#L605-L634">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.log10" href="#Base.log10"><code>Base.log10</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">log10(x)</code></pre><p>Compute the logarithm of <code>x</code> to base 10. Throws <a href="@ref"><code>DomainError</code></a> for negative <a href="@ref"><code>Real</code></a> arguments.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; log10(100)
+2.0
+
+julia&gt; log10(2)
+0.3010299956639812
+
+julia&gt; log10(-2)
+ERROR: DomainError with -2.0:
+log10 was called with a negative real argument but will only return a complex result if called with a complex argument. Try log10(Complex(x)).
+Stacktrace:
+ [1] throw_complex_domainerror(f::Symbol, x::Float64) at ./math.jl:31
+[...]</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/math.jl#L637-L658">source</a></section></article><article class="docstring"><header><a class="docstring-article-toggle-button fa-solid fa-chevron-down" href="javascript:;" title="Collapse docstring"></a><a class="docstring-binding" id="Base.log1p" href="#Base.log1p"><code>Base.log1p</code></a> — <span class="docstring-category">Function</span></header><section><div><pre><code class="language-julia hljs">log1p(x)</code></pre><p>Accurate natural logarithm of <code>1+x</code>. Throws <a href="@ref"><code>DomainError</code></a> for <a href="@ref"><code>Real</code></a> arguments less than -1.</p><p><strong>Examples</strong></p><pre><code class="language-julia-repl hljs">julia&gt; log1p(-0.5)
+-0.6931471805599453
+
+julia&gt; log1p(0)
+0.0
+
+julia&gt; log1p(-2)
+ERROR: DomainError with -2.0:
+log1p was called with a real argument &lt; -1 but will only return a complex result if called with a complex argument. Try log1p(Complex(x)).
+Stacktrace:
+ [1] throw_complex_domainerror(::Symbol, ::Float64) at ./math.jl:31
+[...]</code></pre></div><a class="docs-sourcelink" target="_blank" href="https://github.com/JuliaLang/julia/blob/3120989f39bb7ef7863c4aab8ab1227cf71eec66/base/math.jl#L661-L682">source</a></section></article></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../../Trigonometry/Conversions/">« Conversions</a><a class="docs-footer-nextpage" href="../../Complex/Complex/">Complex Numbers »</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option><option value="auto">Automatic (OS)</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 1.2.1 on <span class="colophon-date" title="Thursday 18 January 2024 22:31">Thursday 18 January 2024</span>. Using Julia version 1.10.0.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
