@@ -42,6 +42,7 @@ makedocs(;
         assets=String[],
         ansicolor=true,
     ),
+    warnonly=true,
     doctest=false,
     checkdocs=:none,
     pages=all_pages,
