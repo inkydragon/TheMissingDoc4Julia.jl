@@ -11,6 +11,9 @@ julia --project=docs -e "using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.in
 julia --project=docs docs/make.jl
 ```
 
+## Random Ideas
++ put all docs into repl, then we could like to manual in functions docs.
+
 ## references
 *sin*
 - matlab:   https://www.mathworks.com/help/matlab/ref/sin.html
