@@ -1,0 +1,5 @@
+# Hypotenuse
+
+```@docs
+Base.hypot
+```

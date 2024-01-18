@@ -22,6 +22,8 @@ all_pages = [
             "Cotangent" => "Base.Math/Trigonometry/Cotangent.md",
             "Secant" => "Base.Math/Trigonometry/Secant.md",
             "Cosecant" => "Base.Math/Trigonometry/Cosecant.md",
+            "Hypotenuse" => "Base.Math/Trigonometry/Hypotenuse.md",
+            "Conversions" => "Base.Math/Trigonometry/Conversions.md",
         ],        
     ],
 ] # all_pages
