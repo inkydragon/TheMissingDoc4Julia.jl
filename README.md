@@ -18,3 +18,13 @@ julia --project=docs docs/make.jl
 - numpy:    https://numpy.org/doc/stable/reference/generated/numpy.sin.html
 - DLMF:     https://dlmf.nist.gov/4#PT3
 - wikip:    https://en.wikipedia.org/wiki/Sine_and_cosine
+
+### R
+- Description
+- Usage
+- Arguments
+- Value, special value
+- Complex values, branch cuts
+- Details, impl details
+- References
+- Examples
