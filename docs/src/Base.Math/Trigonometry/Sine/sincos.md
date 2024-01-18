@@ -1,0 +1,5 @@
+# `sincos`
+
+```@docs
+Base.sincos
+```

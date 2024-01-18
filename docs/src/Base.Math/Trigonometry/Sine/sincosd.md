@@ -1,0 +1,5 @@
+# `sincosd`
+
+```@docs
+Base.sincosd
+```

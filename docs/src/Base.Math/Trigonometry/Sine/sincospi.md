@@ -1,0 +1,5 @@
+# `sincospi`
+
+```@docs
+Base.sincospi
+```

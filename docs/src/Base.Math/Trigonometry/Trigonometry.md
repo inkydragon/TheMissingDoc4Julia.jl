@@ -1,13 +1,18 @@
 # Trigonometry
+> NOTE: Need to have a function auto-generated:
+>   function name + one sentence description
 
 ## Sine
 - [`sin`](@ref)
 - [`sind`](@ref)
-- [`sinh`](@ref)
 - [`sinpi`](@ref)
+- [`sinh`](@ref)
 - [`asin`](@ref)
 - [`asind`](@ref)
 - [`asinh`](@ref)
+- [`sincos`](@ref)
+- [`sincosd`](@ref)
+- [`sincospi`](@ref)
 
 ## Cosine
 - [`cos`](@ref)
@@ -59,10 +64,8 @@
 - [`rad2deg`](@ref)
 - [`deg2rad`](@ref)
 
+
 ## Others
-<!-- ref workaround -->
 ```@docs
-Base.sincos
-Base.sincospi
 Base.cis
 ```
