@@ -35,6 +35,13 @@ julia --project=docs docs/make.jl
 - Related Links
 - History
 
+### numpy
+- func def
+- Parameters
+- See Also (links)
+- Notes
+- Examples, with plot
+
 ### R
 https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Trig
 - Description
