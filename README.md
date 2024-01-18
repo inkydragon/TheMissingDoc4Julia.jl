@@ -19,6 +19,19 @@ julia --project=docs docs/make.jl
 - DLMF:     https://dlmf.nist.gov/4#PT3
 - wikip:    https://en.wikipedia.org/wiki/Sine_and_cosine
 
+### matlab
+- One sentence description
+- Syntax
+- Description
+- Examples, with plot
+- Input Arguments
+- Output Arguments
+- More About
+- Tips
+- Extended Capabilities
+- Version History
+- See Also (links)
+
 ### wolfram
 - Details, Some definitions and facts
 - Background & Context
