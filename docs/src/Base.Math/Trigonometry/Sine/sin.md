@@ -97,7 +97,8 @@ ERROR: MethodError: no method matching sin(::Nothing)
 ```
 
 ### Matrix
-```@docs
+```jl
+# TODO
 Base.sin(AbstractMatrix)
 ```
 
