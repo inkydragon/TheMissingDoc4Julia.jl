@@ -1,4 +1,6 @@
 # `sin`
+> NOTE: One line description.
+
 Compute sine of paramter in radians.
 
 ```@setup repl_only
@@ -8,8 +10,11 @@ using LinearAlgebra
 Base.sin
 ```
 
+> NOTE: longer desc.
+
 
 ## Methods
+> TODO: This section should be auto-generated.
 
 With `Number` and `Missing` input:
 ```@repl 
@@ -18,6 +23,8 @@ methods(sin, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 
 ## Examples
+> NOTE: Basic examples, special inputs, errors and plots.
+
 ### Int and Float
 ```jldoctest
 julia> sin(0)
@@ -94,17 +101,22 @@ ERROR: MethodError: no method matching sin(::Nothing)
 
 
 ## Tips
+> NOTE: Guidelines for using functions
+
 - Call [`sinpi`](@ref) to compute `sin(x*pi)`
 
 
 ## See Also
+> NOTE: related functions.
+
 [`sinpi`](@ref), [`sincos`](@ref),
 [`sind`](@ref), [`sinh`](@ref),
 [`asin`](@ref)
 
 
 ## Extended Inputs
-> `sin` in other stdlib or pkg.
+> NOTE: `sin` in stdlib or other pkg.
+
 ### Matrix
 With `Array` like input:
 ```@repl repl_only
@@ -132,15 +144,21 @@ false
 ```
 
 ### GPU
-> TODO
+See
+[CUDA.jl](https://github.com/JuliaGPU/CUDA.jl),
+[AMDGPU.jl](https://github.com/JuliaGPU/AMDGPU.jl).
 
 
 ## Tech Notes
-> impl details
+> NOTE: Technical and implementation details,
+>   limitations of current implementations.
 
 - `sin(::Number)`: by system libm or openlibm
 - `sin(::BigFloat)`: by GMP
 
 
 ## Version History
+> NOTE: Changelog for functions.
+> TODO: This section should be auto-generated.
+
 Introduced in 2018 (1.0)
