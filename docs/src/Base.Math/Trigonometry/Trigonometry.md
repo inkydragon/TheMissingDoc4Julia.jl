@@ -1,63 +1,63 @@
 # Trigonometry
 
 ## Sine
-- [`sin`](#)
-- [`sind`](#)
-- [`sinh`](#)
-- [`sinpi`](#)
-- [`asin`](#)
-- [`asind`](#)
-- [`asinh`](#)
+- [`sin`](@ref)
+- [`sind`](@ref)
+- [`sinh`](@ref)
+- [`sinpi`](@ref)
+- [`asin`](@ref)
+- [`asind`](@ref)
+- [`asinh`](@ref)
 
 ## Cosine
-- [`cos`](#)
-- [`cosd`](#)
-- [`cosh`](#)
-- [`cospi`](#)
-- [`acos`](#)
-- [`acosd`](#)
-- [`acosh`](#)
+- [`cos`](@ref)
+- [`cosd`](@ref)
+- [`cosh`](@ref)
+- [`cospi`](@ref)
+- [`acos`](@ref)
+- [`acosd`](@ref)
+- [`acosh`](@ref)
 
 ## Tangent
-- [`tan`](#)
-- [`tand`](#)
-- [`tanh`](#)
-- [`atan`](#)
-- [`atand`](#)
-- [`atanh`](#)
-- [`atan2`](#)
-- [`atan2d`](#)
+- [`tan`](@ref)
+- [`tand`](@ref)
+- [`tanh`](@ref)
+- [`atan`](@ref)
+- [`atand`](@ref)
+- [`atanh`](@ref)
+- [`atan2`](@ref)
+- [`atan2d`](@ref)
 
 ## Cosecant
-- [`csc`](#)
-- [`cscd`](#)
-- [`csch`](#)
-- [`acsc`](#)
-- [`acscd`](#)
-- [`acsch`](#)
+- [`csc`](@ref)
+- [`cscd`](@ref)
+- [`csch`](@ref)
+- [`acsc`](@ref)
+- [`acscd`](@ref)
+- [`acsch`](@ref)
 
 ## Secant
-- [`sec`](#)
-- [`secd`](#)
-- [`sech`](#)
-- [`asec`](#)
-- [`asecd`](#)
-- [`asech`](#)
+- [`sec`](@ref)
+- [`secd`](@ref)
+- [`sech`](@ref)
+- [`asec`](@ref)
+- [`asecd`](@ref)
+- [`asech`](@ref)
 
 ## Cotangent
-- [`cot`](#)
-- [`cotd`](#)
-- [`coth`](#)
-- [`acot`](#)
-- [`acotd`](#)
-- [`acoth`](#)
+- [`cot`](@ref)
+- [`cotd`](@ref)
+- [`coth`](@ref)
+- [`acot`](@ref)
+- [`acotd`](@ref)
+- [`acoth`](@ref)
 
 ## Hypotenuse
-- [`hypot`](#)
+- [`hypot`](@ref)
 
 ## Conversions
-- [`rad2deg`](#)
-- [`deg2rad`](#)
+- [`rad2deg`](@ref)
+- [`deg2rad`](@ref)
 
 ## Others
 <!-- ref workaround -->
