@@ -67,5 +67,8 @@
 
 ## Others
 ```@docs
+Base.pi
+Base.exp
 Base.cis
+Base.cispi
 ```
