@@ -58,3 +58,11 @@
 ## Conversions
 - [`rad2deg`](#)
 - [`deg2rad`](#)
+
+## Others
+<!-- ref workaround -->
+```@docs
+Base.sincos
+Base.sincospi
+Base.cis
+```
