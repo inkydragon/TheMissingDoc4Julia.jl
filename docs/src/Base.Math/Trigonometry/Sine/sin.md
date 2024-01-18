@@ -96,6 +96,9 @@ ERROR: MethodError: no method matching sin(::Nothing)
 [...]
 ```
 
+
+## Extended Capabilities
+> `sin` in other stdlib or pkg.
 ### Matrix
 ```jl
 # TODO
@@ -116,3 +119,16 @@ julia> sin.([1 2; 3 4])
 julia> sin([1 2; 3 4]) == sin.([1 2; 3 4])
 false
 ```
+
+### GPU
+> TODO
+
+
+## See Also
+[`sinpi`](@ref), [`sincos`](@ref),
+[`sind`](@ref), [`sinh`](@ref),
+[`asin`](@ref)
+
+
+## Version History
+Introduced in 2018 (1.0)
