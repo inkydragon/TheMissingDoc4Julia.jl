@@ -3,4 +3,5 @@
 ```@docs
 Base.rad2deg
 Base.deg2rad
+Base.angle
 ```

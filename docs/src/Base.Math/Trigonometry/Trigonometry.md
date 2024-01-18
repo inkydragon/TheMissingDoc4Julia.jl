@@ -17,8 +17,8 @@
 ## Cosine
 - [`cos`](@ref)
 - [`cosd`](@ref)
-- [`cosh`](@ref)
 - [`cospi`](@ref)
+- [`cosh`](@ref)
 - [`acos`](@ref)
 - [`acosd`](@ref)
 - [`acosh`](@ref)
@@ -26,12 +26,11 @@
 ## Tangent
 - [`tan`](@ref)
 - [`tand`](@ref)
+- [`tanpi`](@ref)
 - [`tanh`](@ref)
 - [`atan`](@ref)
 - [`atand`](@ref)
 - [`atanh`](@ref)
-- [`atan2`](@ref)
-- [`atan2d`](@ref)
 
 ## Cosecant
 - [`csc`](@ref)
@@ -63,6 +62,7 @@
 ## Conversions
 - [`rad2deg`](@ref)
 - [`deg2rad`](@ref)
+- [`angle`](@ref)
 
 
 ## Others
