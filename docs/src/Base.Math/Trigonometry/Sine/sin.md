@@ -1,8 +1,9 @@
 # `sin`
+Compute sine of paramter in radians.
+
 ```@setup repl_only
 using LinearAlgebra
 ```
-
 ```@docs
 Base.sin
 ```
@@ -13,11 +14,6 @@ Base.sin
 With `Number` and `Missing` input:
 ```@repl 
 methods(sin, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
-```
-
-With `Array` like input:
-```@repl repl_only
-methods(sin, (Any,), [LinearAlgebra])
 ```
 
 
@@ -97,9 +93,24 @@ ERROR: MethodError: no method matching sin(::Nothing)
 ```
 
 
-## Extended Capabilities
+## Tips
+- Call [`sinpi`](@ref) to compute `sin(x*pi)`
+
+
+## See Also
+[`sinpi`](@ref), [`sincos`](@ref),
+[`sind`](@ref), [`sinh`](@ref),
+[`asin`](@ref)
+
+
+## Extended Inputs
 > `sin` in other stdlib or pkg.
 ### Matrix
+With `Array` like input:
+```@repl repl_only
+methods(sin, (Any,), [LinearAlgebra])
+```
+
 ```jl
 # TODO
 Base.sin(AbstractMatrix)
@@ -124,10 +135,11 @@ false
 > TODO
 
 
-## See Also
-[`sinpi`](@ref), [`sincos`](@ref),
-[`sind`](@ref), [`sinh`](@ref),
-[`asin`](@ref)
+## Tech Notes
+> impl details
+
+- `sin(::Number)`: by system libm or openlibm
+- `sin(::BigFloat)`: by GMP
 
 
 ## Version History
