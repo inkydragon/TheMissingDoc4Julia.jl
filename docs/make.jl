@@ -5,9 +5,6 @@ DocMeta.setdocmeta!(EndlessTesting, :DocTestSetup, :(using EndlessTesting); recu
 
 all_pages = [
     "Home" => "index.md",
-    "Base.Array" => Any[
-        "Base.Array/zeros.md",
-    ],
     "Base.Math" => Any[
         "Trigonometry" => Any[
             "Trigonometry" => "Base.Math/Trigonometry/Trigonometry.md",
