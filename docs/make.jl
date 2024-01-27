@@ -5,6 +5,10 @@ DocMeta.setdocmeta!(EndlessTesting, :DocTestSetup, :(using EndlessTesting); recu
 
 all_pages = [
     "Home" => "index.md",
+    "CheatSheet" => Any[
+        "SciPy" => "cheatsheet/scipy.md",
+        "Matlab" => "cheatsheet/matlab.md",
+    ],
     "Base.Math" => Any[
         "Arithmetic" => "Base.Math/Arithmetic/Arithmetic.md",
         "Trigonometry" => Any[
