@@ -29,3 +29,13 @@
 - [`pbwa`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.special.pbwa.html#scipy.special.pbwa):
     missing
 - `pbdv_seq`, `pbvv_seq`, `pbdn_seq`: missing
+
+### Mathieu and related functions
+> - May using: [BBN-Q/MathieuFunctions.jl](https://github.com/BBN-Q/MathieuFunctions.jl)
+> - #TODO: [[pr#19824] Rewrite specfun F77 code in C - scipy/scipy](https://github.com/scipy/scipy/pull/19824)
+
+- `mathieu_a`, `mathieu_b`: missing
+- `mathieu_cem`, `mathieu_sem`: missing
+
+## Kelvin functions
+- `kelvin`, `kelvin_zeros`: missing
