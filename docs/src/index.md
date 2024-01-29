@@ -16,6 +16,10 @@ Documentation for [EndlessTesting](https://github.com/inkydragon/EndlessTesting.
 
 
 ## Reference docs
+
+*exception*
+- [Ruby's Exceptional Creatures](https://www.exceptionalcreatures.com/bestiary.html)
+
 *sin*
 - [Matlab - sin](https://www.mathworks.com/help/matlab/ref/sin.html)
 - [Wolfram - Sin](https://reference.wolfram.com/language/ref/Sin.html)
