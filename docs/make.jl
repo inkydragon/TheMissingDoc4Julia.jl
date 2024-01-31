@@ -33,7 +33,10 @@ all_pages = [
             "Hypotenuse" => "Base.Math/Trigonometry/Hypotenuse.md",
             "Conversions" => "Base.Math/Trigonometry/Conversions.md",
         ],
-        "Exponents and Logarithms" => "Base.Math/Exp-and-Log/exp-and-log.md",
+        "Exponents and Logarithms" => Any[
+            "Base.Math/Exp-and-Log/exp-and-log.md",
+            "Base.Math/Exp-and-Log/log.md",
+        ],
         "Complex Numbers" => "Base.Math/Complex/Complex.md",
     ],
 ] # all_pages

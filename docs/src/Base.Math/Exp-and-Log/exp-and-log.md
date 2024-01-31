@@ -38,9 +38,4 @@ Base.nextpow
 
 Base.sqrt
 Base.isqrt
-
-Base.log
-Base.log2
-Base.log10
-Base.log1p
 ```
