@@ -7,6 +7,8 @@ All Sidebar Pages.
 
 all_pages = [
     "Home" => "index.md",
+
+    "GettingStarted.md",
     "Mathematics" => Any[
         "Mathematics" => "Mathematics.md",
         "Arithmetic" => "Base.Math/Arithmetic/Arithmetic.md",
@@ -39,6 +41,7 @@ all_pages = [
         "Complex Numbers" => "Base.Math/Complex/Complex.md",
     ],
     "Graphics.md",
+
     "Stdlib" => Any[
         "stdlib/RandomNumbers.md",
         "stdlib/LinearAlgebra.md",
@@ -56,6 +59,7 @@ all_pages = [
         "Packages/Plotting.md",
         "Packages/ImagesProcessing.md",
     ]),
+
     # TODO: maybe move those to other project
     "CheatSheet" => Any[
         "SciPy" => "cheatsheet/scipy.md",
