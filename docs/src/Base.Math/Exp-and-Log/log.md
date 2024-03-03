@@ -6,8 +6,8 @@ Base.log
 
 ## Complex Plane
 
-> - WikiPedia: https://en.wikipedia.org/wiki/Complex_logarithm#/media/File:Complex_log_domain.svg
-> - Sage: https://doc.sagemath.org/html/en/reference/plotting/sage/plot/complex_plot.html#codecell6
+> - 🔗 WikiPedia: https://en.wikipedia.org/wiki/Complex_logarithm#/media/File:Complex_log_domain.svg
+> - 🔗 Sage: https://doc.sagemath.org/html/en/reference/plotting/sage/plot/complex_plot.html#codecell6
 
 ```@repl
 using UnicodePlots

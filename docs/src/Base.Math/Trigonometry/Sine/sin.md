@@ -165,5 +165,5 @@ Introduced in 2018 (1.0)
 
 
 ## External Links
-- [Sine - Wikipedia](https://en.wikipedia.org/wiki/Sine_and_cosine)
-- [Sine - MathWorld](https://mathworld.wolfram.com/Sine.html)
+- 🔗[Sine - Wikipedia](https://en.wikipedia.org/wiki/Sine_and_cosine)
+- 🔗[Sine - MathWorld](https://mathworld.wolfram.com/Sine.html)

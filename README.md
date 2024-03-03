@@ -7,7 +7,7 @@ This project is a *reference*.
 > Reference guides are **technical descriptions** of the machinery and how to operate it.
 > Reference material is **information-oriented**.
 >
-> —— [Reference - diataxis.fr](https://diataxis.fr/reference/)
+> —— 🔗[Reference - diataxis.fr](https://diataxis.fr/reference/)
 
 
 ## Example

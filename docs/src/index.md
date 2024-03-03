@@ -10,23 +10,23 @@ Documentation for [TheMissingDoc4Julia](https://github.com/inkydragon/TheMissing
 
 ## Related Issues
 - Separate documentation page for all function
-  ([JuliaLang/julia#29552](https://github.com/JuliaLang/julia/issues/29552))
+  (🔗[JuliaLang/julia#29552](https://github.com/JuliaLang/julia/issues/29552))
 - Auto-generated separate reference pages for Julia objects / docstrings
-  ([JuliaDocs/Documenter.jl#2133](https://github.com/JuliaDocs/Documenter.jl/issues/2133))
+  (🔗[JuliaDocs/Documenter.jl#2133](https://github.com/JuliaDocs/Documenter.jl/issues/2133))
 
 
 ## Reference docs
 
 *exception*
-- [Ruby's Exceptional Creatures](https://www.exceptionalcreatures.com/bestiary.html)
+- 🔗[Ruby's Exceptional Creatures](https://www.exceptionalcreatures.com/bestiary.html)
 
 *sin*
-- [Matlab - sin](https://www.mathworks.com/help/matlab/ref/sin.html)
-- [Wolfram - Sin](https://reference.wolfram.com/language/ref/Sin.html)
-- [Python numpy - sin](https://numpy.org/doc/stable/reference/generated/numpy.sin.html)
-- [DLMF - Trigonometric Functions](https://dlmf.nist.gov/4#PT3)
-- [WikiPedia - Sine and Cosine](https://en.wikipedia.org/wiki/Sine_and_cosine)
-- [R - Trig](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Trig)
+- 🔗[Matlab - sin](https://www.mathworks.com/help/matlab/ref/sin.html)
+- 🔗[Wolfram - Sin](https://reference.wolfram.com/language/ref/Sin.html)
+- 🔗[Python numpy - sin](https://numpy.org/doc/stable/reference/generated/numpy.sin.html)
+- 🔗[DLMF - Trigonometric Functions](https://dlmf.nist.gov/4#PT3)
+- 🔗[WikiPedia - Sine and Cosine](https://en.wikipedia.org/wiki/Sine_and_cosine)
+- 🔗[R - Trig](https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Trig)
 
 ### matlab
 - One sentence description
