@@ -46,7 +46,7 @@ makedocs(;
     modules=[Base, TheMissingDoc4Julia],
     authors="woclass <git@wo-class.cn> and contributors",
     repo="https://github.com/inkydragon/TheMissingDoc4Julia.jl/blob/{commit}{path}#{line}",
-    sitename="TheMissingDoc4Julia.jl",
+    sitename="The Missing Doc 4 Julia",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
         repolink="https://inkydragon.github.io/TheMissingDoc4Julia.jl",
