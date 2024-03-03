@@ -38,6 +38,7 @@ all_pages = [
         ],
         "Complex Numbers" => "Base.Math/Complex/Complex.md",
     ],
+    "Graphics.md",
     "Stdlib" => Any[
         "stdlib/RandomNumbers.md",
         "stdlib/LinearAlgebra.md",
@@ -51,6 +52,8 @@ all_pages = [
         "Packages/Graph-and-Network.md",
         "Packages/Geometry.md",
         "Packages/Quantum.md",
+        # Graphics
+        "Packages/Plotting.md",
     ]),
     # TODO: maybe move those to other project
     "CheatSheet" => Any[
