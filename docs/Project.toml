@@ -1,4 +1,4 @@
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-EndlessTesting = "a2d587bb-f694-4225-843f-aa0665c48f41"
+TheMissingDoc4Julia = "b3de0d96-2cd1-4157-8b45-2c2f2873eb80"
 UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"

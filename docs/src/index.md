@@ -1,11 +1,11 @@
 ```@meta
-CurrentModule = EndlessTesting
+CurrentModule = TheMissingDoc4Julia
 ```
 
-# EndlessTesting
+# TheMissingDoc4Julia
 *Exploring how to organize docs better.*
 
-Documentation for [EndlessTesting](https://github.com/inkydragon/EndlessTesting.jl).
+Documentation for [TheMissingDoc4Julia](https://github.com/inkydragon/TheMissingDoc4Julia.jl).
 
 
 ## Related Issues

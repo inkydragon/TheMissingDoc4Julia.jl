@@ -1,7 +1,7 @@
-using EndlessTesting
+using TheMissingDoc4Julia
 using Documenter
 
-DocMeta.setdocmeta!(EndlessTesting, :DocTestSetup, :(using EndlessTesting); recursive=true)
+DocMeta.setdocmeta!(TheMissingDoc4Julia, :DocTestSetup, :(using TheMissingDoc4Julia); recursive=true)
 
 all_pages = [
     "Home" => "index.md",
@@ -43,14 +43,14 @@ all_pages = [
 
 
 makedocs(;
-    modules=[Base, EndlessTesting],
+    modules=[Base, TheMissingDoc4Julia],
     authors="woclass <git@wo-class.cn> and contributors",
-    repo="https://github.com/inkydragon/EndlessTesting.jl/blob/{commit}{path}#{line}",
-    sitename="EndlessTesting.jl",
+    repo="https://github.com/inkydragon/TheMissingDoc4Julia.jl/blob/{commit}{path}#{line}",
+    sitename="TheMissingDoc4Julia.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        repolink="https://inkydragon.github.io/EndlessTesting.jl",
-        canonical="https://inkydragon.github.io/EndlessTesting.jl",
+        repolink="https://inkydragon.github.io/TheMissingDoc4Julia.jl",
+        canonical="https://inkydragon.github.io/TheMissingDoc4Julia.jl",
         edit_link="main",
         ansicolor=true,
     ),
@@ -61,6 +61,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/inkydragon/EndlessTesting.jl",
+    repo="github.com/inkydragon/TheMissingDoc4Julia.jl",
     devbranch="main",
 )

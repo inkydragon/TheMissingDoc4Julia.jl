@@ -1,4 +1,4 @@
-# EndlessTesting
+# TheMissingDoc4Julia
 
 > TODO: Rename to `TheMissingDoc4Julia`
 
@@ -13,7 +13,7 @@ This project is a *reference*.
 
 
 ## Example
-Example doc page: `sin` https://inkydragon.github.io/EndlessTesting.jl/dev/Base.Math/Trigonometry/Sine/sin/
+Example doc page: `sin` https://inkydragon.github.io/TheMissingDoc4Julia.jl/dev/Base.Math/Trigonometry/Sine/sin/
 
 See also: [Related Issues](docs/src/index.md)
 

@@ -1,6 +1,6 @@
-using EndlessTesting
+using TheMissingDoc4Julia
 using Test
 
-@testset "EndlessTesting.jl" begin
+@testset "TheMissingDoc4Julia.jl" begin
     # Write your tests here.
 end
