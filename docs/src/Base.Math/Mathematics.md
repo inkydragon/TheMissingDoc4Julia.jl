@@ -11,4 +11,5 @@
 ## Packages
 - [Interpolation](@ref Interpolation-Pkg)
 - [Optimization](@ref Optimization-Pkg)
+- [Numerical Integration and Differential Equations](@ref Numerical-Integration-and-Differential-Equations-Pkg)
 

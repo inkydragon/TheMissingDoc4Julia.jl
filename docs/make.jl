@@ -45,6 +45,7 @@ all_pages = [
         "Packages/FindPackages.md",
         "Packages/Interpolation.md",
         "Packages/Optimization.md",
+        "Packages/Integration-and-Differential.md",
     ],
     # TODO: maybe move those to other project
     "CheatSheet" => Any[
