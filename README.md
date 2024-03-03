@@ -11,7 +11,8 @@ This project is a *reference*.
 
 
 ## Example
-Example doc page: `sin` https://inkydragon.github.io/TheMissingDoc4Julia.jl/dev/Base.Math/Trigonometry/Sine/sin/
+Example doc page:
+[TheMissingDoc4Julia.github.io/sin](https://inkydragon.github.io/TheMissingDoc4Julia.jl/dev/Base.Math/Trigonometry/Sine/sin/)
 
 See also: [Related Issues](docs/src/index.md)
 
