@@ -11,6 +11,9 @@
 - [`asind`](@ref)
 - [`asinh`](@ref)
 
+sin like
+- [`sinc`](@ref)
+
 ## Cosine
 - [`cos`](@ref)
 - [`cosd`](@ref)
@@ -19,6 +22,9 @@
 - [`acos`](@ref)
 - [`acosd`](@ref)
 - [`acosh`](@ref)
+
+cos like
+- [`cosc`](@ref)
 
 ## Sin and Cos
 - [`sincos`](@ref)
