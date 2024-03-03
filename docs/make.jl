@@ -41,8 +41,7 @@ all_pages = [
         "stdlib/LinearAlgebra.md",
         "stdlib/SparseArrays.md",
     ],
-    "Julia Packages" => Any[
-        "Packages/FindPackages.md",
+    hide("Julia Packages" => "Packages/FindPackages.md", [
         "Packages/Interpolation.md",
         "Packages/Optimization.md",
         "Packages/Integration-and-Differential.md",
@@ -50,7 +49,7 @@ all_pages = [
         "Packages/Graph-and-Network.md",
         "Packages/Geometry.md",
         "Packages/Quantum.md",
-    ],
+    ]),
     # TODO: maybe move those to other project
     "CheatSheet" => Any[
         "SciPy" => "cheatsheet/scipy.md",
