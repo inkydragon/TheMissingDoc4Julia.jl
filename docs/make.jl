@@ -5,10 +5,6 @@ DocMeta.setdocmeta!(TheMissingDoc4Julia, :DocTestSetup, :(using TheMissingDoc4Ju
 
 all_pages = [
     "Home" => "index.md",
-    "CheatSheet" => Any[
-        "SciPy" => "cheatsheet/scipy.md",
-        "Matlab" => "cheatsheet/matlab.md",
-    ],
     "Base.Math" => Any[
         "Arithmetic" => "Base.Math/Arithmetic/Arithmetic.md",
         "Trigonometry" => Any[
@@ -38,6 +34,11 @@ all_pages = [
             "Base.Math/Exp-and-Log/log.md",
         ],
         "Complex Numbers" => "Base.Math/Complex/Complex.md",
+    ],
+    # TODO: maybe move those to other project
+    "CheatSheet" => Any[
+        "SciPy" => "cheatsheet/scipy.md",
+        "Matlab" => "cheatsheet/matlab.md",
     ],
 ] # all_pages
 
