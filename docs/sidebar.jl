@@ -54,6 +54,7 @@ all_pages = [
         "Packages/Quantum.md",
         # Graphics
         "Packages/Plotting.md",
+        "Packages/ImagesProcessing.md",
     ]),
     # TODO: maybe move those to other project
     "CheatSheet" => Any[
