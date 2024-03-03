@@ -6,7 +6,7 @@ DocMeta.setdocmeta!(TheMissingDoc4Julia, :DocTestSetup, :(using TheMissingDoc4Ju
 all_pages = [
     "Home" => "index.md",
     "Mathematics" => Any[
-        "Mathematics" => "Base.Math/Mathematics.md",
+        "Mathematics" => "Mathematics.md",
         "Arithmetic" => "Base.Math/Arithmetic/Arithmetic.md",
         "Trigonometry" => Any[
             "Trigonometry" => "Base.Math/Trigonometry/Trigonometry.md",
