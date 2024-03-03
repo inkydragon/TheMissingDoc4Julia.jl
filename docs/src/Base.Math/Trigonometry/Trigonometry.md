@@ -10,9 +10,6 @@
 - [`asin`](@ref)
 - [`asind`](@ref)
 - [`asinh`](@ref)
-- [`sincos`](@ref)
-- [`sincosd`](@ref)
-- [`sincospi`](@ref)
 
 ## Cosine
 - [`cos`](@ref)
@@ -22,6 +19,11 @@
 - [`acos`](@ref)
 - [`acosd`](@ref)
 - [`acosh`](@ref)
+
+## Sin and Cos
+- [`sincos`](@ref)
+- [`sincosd`](@ref)
+- [`sincospi`](@ref)
 
 ## Tangent
 - [`tan`](@ref)
