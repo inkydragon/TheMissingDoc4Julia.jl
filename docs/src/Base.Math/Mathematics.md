@@ -15,4 +15,4 @@
 - [Fourier Transform and Filtering](@ref Fourier-Transform-and-Filtering-Pkg)
 - [Graph and Network Algorithms](@ref Graph-and-Network-Pkg)
 - [Computational Geometry](@ref Computational-Geometry-Pkg)
-
+- [Quantum Computing](@ref Quantum-Computing-Pkg)

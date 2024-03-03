@@ -49,6 +49,7 @@ all_pages = [
         "Packages/FourierTransform-and-Filtering.md",
         "Packages/Graph-and-Network.md",
         "Packages/Geometry.md",
+        "Packages/Quantum.md",
     ],
     # TODO: maybe move those to other project
     "CheatSheet" => Any[
