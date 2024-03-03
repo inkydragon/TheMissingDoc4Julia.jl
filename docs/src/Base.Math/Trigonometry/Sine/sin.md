@@ -17,7 +17,7 @@ Base.sin
 > TODO: This section should be auto-generated.
 
 With `Number` and `Missing` input:
-```@repl 
+```@repl
 methods(sin, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ```
 
