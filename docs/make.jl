@@ -44,6 +44,7 @@ all_pages = [
     "Julia Packages" => Any[
         "Packages/FindPackages.md",
         "Packages/Interpolation.md",
+        "Packages/Optimization.md",
     ],
     # TODO: maybe move those to other project
     "CheatSheet" => Any[

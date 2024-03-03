@@ -10,4 +10,5 @@
 
 ## Packages
 - [Interpolation](@ref Interpolation-Pkg)
+- [Optimization](@ref Optimization-Pkg)
 
