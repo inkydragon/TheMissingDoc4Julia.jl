@@ -44,7 +44,7 @@ all_pages = [
 
 makedocs(;
     modules=[Base, TheMissingDoc4Julia],
-    authors="woclass <git@wo-class.cn> and contributors",
+    authors="Chengyu HAN <git@wo-class.cn> and contributors",
     repo="https://github.com/inkydragon/TheMissingDoc4Julia.jl/blob/{commit}{path}#{line}",
     sitename="The Missing Doc 4 Julia",
     format=Documenter.HTML(;
