@@ -153,8 +153,8 @@ See
 > NOTE: Technical and implementation details,
 >   limitations of current implementations.
 
-- `sin(::Number)`: by system libm or openlibm
-- `sin(::BigFloat)`: by GMP
+- `sin(::Real)`: by pure julia
+- `sin(::BigFloat)`: by MPFR
 
 
 ## Version History
