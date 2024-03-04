@@ -16,6 +16,16 @@ This project is a *reference*.
 >
 > —— 🔗[Reference - diataxis.fr](https://diataxis.fr/reference/)
 
+## Chinese Doc
+
+If you're a Chinese user of Julia, you might want to check:
+
+如果你是一个 Julia 的中文用户，你可能想要看看：
+
+- [Julia 中文文档 | JuliaCN](https://docs.juliacn.com/latest/)
+- [Julia 语言概览 - Syslab 使用手册 | tongyuan.cc](https://www.tongyuan.cc/docs/syslab/Help/index.html#/Doc/TyBase/JuliaOverview.html)
+
+
 ## Related Julia Issues
 - Separate documentation page for all function
   (🔗[JuliaLang/julia#29552](https://github.com/JuliaLang/julia/issues/29552))
