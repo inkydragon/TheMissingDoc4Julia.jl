@@ -70,11 +70,6 @@ With `Array` like input:
 methods(math_func_name, (Any,), [LinearAlgebra])
 ```
 
-### GPU
-See
-[CUDA.jl](https://github.com/JuliaGPU/CUDA.jl),
-[AMDGPU.jl](https://github.com/JuliaGPU/AMDGPU.jl).
-
 
 ## Tech Notes
 > NOTE: Technical and implementation details,

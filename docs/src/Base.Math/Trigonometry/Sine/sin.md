@@ -133,11 +133,6 @@ julia> sin([1 2; 3 4]) == sin.([1 2; 3 4])
 false
 ```
 
-### GPU
-See
-[CUDA.jl](https://github.com/JuliaGPU/CUDA.jl),
-[AMDGPU.jl](https://github.com/JuliaGPU/AMDGPU.jl).
-
 
 ## Tech Notes
 - `sin(::Real)`: by pure julia
