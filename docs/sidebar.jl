@@ -6,10 +6,7 @@ All Sidebar Pages.
 """
 
 all_pages = [
-    "Home" => Any[
-        "index.md",
-        "dev/index.md",
-    ],
+    "Home" => "index.md",
 
     "GettingStarted.md",
     "Mathematics" => Any[
@@ -64,9 +61,14 @@ all_pages = [
         "Packages/ImagesProcessing.md",
     ]),
 
-    # TODO: maybe move those to other project
-    "CheatSheet" => Any[
-        "SciPy" => "cheatsheet/scipy.md",
-        "Matlab" => "cheatsheet/matlab.md",
+    "Dev Memo" => Any[
+        "dev/index.md",
+        "dev/ideas.md",
+
+        # TODO: maybe move those to other project
+        "CheatSheet" => Any[
+            "SciPy" => "cheatsheet/scipy.md",
+            "Matlab" => "cheatsheet/matlab.md",
+        ],
     ],
 ] # all_pages

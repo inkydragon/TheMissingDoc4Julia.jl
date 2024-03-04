@@ -24,7 +24,3 @@ See also: [Related Issues](docs/src/index.md)
 julia --project=docs -e "using Pkg; Pkg.develop(PackageSpec(path=pwd())); Pkg.instantiate();"
 julia --project=docs docs/make.jl
 ```
-
-
-## Random Ideas
-+ put all docs into repl, then we could like to manual in functions docs.
