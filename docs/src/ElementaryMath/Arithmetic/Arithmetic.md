@@ -19,6 +19,10 @@
 - [`prod`](@ref)
 - [`cumprod`](@ref)
 
+### Division
+- [`/`](@ref)
+- [`\`](@ref)
+
 
 ## Modulo Division and Rounding
 - [`mod`](#)
