@@ -1,12 +1,15 @@
 # Arithmetic Operations
 
 ## Basic Arithmetic
-- [`+`](#)
-- [`-`](#)
-- [`*`](#)
-- [`/`](#)
-- [`\`](#)
-- [`^`](#)
+
+### Addition
+- [`+`](@ref)
+- [`sum`](@ref)
+- [`sum!`](@ref)
+- [`cumsum`](@ref)
+- [`cumsum!`](@ref)
+- [`add_sum`](@ref)
+
 
 ## Modulo Division and Rounding
 - [`mod`](#)
