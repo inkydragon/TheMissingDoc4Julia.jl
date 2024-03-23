@@ -48,6 +48,7 @@ all_pages = [
         "ElementaryMath/DiscreteMath/DiscreteMath.md",
         "ElementaryMath/Polynomials/Polynomials.md",
         "ElementaryMath/SpecialFunctions/SpecialFunctions.md",
+        "ElementaryMath/Constants/Constants.md",
         hide("ElementaryMath/index.md")
     ],
     "Graphics.md",
