@@ -14,6 +14,11 @@
 - [`-`](@ref)
 - [`diff`](@ref)
 
+### Multiplication
+- [`*`](@ref)
+- [`prod`](@ref)
+- [`cumprod`](@ref)
+
 
 ## Modulo Division and Rounding
 - [`mod`](#)

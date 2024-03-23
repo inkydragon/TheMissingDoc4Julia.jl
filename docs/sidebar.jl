@@ -15,6 +15,7 @@ all_pages = [
             "ElementaryMath/Arithmetic/Arithmetic.md",
             "ElementaryMath/Arithmetic/Addition/Addition.md",
             "ElementaryMath/Arithmetic/Subtraction/Subtraction.md",
+            "ElementaryMath/Arithmetic/Multiplication/Multiplication.md",
             "ElementaryMath/Arithmetic/Checked.md",
         ],
         "Trigonometry" => Any[
