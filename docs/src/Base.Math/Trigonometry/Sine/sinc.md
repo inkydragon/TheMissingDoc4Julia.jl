@@ -1,0 +1,5 @@
+# `sinc`
+
+```@docs
+Base.sinc
+```
