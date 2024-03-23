@@ -1,0 +1,5 @@
+# Transpose
+
+```@docs
+Base.transpose
+```
