@@ -23,14 +23,7 @@
 - [`log10`](@ref)
 - [`log1p`](@ref)
 
-
-## temp-ref
-```@docs
-Base.ldexp
-Base.ispow2
-Base.prevpow
-Base.nextpow
-
-Base.sqrt
-Base.isqrt
-```
+## Float Point
+- [`exponent`](@ref)
+- [`frexp`](@ref)
+- [`ldexp`](@ref)
