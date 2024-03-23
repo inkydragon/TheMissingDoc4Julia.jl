@@ -7,7 +7,6 @@
 - [`exp10`](@ref)
 
 ## Power
-- [`ldexp`](@ref)
 - [`ispow2`](@ref)
 - [`prevpow`](@ref)
 - [`nextpow`](@ref)
