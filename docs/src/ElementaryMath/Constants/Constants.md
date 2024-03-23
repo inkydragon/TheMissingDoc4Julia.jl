@@ -1,25 +1,53 @@
 # Constants
 
-- [`eps`](@ref)
+- [`missing`](@ref)
+- [`nothing`](@ref)
+- [`undef`](@ref)
+
+
+## Math Constants
 - [`pi`](@ref)
 - [`π`](@ref)
 - [`ℯ`](@ref)
-- [`im`](@ref)
-- [`Inf`](@ref)
+
+
+## Float Point
+- [`eps`](@ref)
+
+### Infinity
+- [`Inf16`](@ref)
+- [`Inf32`](@ref)
+- [`Inf64`](@ref)
+
+### Not a Number
 - [`NaN`](@ref)
-- [`missing`](@ref)
-- [`nothing`](@ref)
+- [`NaN16`](@ref)
+- [`NaN32`](@ref)
+- [`NaN64`](@ref)
 
 
-## index
+## Complex Number
+- [`im`](@ref)
+
+
+## temp docs
 
 ```@docs
-Base.eps
+Base.missing
+Base.nothing
+Base.undef
+
 Base.pi
 Base.π
 Base.ℯ
+
+Base.eps
 Base.Inf
+Base.Inf16
+Base.Inf32
+Base.Inf64
 Base.NaN
-Base.missing
-Base.nothing 
+Base.NaN16
+Base.NaN32
+Base.NaN64
 ```
