@@ -1,8 +1,11 @@
 # Constants
 
 - [`missing`](@ref)
+- [`ismissing`](@ref)
 - [`nothing`](@ref)
+- [`isnothing`](@ref)
 - [`undef`](@ref)
+- [`UndefInitializer`](@ref)
 
 
 ## Math Constants
@@ -18,13 +21,15 @@
 - [`Inf16`](@ref)
 - [`Inf32`](@ref)
 - [`Inf64`](@ref)
+- [`isinf`](@ref)
+- [`isfinite`](@ref)
 
 ### Not a Number
 - [`NaN`](@ref)
 - [`NaN16`](@ref)
 - [`NaN32`](@ref)
 - [`NaN64`](@ref)
-
+- [`isnan`](@ref)
 
 ## Complex Number
 - [`im`](@ref)
@@ -34,8 +39,11 @@
 
 ```@docs
 Base.missing
+Base.ismissing
 Base.nothing
+Base.isnothing
 Base.undef
+Base.UndefInitializer
 
 Base.pi
 Base.π
@@ -46,8 +54,12 @@ Base.Inf
 Base.Inf16
 Base.Inf32
 Base.Inf64
+Base.isinf
+Base.isfinite
+
 Base.NaN
 Base.NaN16
 Base.NaN32
 Base.NaN64
+Base.isnan
 ```
