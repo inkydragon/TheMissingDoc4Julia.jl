@@ -1,6 +1,6 @@
 # Exponents and Logarithms
 
-## Exponents 
+## Exponents
 - [`exp`](@ref)
 - [`expm1`](@ref)
 - [`exp2`](@ref)
@@ -26,11 +26,6 @@
 
 ## temp-ref
 ```@docs
-Base.exp
-Base.expm1
-Base.exp2
-Base.exp10
-
 Base.ldexp
 Base.ispow2
 Base.prevpow
