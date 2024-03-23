@@ -11,7 +11,6 @@
 - [`Base.Checked.checked_fld`](@ref)
 - [`Base.Checked.checked_mod`](@ref)
 - [`Base.Checked.checked_cld`](@ref)
-- [`Base.Checked.checked_pow`](@ref)
 
 ## With Overflow
 - [`Base.Checked.add_with_overflow`](@ref)
@@ -32,7 +31,6 @@ Base.Checked.checked_rem
 Base.Checked.checked_fld
 Base.Checked.checked_mod
 Base.Checked.checked_cld
-Base.Checked.checked_pow
 Base.Checked.add_with_overflow
 Base.Checked.sub_with_overflow
 Base.Checked.mul_with_overflow
