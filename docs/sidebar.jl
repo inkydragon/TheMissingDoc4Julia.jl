@@ -45,6 +45,7 @@ all_pages = [
             ],
         ],
         "Complex Numbers" => "Base.Math/Complex/Complex.md",
+        "Base.Math/DiscreteMath/DiscreteMath.md",
         hide("Base.Math/index.md")
     ],
     "Graphics.md",
