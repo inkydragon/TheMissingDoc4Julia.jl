@@ -23,6 +23,11 @@
 - [`/`](@ref)
 - [`\`](@ref)
 
+### Powers
+- [`^`](@ref)
+
+### Transpose
+- [`'`](@ref)
 
 ## Modulo Division and Rounding
 - [`mod`](#)
