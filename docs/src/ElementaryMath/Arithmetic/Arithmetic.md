@@ -27,7 +27,8 @@
 - [`^`](@ref)
 
 ### Transpose
-- [`'`](@ref)
+- [`transpose`](@ref)
+
 
 ## Modulo Division and Rounding
 - [`mod`](#)
