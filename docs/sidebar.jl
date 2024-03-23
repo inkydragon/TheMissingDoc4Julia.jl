@@ -46,6 +46,7 @@ all_pages = [
         ],
         "Complex Numbers" => "Base.Math/Complex/Complex.md",
         "Base.Math/DiscreteMath/DiscreteMath.md",
+        "Base.Math/Polynomials/Polynomials.md",
         hide("Base.Math/index.md")
     ],
     "Graphics.md",
