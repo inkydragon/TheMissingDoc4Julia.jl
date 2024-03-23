@@ -11,7 +11,10 @@ all_pages = [
     "GettingStarted.md",
     "Mathematics" => Any[
         "Mathematics" => "Mathematics.md",
-        "Arithmetic" => "ElementaryMath/Arithmetic/Arithmetic.md",
+        "Arithmetic" => Any[
+            "ElementaryMath/Arithmetic/Arithmetic.md",
+            "ElementaryMath/Arithmetic/Checked.md",
+        ],
         "Trigonometry" => Any[
             "Trigonometry" => "ElementaryMath/Trigonometry/Trigonometry.md",
             "Sine" => Any[
