@@ -8,4 +8,6 @@ Base.cosh
 Base.acos
 Base.acosd
 Base.acosh
+
+Base.cosc
 ```
