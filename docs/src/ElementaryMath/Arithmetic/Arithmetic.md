@@ -10,6 +10,10 @@
 - [`cumsum!`](@ref)
 - [`add_sum`](@ref)
 
+### Subtraction
+- [`-`](@ref)
+- [`diff`](@ref)
+
 
 ## Modulo Division and Rounding
 - [`mod`](#)
