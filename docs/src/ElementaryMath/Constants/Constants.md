@@ -18,7 +18,6 @@ Base.eps
 Base.pi
 Base.π
 Base.ℯ
-Base.im
 Base.Inf
 Base.NaN
 Base.missing

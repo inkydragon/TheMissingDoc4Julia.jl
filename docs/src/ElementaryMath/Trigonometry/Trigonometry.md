@@ -74,7 +74,6 @@ cos like
 
 ## Others
 ```@docs
-Base.pi
 Base.cis
 Base.cispi
 ```

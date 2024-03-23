@@ -19,11 +19,3 @@ Z = log.(grid);
 zangle = angle.(Z);
 heatmap(zangle; xfact=0.1, yfact=0.1, xoffset=-2, yoffset=-2)
 ```
-
-
-## index
-```@docs
-Base.log2
-Base.log10
-Base.log1p
-```
