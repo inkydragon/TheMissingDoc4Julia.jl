@@ -38,6 +38,7 @@ all_pages = [
             "Base.Math/Exp-and-Log/exp-and-log.md",
             "Base.Math/Exp-and-Log/Exponents.md",
             "Base.Math/Exp-and-Log/Power.md",
+            "Base.Math/Exp-and-Log/Root.md",
             "Logarithms" => Any[
                 "Base.Math/Exp-and-Log/Logarithms.md",
                 "Base.Math/Exp-and-Log/log.md",

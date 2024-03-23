@@ -12,9 +12,10 @@
 - [`nextpow`](@ref)
 - [`powermod`](@ref)
 
-## Root functions
+## Root
 - [`sqrt`](@ref)
 - [`isqrt`](@ref)
+- [`cbrt`](@ref)
 
 ## Logarithms
 - [`log`](@ref)
