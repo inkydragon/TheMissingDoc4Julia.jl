@@ -5,6 +5,8 @@ DocMeta.setdocmeta!(TheMissingDoc4Julia, :DocTestSetup, :(using TheMissingDoc4Ju
 
 # import all_pages
 include("sidebar.jl")
+# TODO: gen sitemap.xml from `all_pages`
+
 
 makedocs(;
     modules=[Base, TheMissingDoc4Julia],
