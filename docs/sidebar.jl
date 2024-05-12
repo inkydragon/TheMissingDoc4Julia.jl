@@ -56,7 +56,10 @@ all_pages = [
         "Complex Numbers" => "ElementaryMath/Complex/Complex.md",
         "ElementaryMath/DiscreteMath/DiscreteMath.md",
         "ElementaryMath/Polynomials/Polynomials.md",
-        "ElementaryMath/SpecialFunctions/SpecialFunctions.md",
+        "SpecialFunctions" => Any[
+            "ElementaryMath/SpecialFunctions/SpecialFunctions.md",
+            "ElementaryMath/SpecialFunctions/function-index.md",
+        ],
         "ElementaryMath/Constants/Constants.md",
         hide("ElementaryMath/index.md")
     ],
