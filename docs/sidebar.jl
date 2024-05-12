@@ -81,6 +81,8 @@ all_pages = [
         # Graphics
         "Packages/Plotting.md",
         "Packages/ImagesProcessing.md",
+        # Others
+        "Packages/SpecialFunction.md",
     ]),
 
     "Dev Memo" => Any[

@@ -1,4 +1,4 @@
-# Special Function Pkg
+# Special Functions Pkg
 
 Search Result:
 - 🔗[special functions - JuliaHub](https://juliahub.com/ui/Search?q=special+functions&type=packages)
