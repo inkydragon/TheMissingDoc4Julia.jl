@@ -15,3 +15,9 @@
 
 > Numerical routines for computing Bessel, Airy, and Hankel functions for real arguments.
 > These routines are written in the Julia programming language and are self contained without any external dependencies.
+
+
+## External Links
+- 🔗[Special functions - Wikipedia](https://en.wikipedia.org/wiki/Special_functions)
+- 🔗[NIST Digital Library of Mathematical Functions - DLMF](https://dlmf.nist.gov)
+- 🔗[Special Functions Wiki](https://specialfunctionswiki.org)
