@@ -57,7 +57,7 @@ all_pages = [
         "ElementaryMath/DiscreteMath/DiscreteMath.md",
         "ElementaryMath/Polynomials/Polynomials.md",
         "SpecialFunctions" => Any[
-            "ElementaryMath/SpecialFunctions/SpecialFunctions.md",
+            "ElementaryMath/SpecialFunctions/index.md",
             "ElementaryMath/SpecialFunctions/function-index.md",
         ],
         "ElementaryMath/Constants/Constants.md",
