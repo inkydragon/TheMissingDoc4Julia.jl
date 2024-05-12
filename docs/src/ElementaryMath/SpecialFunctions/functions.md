@@ -1,10 +1,33 @@
 # Function Index
 
-## Gamma Function
-- [Gamma Function - DLMF](https://dlmf.nist.gov/5)
+By default, all functions are provided by `SpecialFunctions.jl`.
 
-### Incomplete Gamma Functions
+
+## Gamma Functions
+- [Gamma Function - DLMF](https://dlmf.nist.gov/5)
 - [Incomplete Gamma and Related Functions - DLMF](https://dlmf.nist.gov/8)
+
+| Function | Description |
+|:-------- |:----------- |
+| `gamma(z)`        | gamma function |
+| `loggamma(x)`     | `log(gamma(x))` |
+| `logabsgamma(x)`  | `log(abs(gamma(x)))` |
+| `digamma(x)`      | derivative of `loggamma` |
+| `trigamma(x)`     | second derivative of `loggamma` |
+| `polygamma(m,x)`  | (m+1)-th derivative of the `loggamma` |
+| `gamma(a,z)`          | incomplete gamma function |
+| `loggamma(a,z)`       | `log(gamma(a,x))` |
+| `gamma_inc(a,x)`      | incomplete gamma function |
+| `gamma_inc_inv(a,p,q)` | inverse of the incomplete gamma function |
+
+### Beta Functions
+| Function | Description |
+|:-------- |:----------- |
+| `beta(x,y)`           | beta function |
+| `logbeta(x,y)`        | `log(beta(x,y))` |
+| `logabsbeta(x,y)`     | `log(abs(beta(x,y)))` |
+| `beta_inc(a,b,x,y)`   | incomplete beta function |
+| `beta_inc_inv(a,b,p,q)` | inverse of the incomplete beta function |
 
 
 ## Exponential and Trigonometric Integrals
