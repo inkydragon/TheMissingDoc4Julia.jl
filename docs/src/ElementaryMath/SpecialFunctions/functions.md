@@ -1,8 +1,11 @@
 # Function Index
 
-By default, all functions are provided by `SpecialFunctions.jl`.
+
 
 See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliamath.org/stable/functions_overview/)
+
+- By default, all functions are provided by `SpecialFunctions.jl`.
+- ❌: means not implemented
 
 
 ## Gamma Functions
@@ -34,6 +37,16 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 ## Exponential and Trigonometric Integrals
 - [Exponential, Logarithmic, Sine, and Cosine Integrals - DLMF](https://dlmf.nist.gov/6)
+
+| Function | Description |
+|:-------- |:----------- |
+| `expint(ν, z)`    | exponential integral  ``\operatorname{E}_\nu(z)`` |
+| `expinti(x)`      | exponential integral  ``\operatorname{Ei}(x)`` |
+| `expintx(x)`      | scaled exponential integral  ``e^z \operatorname{E}_\nu(z)`` |
+| `sinint(x)`   | sine integral  ``\operatorname{Si}(x)`` |
+| `cosint(x)`   | cosine integral  ``\operatorname{Ci}(x)`` |
+| `sinhint(x)`  | ❌ hyperbolic sine integral  ``\operatorname{Shi}(x)`` |
+| `coshint(x)`  | ❌ hyperbolic cosine integral  ``\operatorname{Chi}(x)`` |
 
 
 ## Error Functions, Dawson’s and Fresnel Integrals
