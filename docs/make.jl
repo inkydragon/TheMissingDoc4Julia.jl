@@ -15,7 +15,7 @@ makedocs(;
     sitename="The Missing Doc 4 Julia",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        repolink="https://inkydragon.github.io/TheMissingDoc4Julia.jl",
+        repolink="https://github.com/inkydragon/TheMissingDoc4Julia.jl",
         canonical="https://inkydragon.github.io/TheMissingDoc4Julia.jl",
         edit_link="main",
         ansicolor=true,
