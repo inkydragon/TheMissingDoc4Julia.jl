@@ -1,0 +1,5 @@
+# `cispi`
+
+```@docs
+Base.cispi
+```

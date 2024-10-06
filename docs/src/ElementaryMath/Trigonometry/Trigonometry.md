@@ -30,6 +30,8 @@ cos like
 - [`sincos`](@ref)
 - [`sincosd`](@ref)
 - [`sincospi`](@ref)
+- [`cis`](@ref)
+- [`cispi`](@ref)
 
 ## Tangent
 - [`tan`](@ref)
@@ -70,10 +72,3 @@ cos like
 ## Conversions
 - [`rad2deg`](@ref)
 - [`deg2rad`](@ref)
-
-
-## Others
-```@docs
-Base.cis
-Base.cispi
-```

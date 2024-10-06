@@ -1,0 +1,5 @@
+# `cis`
+
+```@docs
+Base.cis
+```
