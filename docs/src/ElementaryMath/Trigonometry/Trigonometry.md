@@ -14,6 +14,13 @@
 sin like
 - [`sinc`](@ref)
 
+## Sin and Cos
+- [`sincos`](@ref)
+- [`sincosd`](@ref)
+- [`sincospi`](@ref)
+- [`cis`](@ref)
+- [`cispi`](@ref)
+
 ## Cosine
 - [`cos`](@ref)
 - [`cosd`](@ref)
@@ -25,13 +32,6 @@ sin like
 
 cos like
 - [`cosc`](@ref)
-
-## Sin and Cos
-- [`sincos`](@ref)
-- [`sincosd`](@ref)
-- [`sincospi`](@ref)
-- [`cis`](@ref)
-- [`cispi`](@ref)
 
 ## Tangent
 - [`tan`](@ref)
