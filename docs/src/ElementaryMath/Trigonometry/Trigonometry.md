@@ -39,6 +39,7 @@ cos like
 - [`tanpi`](@ref)
 - [`atan`](@ref)
 - [`atand`](@ref)
+  - `atan2(y, x)` => `atand(y, x)`
 - [`tanh`](@ref)
 - [`atanh`](@ref)
 
