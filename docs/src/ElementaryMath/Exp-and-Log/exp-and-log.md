@@ -6,6 +6,12 @@
 - [`exp2`](@ref)
 - [`exp10`](@ref)
 
+## Logarithms
+- [`log`](@ref)
+- [`log2`](@ref)
+- [`log10`](@ref)
+- [`log1p`](@ref)
+
 ## Power
 - [`ispow2`](@ref)
 - [`prevpow`](@ref)
@@ -16,12 +22,6 @@
 - [`sqrt`](@ref)
 - [`isqrt`](@ref)
 - [`cbrt`](@ref)
-
-## Logarithms
-- [`log`](@ref)
-- [`log2`](@ref)
-- [`log10`](@ref)
-- [`log1p`](@ref)
 
 ## Float Point
 - [`exponent`](@ref)
