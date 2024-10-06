@@ -6,9 +6,9 @@
 - [`sin`](@ref)
 - [`sind`](@ref)
 - [`sinpi`](@ref)
-- [`sinh`](@ref)
 - [`asin`](@ref)
 - [`asind`](@ref)
+- [`sinh`](@ref)
 - [`asinh`](@ref)
 
 sin like
@@ -18,9 +18,9 @@ sin like
 - [`cos`](@ref)
 - [`cosd`](@ref)
 - [`cospi`](@ref)
-- [`cosh`](@ref)
 - [`acos`](@ref)
 - [`acosd`](@ref)
+- [`cosh`](@ref)
 - [`acosh`](@ref)
 
 cos like
@@ -35,33 +35,33 @@ cos like
 - [`tan`](@ref)
 - [`tand`](@ref)
 - [`tanpi`](@ref)
-- [`tanh`](@ref)
 - [`atan`](@ref)
 - [`atand`](@ref)
+- [`tanh`](@ref)
 - [`atanh`](@ref)
 
 ## Cosecant
 - [`csc`](@ref)
 - [`cscd`](@ref)
-- [`csch`](@ref)
 - [`acsc`](@ref)
 - [`acscd`](@ref)
+- [`csch`](@ref)
 - [`acsch`](@ref)
 
 ## Secant
 - [`sec`](@ref)
 - [`secd`](@ref)
-- [`sech`](@ref)
 - [`asec`](@ref)
 - [`asecd`](@ref)
+- [`sech`](@ref)
 - [`asech`](@ref)
 
 ## Cotangent
 - [`cot`](@ref)
 - [`cotd`](@ref)
-- [`coth`](@ref)
 - [`acot`](@ref)
 - [`acotd`](@ref)
+- [`coth`](@ref)
 - [`acoth`](@ref)
 
 ## Hypotenuse
