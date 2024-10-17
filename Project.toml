@@ -1,6 +1,6 @@
 name = "TheMissingDoc4Julia"
 uuid = "b3de0d96-2cd1-4157-8b45-2c2f2873eb80"
-authors = ["Chengyu HAN <git@wo-class.cn> and contributors"]
+authors = ["Chengyu HAN <cyhan.dev@outlook.com> and contributors"]
 version = "1.0.0-DEV"
 
 [compat]
