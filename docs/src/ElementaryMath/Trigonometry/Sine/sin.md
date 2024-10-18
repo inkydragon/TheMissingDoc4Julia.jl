@@ -8,17 +8,20 @@ using LinearAlgebra
 Base.sin
 ```
 
-> NOTE: longer desc.
-
 
 ## Methods
-With `Number` and `Missing` input:
+
 ```@repl
 methods(sin, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ```
 
 
 ## Examples
+
+```@repl
+using UnicodePlots
+lineplot(-π, π, sin)
+```
 
 ### Real Numbers
 ```jldoctest
@@ -62,12 +65,6 @@ sin(x) is only defined for finite x.
 [...]
 ```
 
-plot
-```@repl
-using UnicodePlots
-lineplot(-π, π, sin)
-```
-
 ### Complex
 ```jldoctest
 julia> sin(0+0im)
@@ -79,19 +76,6 @@ plot real part
 using UnicodePlots
 sin_real(x, y) = real(sin(x + y*im))
 surfaceplot(-2pi:0.01:2pi, -pi:0.01:pi, sin_real)
-```
-
-### Missing
-```jldoctest
-julia> sin(missing)
-missing
-```
-
-### Nothing
-```jldoctest
-julia> sin(nothing)
-ERROR: MethodError: no method matching sin(::Nothing)
-[...]
 ```
 
 
