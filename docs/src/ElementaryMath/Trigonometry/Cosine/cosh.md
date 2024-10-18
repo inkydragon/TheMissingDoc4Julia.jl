@@ -1,0 +1,5 @@
+# `cosh`
+
+```@docs
+Base.cosh
+```

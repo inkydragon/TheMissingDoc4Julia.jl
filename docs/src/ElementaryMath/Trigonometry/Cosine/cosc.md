@@ -1,0 +1,5 @@
+# `cosc`
+
+```@docs
+Base.cosc
+```

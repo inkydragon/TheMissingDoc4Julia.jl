@@ -1,0 +1,5 @@
+# `acosh`
+
+```@docs
+Base.acosh
+```

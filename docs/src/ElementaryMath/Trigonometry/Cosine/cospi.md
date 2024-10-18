@@ -1,0 +1,5 @@
+# `cospi`
+
+```@docs
+Base.cospi
+```

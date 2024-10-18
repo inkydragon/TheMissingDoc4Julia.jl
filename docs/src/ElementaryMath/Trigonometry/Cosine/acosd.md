@@ -1,0 +1,5 @@
+# `acosd`
+
+```@docs
+Base.acosd
+```
