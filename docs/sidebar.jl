@@ -103,6 +103,8 @@ all_pages = [
         "dev/index.md",
         "dev/ideas.md",
 
+        "How-to/How-to.md",
+
         # TODO: maybe move those to other project
         "CheatSheet" => Any[
             "SciPy" => "cheatsheet/scipy.md",
