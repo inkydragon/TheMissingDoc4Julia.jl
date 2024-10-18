@@ -71,5 +71,13 @@ cos like
 - [`hypot`](@ref)
 
 ## Conversions
+
+Degrees/Radians Conversion
 - [`rad2deg`](@ref)
 - [`deg2rad`](@ref)
+
+> Coordinate Conversion
+> - `cart2pol`
+> - `cart2sph`
+> - `pol2cart`
+> - `sph2cart`
