@@ -1,7 +1,6 @@
 # Cosine
 
 ```@docs
-Base.cos
 Base.cosd
 Base.cospi
 Base.cosh

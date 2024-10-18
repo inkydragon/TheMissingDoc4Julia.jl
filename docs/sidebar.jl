@@ -39,7 +39,10 @@ all_pages = [
                 "ElementaryMath/Trigonometry/SinCos/cis.md",
                 "ElementaryMath/Trigonometry/SinCos/cispi.md",
             ],
-            "Cosine" => "ElementaryMath/Trigonometry/Cosine.md",
+            "Cosine" => Any[
+                "ElementaryMath/Trigonometry/Cosine.md",
+                "ElementaryMath/Trigonometry/Cosine/cos.md",
+            ],
             "Tangent" => "ElementaryMath/Trigonometry/Tangent.md",
             "Cotangent" => "ElementaryMath/Trigonometry/Cotangent.md",
             "Secant" => "ElementaryMath/Trigonometry/Secant.md",
