@@ -31,6 +31,7 @@ all_pages = [
                 "ElementaryMath/Trigonometry/Sine/asin.md",
                 "ElementaryMath/Trigonometry/Sine/asind.md",
                 "ElementaryMath/Trigonometry/Sine/asinh.md",
+                "ElementaryMath/Trigonometry/Sine/sinc.md",
             ],
             "SinCos" => Any[
                 "ElementaryMath/Trigonometry/SinCos/sincos.md",
