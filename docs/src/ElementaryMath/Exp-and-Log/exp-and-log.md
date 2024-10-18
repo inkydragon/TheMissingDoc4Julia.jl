@@ -4,15 +4,22 @@
 - [`exp`](@ref)
 - [`expm1`](@ref)
 - [`exp2`](@ref)
+- exp2m1
 - [`exp10`](@ref)
+- exp10m1
 
 ## Logarithms
 - [`log`](@ref)
-- [`log2`](@ref)
-- [`log10`](@ref)
 - [`log1p`](@ref)
+- logp1
+- [`log2`](@ref)
+- log2p1
+- [`log10`](@ref)
+- log10p1
 
 ## Power
+- `^`
+  - `pow`
 - [`ispow2`](@ref)
 - [`prevpow`](@ref)
 - [`nextpow`](@ref)
