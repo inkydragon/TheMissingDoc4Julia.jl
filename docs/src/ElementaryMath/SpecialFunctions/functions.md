@@ -125,7 +125,15 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Mathieu Functions
-- [Mathieu Functions and Hill’s Equation - DLMF](https://dlmf.nist.gov/28)
+> [Mathieu Functions and Hill’s Equation - DLMF](https://dlmf.nist.gov/28)
+
+- [BBN-Q/MathieuFunctions.jl](https://github.com/BBN-Q/MathieuFunctions.jl)  
+    Julia package for Mathieu Functions
+- [Lightup1/MathieuF.jl](https://github.com/Lightup1/MathieuF.jl)  
+    Julia package for Mathieu Functions with function forms similar to
+    Mathieu related functions in Mathematica.
+- [jebej/Mathieu.jl](https://github.com/jebej/Mathieu.jl)
+    Package for computing Mathieu functions and characteristic values
 
 
 ## Spheroidal Wave Functions
