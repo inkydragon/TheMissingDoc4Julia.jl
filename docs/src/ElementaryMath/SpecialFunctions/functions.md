@@ -50,7 +50,21 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Error Functions, Dawson’s and Fresnel Integrals
-- [Error Functions, Dawson’s and Fresnel Integrals - DLMF](https://dlmf.nist.gov/7)
+> [Error Functions, Dawson’s and Fresnel Integrals - DLMF](https://dlmf.nist.gov/7)
+
+| Function      | Description             |
+|:------------- |:----------------------- |
+| `erf(x)`      | error function at ``x`` |
+| `erf(x,y)`    | accurate version of ``\operatorname{erf}(y) - \operatorname{erf}(x)`` |
+| `erfc(x)`     | complementary error function, i.e. the accurate version of ``1-\operatorname{erf}(x)`` for large ``x`` |
+| `erfcinv(x)`  | inverse function to `erfc()` |
+| `erfcx(x)`    | scaled complementary error function, i.e. accurate ``e^{x^2} \operatorname{erfc}(x)`` for large ``x`` |
+| `logerfc(x)`  | log of the complementary error function, i.e. accurate ``\operatorname{ln}(\operatorname{erfc}(x))`` for large ``x`` |
+| `logerfcx(x)` | log of the scaled complementary error function, i.e. accurate ``\operatorname{ln}(\operatorname{erfcx}(x))`` for large negative ``x`` |
+| `erfi(x)`     | imaginary error function defined as ``-i \operatorname{erf}(ix)`` |
+| `erfinv(x)`   | inverse function to `erf()` |
+| `dawson(x)`   | scaled imaginary error function, a.k.a. Dawson function, i.e. accurate ``\frac{\sqrt{\pi}}{2} e^{-x^2} \operatorname{erfi}(x)`` for large ``x`` |
+| `faddeeva(x)` | Faddeeva function, equivalent to ``\operatorname{erfcx}(-ix)`` |
 
 
 ## Airy Functions
