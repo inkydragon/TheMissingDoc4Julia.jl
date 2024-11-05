@@ -95,7 +95,13 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Confluent Hypergeometric Functions
-- [Confluent Hypergeometric Functions - DLMF](https://dlmf.nist.gov/13)
+> [Confluent Hypergeometric Functions - DLMF](https://dlmf.nist.gov/13)
+
+- [MartinMikkelsen/FewSpecialFunctions.jl](https://github.com/MartinMikkelsen/FewSpecialFunctions.jl)  
+    Few special functions in Julia.
+    Includes Clausen function, Coulomb wave functions, Debye function,
+    Fresnel functions, Struve function, Hypergeometric functions,
+    *Confluent hypergeometric functions*, Fermi-Dirac
 
 
 ## Legendre Functions
