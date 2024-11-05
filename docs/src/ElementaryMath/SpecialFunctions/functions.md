@@ -86,7 +86,12 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Zeta Functions
-- [Zeta and Related Functions - DLMF](https://dlmf.nist.gov/25)
+> [Zeta and Related Functions - DLMF](https://dlmf.nist.gov/25)
+
+| Function  | Description                   |
+|:--------- |:----------------------------- |
+| `eta(x)`  | Dirichlet eta function at `x` |
+| `zeta(x)` | Riemann zeta function at `x`  |
 
 
 ## Mathieu Functions
