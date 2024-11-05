@@ -87,7 +87,13 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Struve Functions
-- [Struve and Related Functions - DLMF](https://dlmf.nist.gov/11)
+> [Struve and Related Functions - DLMF](https://dlmf.nist.gov/11)
+
+- [MartinMikkelsen/FewSpecialFunctions.jl](https://github.com/MartinMikkelsen/FewSpecialFunctions.jl)  
+    Few special functions in Julia.
+    Includes ..., *Struve function*, ...
+- [gwater/Struve.jl](https://github.com/gwater/Struve.jl)  
+    Struve functions for Julia
 
 
 ## Parabolic Cylinder Functions
