@@ -99,7 +99,12 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Legendre Functions
-- [Legendre and Related Functions - DLMF](https://dlmf.nist.gov/14)
+> [Legendre and Related Functions - DLMF](https://dlmf.nist.gov/14)
+
+- [JuliaSpace/SatelliteToolboxLegendre.jl](https://github.com/JuliaSpace/SatelliteToolboxLegendre.jl)  
+    Methods to compute Legendre associated functions and their derivatives.
+- [jmert/AssociatedLegendrePolynomials.jl](https://github.com/jmert/AssociatedLegendrePolynomials.jl)  
+    A library for calculating the Associated Legendre polynomials
 
 
 ## Hypergeometric Function
