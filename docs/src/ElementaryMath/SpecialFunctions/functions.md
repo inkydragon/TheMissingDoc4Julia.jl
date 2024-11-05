@@ -103,7 +103,15 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Hypergeometric Function
-- [Hypergeometric Function - DLMF](https://dlmf.nist.gov/15)
+> [Hypergeometric Function - DLMF](https://dlmf.nist.gov/15)
+
+- [JuliaMath/HypergeometricFunctions.jl](https://github.com/JuliaMath/HypergeometricFunctions.jl)  
+    A Julia package for calculating hypergeometric functions
+- [MartinMikkelsen/FewSpecialFunctions.jl](https://github.com/MartinMikkelsen/FewSpecialFunctions.jl)  
+    Few special functions in Julia.
+    Includes Clausen function, Coulomb wave functions, Debye function,
+    Fresnel functions, Struve function, Hypergeometric functions,
+    Confluent hypergeometric functions, Fermi-Dirac
 
 
 ## Elliptic Integrals
