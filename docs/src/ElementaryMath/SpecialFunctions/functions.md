@@ -91,7 +91,11 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Parabolic Cylinder Functions
-- [Parabolic Cylinder Functions - DLMF](https://dlmf.nist.gov/12)
+> [Parabolic Cylinder Functions - DLMF](https://dlmf.nist.gov/12)
+
+- [MartinMikkelsen/FewSpecialFunctions.jl](https://github.com/MartinMikkelsen/FewSpecialFunctions.jl)  
+    Few special functions in Julia.
+    Includes ..., *Parabolic cylinder function*
 
 
 ## Confluent Hypergeometric Functions
