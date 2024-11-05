@@ -82,7 +82,12 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Elliptic Integrals
-- [Elliptic Integrals - DLMF](https://dlmf.nist.gov/19)
+> [Elliptic Integrals - DLMF](https://dlmf.nist.gov/19)
+
+| Function    | Description                                     |
+|:----------- |:----------------------------------------------- |
+| `ellipk(m)` | complete elliptic integral of 1st kind ``K(m)`` |
+| `ellipe(m)` | complete elliptic integral of 2nd kind ``E(m)`` |
 
 
 ## Zeta Functions
@@ -101,6 +106,7 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 ## Spheroidal Wave Functions
 - [Spheroidal Wave Functions - DLMF](https://dlmf.nist.gov/30)
 
+missing
 
 ## Other Special Functions
 > [Lambert W-Function - DLMF](https://dlmf.nist.gov/4.13)
