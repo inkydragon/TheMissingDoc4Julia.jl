@@ -68,7 +68,18 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Airy Functions
-- [Airy and Related Functions - DLMF](https://dlmf.nist.gov/9)
+> [Airy and Related Functions - DLMF](https://dlmf.nist.gov/9)
+
+| Function          | Description                                   |
+|:----------------- |:--------------------------------------------- |
+| `airyai(z)`       | Airy Ai function at `z`                       |
+| `airyaiprime(z)`  | derivative of the Airy Ai function at `z`     |
+| `airybi(z)`       | Airy Bi function at `z`                       |
+| `airybiprime(z)`  | derivative of the Airy Bi function at `z`     |
+| `airyaix(z)`      | scaled Airy Ai function and derivative at `z` |
+| `airyaiprimex(z)` | scaled Airy Ai function and derivative at `z` |
+| `airybix(z)`      | scaled Airy Ai function and derivative at `z` |
+| `airybiprimex(z)` | scaled Airy Ai function and derivative at `z` |
 
 
 ## Bessel Functions
