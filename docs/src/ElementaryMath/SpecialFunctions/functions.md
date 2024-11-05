@@ -98,4 +98,6 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Other Special Functions
-- [Lambert W-Function - DLMF](https://dlmf.nist.gov/4.13)
+> [Lambert W-Function - DLMF](https://dlmf.nist.gov/4.13)
+
+- [JuliaMath/LambertW.jl](https://github.com/JuliaMath/LambertW.jl)
