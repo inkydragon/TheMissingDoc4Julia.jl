@@ -83,7 +83,13 @@ See Also: [Functions List - SpecialFunctions.jl](https://specialfunctions.juliam
 
 
 ## Bessel Functions
-- [Bessel Functions - DLMF](https://dlmf.nist.gov/10)
+> [Bessel Functions - DLMF](https://dlmf.nist.gov/10)
+
+
+- SpecialFunctions.jl
+- [JuliaMath/Bessels.jl: Bessel functions for real arguments and orders](https://github.com/JuliaMath/Bessels.jl)
+- [JuliaMath/FunctionZeros.jl: Zeros of Bessel J and Y functions](https://github.com/JuliaMath/FunctionZeros.jl)
+- [cgeoga/BesselK.jl: An AD-compatible modified second-kind Bessel function.](https://github.com/cgeoga/BesselK.jl)
 
 
 ## Struve Functions
