@@ -79,4 +79,7 @@ all_pages = [
         "ElementaryMath/Constants/Constants.md",
         hide("ElementaryMath/index.md")
     ],
+    "Errors" => Any[
+        "Errors/Errors.md",
+    ],
 ] # all_pages
