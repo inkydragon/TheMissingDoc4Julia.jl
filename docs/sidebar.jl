@@ -79,7 +79,7 @@ all_pages = [
 
     # Dev...
     "Base" => Any[
-        "Base/Types.md",
+        "Base/Numbers.md",
         "Base/Errors.md",
     ],
 ] # all_pages

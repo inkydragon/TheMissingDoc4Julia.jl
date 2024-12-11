@@ -1,4 +1,4 @@
-# Types
+# Numbers
 
 ```julia
 using AbstractTrees
