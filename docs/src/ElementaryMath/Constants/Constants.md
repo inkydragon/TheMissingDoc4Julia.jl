@@ -39,9 +39,7 @@
 
 ```@docs
 Base.missing
-Base.ismissing
 Base.nothing
-Base.isnothing
 Base.undef
 Base.UndefInitializer
 
