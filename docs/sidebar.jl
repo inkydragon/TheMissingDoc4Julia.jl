@@ -98,9 +98,4 @@ all_pages = [
         # Others
         "Packages/SpecialFunction.md",
     ]),
-
-    "Dev Memo" => Any[
-        "dev/index.md",
-        "How-to/How-to.md",
-    ],
 ] # all_pages
