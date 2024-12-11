@@ -8,9 +8,6 @@ All Sidebar Pages.
 all_pages = [
     "Home" => "index.md",
 
-    "Types" => Any[
-        "Types/Types.md",
-    ],
     "Mathematics" => Any[
         "Mathematics" => "Mathematics.md",
         "Arithmetic" => Any[
@@ -79,7 +76,10 @@ all_pages = [
         "ElementaryMath/Constants/Constants.md",
         hide("ElementaryMath/index.md")
     ],
-    "Errors" => Any[
-        "Errors/Errors.md",
+
+    # Dev...
+    "Base" => Any[
+        "Base/Types.md",
+        "Base/Errors.md",
     ],
 ] # all_pages
