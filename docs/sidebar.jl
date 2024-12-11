@@ -79,11 +79,6 @@ all_pages = [
     ],
     "Graphics.md",
 
-    "Stdlib" => Any[
-        "stdlib/RandomNumbers.md",
-        "stdlib/LinearAlgebra.md",
-        "stdlib/SparseArrays.md",
-    ],
     hide("Julia Packages" => "Packages/FindPackages.md", [
         "Packages/Interpolation.md",
         "Packages/Optimization.md",
