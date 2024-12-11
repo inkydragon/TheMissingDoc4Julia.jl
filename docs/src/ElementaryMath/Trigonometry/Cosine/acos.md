@@ -1,6 +1,9 @@
 # `acos`
 Compute the arc cosine of `x`, where the output is in radians.
 
+- For `x` in range `[-1, 1]`, return value in range `[0, pi]`
+- Otherwise, throw a `DomainError`
+
 ```@setup repl_only
 using LinearAlgebra
 ```
