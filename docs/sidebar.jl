@@ -101,14 +101,6 @@ all_pages = [
 
     "Dev Memo" => Any[
         "dev/index.md",
-        "dev/ideas.md",
-
         "How-to/How-to.md",
-
-        # TODO: maybe move those to other project
-        "CheatSheet" => Any[
-            "SciPy" => "cheatsheet/scipy.md",
-            "Matlab" => "cheatsheet/matlab.md",
-        ],
     ],
 ] # all_pages
