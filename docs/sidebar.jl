@@ -8,7 +8,6 @@ All Sidebar Pages.
 all_pages = [
     "Home" => "index.md",
 
-    "GettingStarted.md",
     "Mathematics" => Any[
         "Mathematics" => "Mathematics.md",
         "Arithmetic" => Any[
