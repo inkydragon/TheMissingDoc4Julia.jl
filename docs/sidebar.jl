@@ -77,7 +77,6 @@ all_pages = [
         "ElementaryMath/Constants/Constants.md",
         hide("ElementaryMath/index.md")
     ],
-    "Graphics.md",
 
     hide("Julia Packages" => "Packages/FindPackages.md", [
         "Packages/Interpolation.md",
