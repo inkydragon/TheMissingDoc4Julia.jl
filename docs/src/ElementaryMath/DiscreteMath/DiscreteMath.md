@@ -23,7 +23,6 @@ Base.gcdx
 Base.lcm
 Base.binomial
 
-Base.Rational
 Base.rationalize
 Base.numerator
 Base.denominator
