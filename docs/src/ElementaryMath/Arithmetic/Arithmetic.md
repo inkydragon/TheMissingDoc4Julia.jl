@@ -2,6 +2,9 @@
 
 ## Basic Arithmetic
 
+- [`accumulate`](@ref)
+- [`accumulate!`](@ref)
+
 ### Addition
 - [`+`](@ref)
 - [`sum`](@ref)
@@ -65,3 +68,11 @@
 - [`true`](#)
 
 ### Bit-Wise Operations
+
+
+## temp-docs
+
+```@docs
+Base.accumulate
+Base.accumulate!
+```
