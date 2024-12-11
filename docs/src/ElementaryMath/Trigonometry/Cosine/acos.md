@@ -8,7 +8,7 @@ Compute the arc cosine of `x`, where the output is in radians.
 using LinearAlgebra
 ```
 ```@docs
-Base.acos
+Base.acos(::Real)
 ```
 
 
@@ -69,6 +69,9 @@ julia> acos(-2.0-0im)
 
 ### Matrix
 With `Array` like input:
+```@docs
+LinearAlgebra.acos(::AbstractMatrix)
+```
 ```@repl repl_only
 methods(acos, (Any,), [LinearAlgebra])
 ```

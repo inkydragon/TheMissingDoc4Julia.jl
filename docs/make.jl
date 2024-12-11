@@ -1,5 +1,6 @@
 using TheMissingDoc4Julia
 using Documenter
+using LinearAlgebra
 
 DocMeta.setdocmeta!(TheMissingDoc4Julia, :DocTestSetup, :(using TheMissingDoc4Julia); recursive=true)
 
@@ -9,7 +10,7 @@ include("sidebar.jl")
 
 
 makedocs(;
-    modules=[Base, TheMissingDoc4Julia],
+    modules=[Base, TheMissingDoc4Julia, LinearAlgebra],
     authors="Chengyu HAN <cyhan.dev@outlook.com> and contributors",
     repo="https://github.com/inkydragon/TheMissingDoc4Julia.jl/blob/{commit}{path}#{line}",
     sitename="The Missing Doc 4 Julia",
