@@ -76,19 +76,4 @@ all_pages = [
         "ElementaryMath/Constants/Constants.md",
         hide("ElementaryMath/index.md")
     ],
-
-    hide("Julia Packages" => "Packages/FindPackages.md", [
-        "Packages/Interpolation.md",
-        "Packages/Optimization.md",
-        "Packages/Integration-and-Differential.md",
-        "Packages/FourierTransform-and-Filtering.md",
-        "Packages/Graph-and-Network.md",
-        "Packages/Geometry.md",
-        "Packages/Quantum.md",
-        # Graphics
-        "Packages/Plotting.md",
-        "Packages/ImagesProcessing.md",
-        # Others
-        "Packages/SpecialFunction.md",
-    ]),
 ] # all_pages
