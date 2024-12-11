@@ -22,6 +22,7 @@ makedocs(;
         ansicolor=true,
     ),
     warnonly=true,
+    # TODO: find a good way to skip Base/LinearAlgebra tests
     doctest=false,
     checkdocs=:none,
     pages=all_pages,
