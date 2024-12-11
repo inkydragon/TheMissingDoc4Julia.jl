@@ -25,49 +25,70 @@
 ### Division
 - [`/`](@ref)
 - [`\`](@ref)
+- [`//`](@ref)
 
 ### Powers
 - [`^`](@ref)
 
 ### Transpose
+- [`adjoint`](@ref)
 - [`transpose`](@ref)
 
 
 ## Modulo Division and Rounding
-- [`mod`](#)
-- [`rem`](#)
-- [`idivide`](#)
-- [`ceil`](#)
-- [`fix`](#)
-- [`floor`](#)
-- [`round`](#)
+- [`mod`](@ref)
+- [`mod1`](@ref)
+- [`invmod`](@ref)
+- [`rem`](@ref)
+- [`div`](@ref)
+- [`÷`](@ref)
+- [`divrem`](@ref)
+- [`fld`](@ref)
+- [`fld1`](@ref)
+- [`fldmod`](@ref)
+- [`fldmod1`](@ref)
+- [`cld`](@ref)
+- [`ceil`](@ref)
+- [`floor`](@ref)
+- [`round`](@ref)
+
 
 ## Relational Operations
-- [`==`](#)
-- [`>=`](#)
-- [`>`](#)
-- [`<=`](#)
-- [`<`](#)
-- [`~=`](#)
-- [`isequal`](#)
-- [`isequaln`](#)
+- [`===`](@ref)
+- [`==`](@ref)
+- [`>=`](@ref)
+- [`>`](@ref)
+- [`<=`](@ref)
+- [`<`](@ref)
+- [`!=`](@ref)
+- [`!==`](@ref)
+- [`isequal`](@ref)
+- [`isless`](@ref)
+- [`isunordered`](@ref)
 
-## Logical (Boolean) Operations
-- [`&`](#)
-- [`Short-Circuit &&`](#)
-- [`~`](#)
-- [`|`](#)
-- [`Short-Circuit ||`](#)
-- [`xor`](#)
-- [`all`](#)
-- [`any`](#)
-- [`false`](#)
-- [`find`](#)
-- [`islogical`](#)
-- [`logical`](#)
-- [`true`](#)
+## Logical Operations
 
-### Bit-Wise Operations
+### Boolean Operations
+- [`true`](@ref)
+- [`false`](@ref)
+- [`!`](@ref)
+- [`&&`](@ref)
+- [`||`](@ref)
+- [`all`](@ref)
+- [`any`](@ref)
+
+
+## Bit-Wise Operations
+- [`~`](@ref)
+- [`&`](@ref)
+- [`|`](@ref)
+- [`xor`](@ref)
+- [`⊻`](@ref)
+
+### Shift
+- [`<<`](@ref)
+- [`>>`](@ref)
+- [`>>>`](@ref)
 
 
 ## temp-docs

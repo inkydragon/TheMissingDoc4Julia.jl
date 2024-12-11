@@ -18,6 +18,10 @@ all_pages = [
             "ElementaryMath/Arithmetic/Division/Division.md",
             "ElementaryMath/Arithmetic/Powers.md",
             "ElementaryMath/Arithmetic/Transpose.md",
+            "ElementaryMath/Arithmetic/Modulo-and-Round.md",
+            "ElementaryMath/Arithmetic/Relational.md",
+            "ElementaryMath/Arithmetic/Logical.md",
+            "ElementaryMath/Arithmetic/BitWise.md",
             "ElementaryMath/Arithmetic/Checked.md",
         ],
         "Trigonometry" => Any[
