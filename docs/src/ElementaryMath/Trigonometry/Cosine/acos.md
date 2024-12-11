@@ -59,7 +59,13 @@ julia> acos(-2.0-0im)
 
 
 ## Tips
-
+- For real number input, the input range is limited to `[0, 1]`.
+    For larger ranges, use complex inputs.
+- The output is expressed in radians,
+    and needs to be converted if a degrees is required:
+    ```
+    degrees = radians * 180 / pi
+    ```
 
 ## See Also
 [`cos`](@ref), [`acosd`](@ref), [`acosh`](@ref)
