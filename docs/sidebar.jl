@@ -73,12 +73,16 @@ all_pages = [
         "Complex Numbers" => "ElementaryMath/Complex/Complex.md",
         "ElementaryMath/DiscreteMath/DiscreteMath.md",
         "ElementaryMath/Polynomials/Polynomials.md",
-        "SpecialFunctions" => Any[
-            "ElementaryMath/SpecialFunctions/index.md",
-            "ElementaryMath/SpecialFunctions/functions.md",
-        ],
+
         "ElementaryMath/Constants/Constants.md",
         hide("ElementaryMath/index.md")
+    ],
+
+    "Packages" => Any[
+        "Special Functions" => Any[
+            "Pkg/SpecialFunctions/index.md",
+            "Pkg/SpecialFunctions/functions.md",
+        ],
     ],
 
     # Dev...
