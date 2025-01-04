@@ -5,7 +5,7 @@ Compute sine of parameter in radians.
 using LinearAlgebra
 ```
 ```@docs
-Base.sin
+Base.sin(x::Number)
 ```
 
 
@@ -97,9 +97,8 @@ With `Array` like input:
 methods(sin, (Any,), [LinearAlgebra])
 ```
 
-```jl
-# TODO
-Base.sin(AbstractMatrix)
+```@docs
+sin(A::AbstractMatrix)
 ```
 
 ```jldoctest
@@ -119,7 +118,7 @@ false
 
 
 ## Tech Notes
-- `sin(::Real)`: by pure julia
+- `sin(::Number)`: by pure julia
 - `sin(::BigFloat)`: by MPFR
 
 
@@ -128,5 +127,6 @@ Introduced in 2018 (1.0)
 
 
 ## External Links
+- 🔗[DLMF 4.14.1](https://dlmf.nist.gov/4.14.1)
 - 🔗[Sine - Wikipedia](https://en.wikipedia.org/wiki/Sine_and_cosine)
 - 🔗[Sine - MathWorld](https://mathworld.wolfram.com/Sine.html)
