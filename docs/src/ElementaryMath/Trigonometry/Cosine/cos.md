@@ -5,7 +5,7 @@ Compute cosine of parameter in radians.
 using LinearAlgebra
 ```
 ```@docs
-Base.cos
+Base.cos(x::Number)
 ```
 
 
@@ -83,9 +83,8 @@ With `Array` like input:
 methods(cos, (Any,), [LinearAlgebra])
 ```
 
-```jl
-# TODO
-Base.cos(AbstractMatrix)
+```@docs
+cos(A::AbstractMatrix)
 ```
 
 ```jldoctest
@@ -105,7 +104,7 @@ false
 
 
 ## Tech Notes
-- `cos(::Real)`: by pure julia
+- `cos(::Number)`: by pure julia
 - `cos(::BigFloat)`: by MPFR
 
 
@@ -114,5 +113,6 @@ Introduced in 2018 (1.0)
 
 
 ## External Links
+- 🔗[DLMF 4.14.2](https://dlmf.nist.gov/4.14.2)
 - 🔗[Cosine - Wikipedia](https://en.wikipedia.org/wiki/Sine_and_cosine)
 - 🔗[Cosine - MathWorld](https://mathworld.wolfram.com/Cosine.html)
