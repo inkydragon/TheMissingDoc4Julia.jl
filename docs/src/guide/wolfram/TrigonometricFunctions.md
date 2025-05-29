@@ -29,3 +29,5 @@
 
 
 ## Related Guides
+
+- [Hyperbolic Functions](@ref)

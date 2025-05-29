@@ -115,6 +115,7 @@ all_pages = [
         "guide/index.md",
         # Wolfram
         "guide/wolfram/TrigonometricFunctions.md",
+        "guide/wolfram/HyperbolicFunctions.md",
     ],
 
     "Packages" => Any[
