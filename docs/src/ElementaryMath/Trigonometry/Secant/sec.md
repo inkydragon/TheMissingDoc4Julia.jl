@@ -22,13 +22,25 @@ methods(sec, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> sec(0)
+1.0
 
-julia> sec(-0.0)
+julia> sec(pi)
+-1.0
+
+julia> sec(pi/4)
+1.414213562373095
+
+julia> sec(pi/3)
+1.9999999999999996
+
+julia> sec(pi/2)
+1.633123935319537e16
 ```
 
 ### Complex
 ```jldoctest
 julia> sec(0+0im)
+1.0 + 0.0im
 ```
 
 ## Tips

@@ -21,14 +21,26 @@ methods(asech, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ### Real Numbers
 ```jldoctest
-julia> asech(0)
+julia> asech(1.0)
+0.0
 
-julia> asech(-0.0)
+julia> asech(0.648)
+1.0001099661900488
+
+julia> asech(0.0)
+Inf
+
+julia> asech(-Inf)
+ERROR: DomainError with -0.0:
+acosh(x) is only defined for x ≥ 1.
+Stacktrace:
+[...]
 ```
 
 ### Complex
 ```jldoctest
-julia> asech(0+0im)
+julia> asech(1+0im)
+0.0 - 0.0im
 ```
 
 ## Tips

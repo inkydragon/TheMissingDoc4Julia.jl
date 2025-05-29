@@ -22,13 +22,22 @@ methods(sech, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> sech(0)
+1.0
 
-julia> sech(-0.0)
+julia> sech(1)
+0.6480542736638855
+
+julia> sech(1e6)
+0.0
+
+julia> sech(-1e6)
+0.0
 ```
 
 ### Complex
 ```jldoctest
 julia> sech(0+0im)
+1.0 + 0.0im
 ```
 
 ## Tips

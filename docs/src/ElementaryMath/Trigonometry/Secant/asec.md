@@ -22,14 +22,26 @@ methods(asec, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ### Real Numbers
 ```jldoctest
-julia> asec(0)
+julia> asec(1.0)
+0.0
 
-julia> asec(-0.0)
+julia> asec(-1.0) / pi
+1.0
+
+julia> asec(sqrt(2)) / pi
+0.25000000000000006
+
+julia> asec(2) / pi
+0.33333333333333337
+
+julia> asec(Inf) / pi
+0.5
 ```
 
 ### Complex
 ```jldoctest
-julia> asec(0+0im)
+julia> asec(1+0im)
+0.0 + 0.0im
 ```
 
 ## Tips
