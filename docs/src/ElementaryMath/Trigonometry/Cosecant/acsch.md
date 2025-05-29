@@ -21,14 +21,20 @@ methods(acsch, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ### Real Numbers
 ```jldoctest
-julia> acsch(0)
+julia> acsch(Inf)
+0.0
 
-julia> acsch(-0.0)
+julia> acsch(-Inf)
+-0.0
+
+julia> acsch(1.0)
+0.881373587019543
 ```
 
 ### Complex
 ```jldoctest
 julia> acsch(0+0im)
+NaN + NaN*im
 ```
 
 ## Tips

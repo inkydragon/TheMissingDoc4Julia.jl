@@ -22,14 +22,26 @@ methods(acsc, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ### Real Numbers
 ```jldoctest
-julia> acsc(0)
+julia> acsc(Inf)
+0.0
 
-julia> acsc(-0.0)
+julia> acsc(-Inf)
+-0.0
+
+julia> acsc(1.0) / pi
+0.5
+
+julia> acsc(0)
+ERROR: DomainError with Inf:
+asin(x) is not defined for |x| > 1.
+Stacktrace:
+[...]
 ```
 
 ### Complex
 ```jldoctest
-julia> acsc(0+0im)
+julia> acsc(Inf+0im)
+0.0 - 0.0im
 ```
 
 ## Tips

@@ -22,13 +22,22 @@ methods(csc, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> csc(0)
+Inf
 
 julia> csc(-0.0)
+-Inf
+
+julia> csc(pi/2)
+1.0
+
+julia> csc(pi)
+Inf
 ```
 
 ### Complex
 ```jldoctest
 julia> csc(0+0im)
+NaN + NaN*im
 ```
 
 ## Tips
