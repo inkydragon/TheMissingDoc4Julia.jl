@@ -56,8 +56,7 @@ julia> cosd(0+0im)
 
 ## Tech Notes
 
-- `cosd(::Real)`: by pure julia
-- `cosd(::BigFloat)`: by MPFR
+- Implemented in terms of [`cos`](@ref): `cosd(deg) = cos(deg2rad(deg))`
 
 
 ## Version History

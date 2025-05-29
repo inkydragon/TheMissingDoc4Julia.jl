@@ -42,8 +42,7 @@ julia> sind(90)
 
 ## Tech Notes
 
-- `sind(::Real)`: by pure julia
-- `sind(::BigFloat)`: by MPFR
+- Implemented in terms of [`sin`](@ref): `sind(deg) = sin(deg2rad(deg))`
 
 
 ## Version History
