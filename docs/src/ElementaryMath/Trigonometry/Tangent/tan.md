@@ -1,6 +1,6 @@
 # `tan`
 
-~~TODO: Here is a One line description.~~
+Compute the tangent of `x`, return in radians.
 
 ```@setup repl_only
 using LinearAlgebra

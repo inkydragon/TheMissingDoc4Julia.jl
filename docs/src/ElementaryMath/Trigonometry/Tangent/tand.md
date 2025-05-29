@@ -1,6 +1,6 @@
 # `tand`
 
-~~TODO: Here is a One line description.~~
+Compute the tangent of `x`, return in degrees.
 
 ```@setup repl_only
 using LinearAlgebra
