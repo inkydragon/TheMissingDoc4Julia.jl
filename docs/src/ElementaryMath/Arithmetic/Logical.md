@@ -2,8 +2,6 @@
 
 ## Boolean Operations
 ```@docs
-true
-false
 !
 &&
 ||

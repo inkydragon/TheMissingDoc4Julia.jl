@@ -69,8 +69,8 @@
 ## Logical Operations
 
 ### Boolean Operations
-- [`true`](@ref)
-- [`false`](@ref)
+- `true`
+- `false`
 - [`!`](@ref)
 - [`&&`](@ref)
 - [`||`](@ref)
