@@ -1,6 +1,6 @@
 # `deg2rad`
 
-~~TODO: Here is a One line description.~~
+Convert `x` from degrees to radians.
 
 ```@setup repl_only
 using LinearAlgebra
