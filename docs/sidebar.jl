@@ -62,7 +62,14 @@ all_pages = [
                 "ElementaryMath/Trigonometry/Tangent/tanh.md",
                 "ElementaryMath/Trigonometry/Tangent/atanh.md",
             ],
-            "Secant" => "ElementaryMath/Trigonometry/Secant.md",
+            "Secant" => Any[
+                "ElementaryMath/Trigonometry/Secant/sec.md",
+                "ElementaryMath/Trigonometry/Secant/secd.md",
+                "ElementaryMath/Trigonometry/Secant/asec.md",
+                "ElementaryMath/Trigonometry/Secant/asecd.md",
+                "ElementaryMath/Trigonometry/Secant/sech.md",
+                "ElementaryMath/Trigonometry/Secant/asech.md",
+            ],
             "Cosecant" => Any[
                 "ElementaryMath/Trigonometry/Cosecant/csc.md",
                 "ElementaryMath/Trigonometry/Cosecant/cscd.md",
