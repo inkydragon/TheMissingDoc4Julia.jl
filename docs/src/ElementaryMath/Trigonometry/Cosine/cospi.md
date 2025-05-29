@@ -1,6 +1,6 @@
 # `cospi`
 
-Compute the cosine of `π*x`, return in half-revolutions.
+Compute the cosine of `π*x`, where `x` expressed in half-revolutions..
 
 ```@setup repl_only
 using LinearAlgebra

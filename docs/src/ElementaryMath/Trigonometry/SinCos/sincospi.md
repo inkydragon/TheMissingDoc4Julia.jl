@@ -1,6 +1,6 @@
 # `sincospi`
 
-Compute the sine and cosine of `π*x`, return in half-revolutions.
+Compute the sine and cosine of `π*x`, where `x` expressed in half-revolutions..
 
 ```@setup repl_only
 using LinearAlgebra

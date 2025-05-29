@@ -1,6 +1,6 @@
 # `tanpi`
 
-Compute the tangent of `π*x`, return in half-revolutions.
+Compute the tangent of `π*x`, where `x` expressed in half-revolutions..
 
 ```@setup repl_only
 using LinearAlgebra
