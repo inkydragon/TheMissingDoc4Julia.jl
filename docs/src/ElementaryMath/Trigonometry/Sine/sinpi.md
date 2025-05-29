@@ -1,6 +1,6 @@
 # `sinpi`
 
-Compute `sin(pi*x)` more accurately than `sin(pi*x)`, especially for large `x`.
+Compute the sine of `π*x`, return in half-revolutions.
 
 ```@setup repl_only
 using LinearAlgebra

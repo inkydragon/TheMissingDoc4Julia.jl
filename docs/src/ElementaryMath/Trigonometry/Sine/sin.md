@@ -1,5 +1,6 @@
 # `sin`
-Compute sine of parameter in radians.
+
+Compute the sine of `x`, return in radians.
 
 ```@setup repl_only
 using LinearAlgebra

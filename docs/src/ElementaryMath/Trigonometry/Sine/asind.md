@@ -1,6 +1,7 @@
 # `asind`
 
-Compute the inverse sine of x, where the output is in degrees.
+Compute the principal value of the arc sine of `x`,
+return in degrees.
 
 ```@setup repl_only
 using LinearAlgebra

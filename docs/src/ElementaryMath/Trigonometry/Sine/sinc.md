@@ -1,6 +1,6 @@
 # `sinc`
 
-~~TODO: Here is a One line description.~~
+Compute the normalized `sinc` function.
 
 ```@setup repl_only
 using LinearAlgebra

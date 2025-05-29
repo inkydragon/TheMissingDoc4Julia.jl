@@ -1,6 +1,6 @@
 # `asinh`
 
-Compute the inverse sine of x, where the output is in radians.
+Compute the arc hyperbolic sine of `x`.
 
 ```@setup repl_only
 using LinearAlgebra
