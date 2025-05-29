@@ -2,6 +2,14 @@
 
 Compute the normalized `sinc(x)` function, where `x` expressed in radians.
 
+Returns:
+```math
+\begin{cases}
+\frac{\sin(\pi x)}{\pi x},  & x \ne 0\\
+1,  & x=0
+\end{cases}
+```
+
 ```@setup repl_only
 using LinearAlgebra
 ```
