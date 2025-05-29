@@ -1,6 +1,7 @@
 # `asec`
 
-~~TODO: Here is a One line description.~~
+Compute the principal value of the arc secant of `x`,
+return in radians.
 
 ```@setup repl_only
 using LinearAlgebra

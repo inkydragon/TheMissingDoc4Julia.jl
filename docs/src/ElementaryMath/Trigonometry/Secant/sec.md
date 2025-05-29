@@ -1,6 +1,6 @@
 # `sec`
 
-~~TODO: Here is a One line description.~~
+Compute the secant of `x`, return in radians.
 
 ```@setup repl_only
 using LinearAlgebra

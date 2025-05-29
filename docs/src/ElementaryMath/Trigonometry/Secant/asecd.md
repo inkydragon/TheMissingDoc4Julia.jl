@@ -1,6 +1,7 @@
 # `asecd`
 
-~~TODO: Here is a One line description.~~
+Compute the principal value of the arc secant of `x`,
+return in degrees.
 
 ```@setup repl_only
 using LinearAlgebra

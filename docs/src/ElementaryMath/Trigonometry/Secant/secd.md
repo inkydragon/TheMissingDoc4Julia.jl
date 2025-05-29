@@ -1,6 +1,6 @@
 # `secd`
 
-~~TODO: Here is a One line description.~~
+Compute the secant of `x`, return in degrees.
 
 ```@setup repl_only
 using LinearAlgebra

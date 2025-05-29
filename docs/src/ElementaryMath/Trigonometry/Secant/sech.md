@@ -1,6 +1,6 @@
 # `sech`
 
-~~TODO: Here is a One line description.~~
+Compute the hyperbolic secant of `x`.
 
 ```@setup repl_only
 using LinearAlgebra

@@ -1,6 +1,6 @@
 # `asech`
 
-~~TODO: Here is a One line description.~~
+Compute the arc hyperbolic secant of `x`.
 
 ```@setup repl_only
 using LinearAlgebra
