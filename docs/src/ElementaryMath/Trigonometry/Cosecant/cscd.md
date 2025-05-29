@@ -1,6 +1,6 @@
 # `cscd`
 
-Compute the cosecant of `x`, return in degrees.
+Compute the cosecant of `x` expressed in degrees.
 
 ```@setup repl_only
 using LinearAlgebra

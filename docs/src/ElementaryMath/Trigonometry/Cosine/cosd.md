@@ -1,6 +1,6 @@
 # `cosd`
 
-Compute the cosine of `x`, return in degrees.
+Compute the cosine of `x` expressed in degrees.
 
 ```@setup repl_only
 using LinearAlgebra

@@ -1,6 +1,6 @@
 # `tand`
 
-Compute the tangent of `x`, return in degrees.
+Compute the tangent of `x` expressed in degrees.
 
 ```@setup repl_only
 using LinearAlgebra
