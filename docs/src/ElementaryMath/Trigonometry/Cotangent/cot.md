@@ -70,5 +70,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[cot - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[cot - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.14.7](https://dlmf.nist.gov/4.14#E7)
+- 🔗[Cotangent - MathWorld](https://mathworld.wolfram.com/Cotangent.html)
+- 🔗[Trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Trigonometric_functions)

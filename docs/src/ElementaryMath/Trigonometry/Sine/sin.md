@@ -124,6 +124,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[DLMF 4.14.1](https://dlmf.nist.gov/4.14.1)
-- 🔗[Sine - Wikipedia](https://en.wikipedia.org/wiki/Sine_and_cosine)
+- 🔗[DLMF: §4.14.1](https://dlmf.nist.gov/4.14.1)
 - 🔗[Sine - MathWorld](https://mathworld.wolfram.com/Sine.html)
+- 🔗[Sine - Wikipedia](https://en.wikipedia.org/wiki/Sine_and_cosine)

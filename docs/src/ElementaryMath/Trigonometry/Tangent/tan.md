@@ -71,5 +71,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[tan - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[tan - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.14.4](https://dlmf.nist.gov/4.14#E4)
+- 🔗[Tangent - MathWorld](https://mathworld.wolfram.com/Tangent.html)
+- 🔗[Trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Trigonometric_functions)
