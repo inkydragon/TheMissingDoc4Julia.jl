@@ -23,13 +23,25 @@ methods(atand, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> atand(0)
+0.0
 
 julia> atand(-0.0)
+-0.0
+
+julia> atand(1.0)
+45.0
+
+julia> atand(Inf)
+90.0
+
+julia> atand(-Inf)
+-90.0
 ```
 
 ### Complex
 ```jldoctest
 julia> atand(0+0im)
+0.0 - 0.0im
 ```
 
 ## Tips
