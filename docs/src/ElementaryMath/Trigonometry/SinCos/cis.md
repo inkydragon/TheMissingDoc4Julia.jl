@@ -23,13 +23,19 @@ methods(cis, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> cis(0)
+1.0 + 0.0im
 
 julia> cis(-0.0)
+1.0 - 0.0im
+
+julia> cis(pi)
+-1.0 + 0.0im
 ```
 
 ### Complex
 ```jldoctest
 julia> cis(0+0im)
+1.0 + 0.0im
 ```
 
 ## Tips

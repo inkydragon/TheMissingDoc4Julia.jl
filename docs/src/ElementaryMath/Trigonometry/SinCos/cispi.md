@@ -23,13 +23,22 @@ methods(cispi, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> cispi(0)
+1.0 + 0.0im
 
 julia> cispi(-0.0)
+1.0 - 0.0im
+
+julia> cispi(0.5)
+0.0 + 1.0im
+
+julia> cispi(1.0)
+-1.0 + 0.0im
 ```
 
 ### Complex
 ```jldoctest
 julia> cispi(0+0im)
+1.0 + 0.0im
 ```
 
 ## Tips
