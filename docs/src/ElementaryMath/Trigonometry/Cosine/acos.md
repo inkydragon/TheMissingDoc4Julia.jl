@@ -98,7 +98,7 @@ julia> acos([-1 0; 0 -1])
 
 
 ## Version History
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

@@ -67,7 +67,7 @@ methods(sec, (Any,), [LinearAlgebra])
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

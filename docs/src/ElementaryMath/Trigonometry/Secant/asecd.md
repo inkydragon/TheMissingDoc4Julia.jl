@@ -61,7 +61,7 @@ julia> asecd(1+0im)
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links
