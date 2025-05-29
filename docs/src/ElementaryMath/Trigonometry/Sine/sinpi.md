@@ -1,6 +1,6 @@
 # `sinpi`
 
-Compute the sine of `π*x`, where `x` expressed in half-revolutions..
+Compute the sine of `π*x`, where `x` expressed in half-revolutions.
 
 ```@setup repl_only
 using LinearAlgebra
