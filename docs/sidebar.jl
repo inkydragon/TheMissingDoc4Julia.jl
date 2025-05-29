@@ -75,6 +75,7 @@ all_pages = [
         "ElementaryMath/Polynomials/Polynomials.md",
 
         "ElementaryMath/Constants/Constants.md",
+        "ElementaryMath/impl-notes.md",
         hide("ElementaryMath/index.md")
     ],
 
