@@ -21,15 +21,20 @@ methods(rad2deg, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ### Real Numbers
 ```jldoctest
-julia> rad2deg(0)
+julia> rad2deg(pi)
+180.0
+
+julia> rad2deg(pi/2)
+90.0
+
+julia> rad2deg.([1/6  1/4  1/3] * pi)
+1×3 Array{Float64,2}:
+ 30.0  45.0  60.0
 
 julia> rad2deg(-0.0)
+-0.0
 ```
 
-### Complex
-```jldoctest
-julia> rad2deg(0+0im)
-```
 
 ## Tips
 
