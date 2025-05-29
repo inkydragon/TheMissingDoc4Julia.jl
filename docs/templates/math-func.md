@@ -83,7 +83,7 @@ methods(math_func_name, (Any,), [LinearAlgebra])
 > NOTE: Changelog for functions.
 > TODO: This section should be auto-generated.
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

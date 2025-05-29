@@ -59,13 +59,12 @@ methods(acot, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `acot(::Real)`: by pure julia
-- `acot(::BigFloat)`: by MPFR
+- Implemented in terms of [`atan`](@ref): `acot(x) = inv(atan(x))`
 
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

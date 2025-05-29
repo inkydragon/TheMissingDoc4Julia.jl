@@ -51,13 +51,12 @@ julia> tand(0+0im)
 
 ## Tech Notes
 
-- `tand(::Real)`: by pure julia
-- `tand(::BigFloat)`: by MPFR
+- Implemented in terms of [`tan`](@ref): `tand(deg) = tan(deg2rad(deg))`
 
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

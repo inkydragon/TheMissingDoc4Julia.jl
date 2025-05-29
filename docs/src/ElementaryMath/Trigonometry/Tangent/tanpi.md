@@ -62,7 +62,7 @@ julia> tanpi(0+0im)
 
 ## Version History
 
-Introduced in 2018 (1.0)
+[Introduced in Julia v1.10 (2023)](https://github.com/JuliaLang/julia/blob/v1.10.0/NEWS.md?plain=1#L58)
 
 
 ## External Links

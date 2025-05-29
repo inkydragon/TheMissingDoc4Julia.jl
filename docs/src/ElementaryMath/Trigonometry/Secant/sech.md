@@ -58,13 +58,12 @@ methods(sech, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `sech(::Real)`: by pure julia
-- `sech(::BigFloat)`: by MPFR
+- Implemented in terms of [`cosh`](@ref): `sech(x) = inv(cosh(x))`
 
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

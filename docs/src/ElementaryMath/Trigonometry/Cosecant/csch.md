@@ -54,13 +54,12 @@ methods(csch, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `csch(::Real)`: by pure julia
-- `csch(::BigFloat)`: by MPFR
+- Implemented in terms of [`sinh`](@ref): `csc(x) = inv(sinh(x))`
 
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

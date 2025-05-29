@@ -57,7 +57,7 @@ julia> sincospi(0+0im)
 
 ## Version History
 
-Introduced in 2018 (1.0)
+[Introduced in Julia v1.6 (2021)](https://github.com/JuliaLang/julia/blob/v1.6.0/NEWS.md?plain=1#L96)
 
 
 ## External Links

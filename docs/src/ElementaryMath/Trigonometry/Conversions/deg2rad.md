@@ -47,13 +47,10 @@ julia> deg2rad(-0.0)
 
 ## Tech Notes
 
-- `deg2rad(::Real)`: by pure julia
-- `deg2rad(::BigFloat)`: by MPFR
-
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

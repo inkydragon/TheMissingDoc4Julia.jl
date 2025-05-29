@@ -57,13 +57,12 @@ methods(csc, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `csc(::Real)`: by pure julia
-- `csc(::BigFloat)`: by MPFR
+- Implemented in terms of [`sin`](@ref): `csc(x) = inv(sin(x))`
 
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

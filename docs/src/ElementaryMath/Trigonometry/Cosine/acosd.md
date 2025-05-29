@@ -54,13 +54,12 @@ julia> acosd(0+0im)
 
 ## Tech Notes
 
-- `acosd(::Real)`: by pure julia
-- `acosd(::BigFloat)`: by MPFR
+- Implemented in terms of [`acos`](@ref): `acosd(x) = rad2deg(acos(x))`
 
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

@@ -61,13 +61,12 @@ methods(acsc, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `acsc(::Real)`: by pure julia
-- `acsc(::BigFloat)`: by MPFR
+- Implemented in terms of [`asin`](@ref): `acsc(x) = inv(asin(x))`
 
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

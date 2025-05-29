@@ -54,13 +54,12 @@ methods(acsch, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `acsch(::Real)`: by pure julia
-- `acsch(::BigFloat)`: by MPFR
+- Implemented in terms of [`asinh`](@ref): `acsch(x) = inv(asinh(x))`
 
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

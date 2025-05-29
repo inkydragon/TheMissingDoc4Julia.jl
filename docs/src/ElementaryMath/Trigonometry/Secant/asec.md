@@ -62,13 +62,12 @@ methods(asec, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `asec(::Real)`: by pure julia
-- `asec(::BigFloat)`: by MPFR
+- Implemented in terms of [`acos`](@ref): `asec(x) = inv(acos(x))`
 
 
 ## Version History
 
-Introduced in 2018 (1.0)
+Introduced in Julia v1.0 (2018)
 
 
 ## External Links

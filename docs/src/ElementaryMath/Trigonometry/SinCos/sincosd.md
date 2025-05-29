@@ -60,7 +60,7 @@ julia> sincosd(0+0im)
 
 ## Version History
 
-Introduced in 2018 (1.0)
+[Introduced in Julia v1.3 (2019)](https://github.com/JuliaLang/julia/blob/v1.3.0/NEWS.md?plain=1#L43)
 
 
 ## External Links
