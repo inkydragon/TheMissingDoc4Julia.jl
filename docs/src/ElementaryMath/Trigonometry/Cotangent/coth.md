@@ -1,6 +1,6 @@
 # `coth`
 
-~~TODO: Here is a One line description.~~
+Compute the hyperbolic cotangent of `x`.
 
 ```@setup repl_only
 using LinearAlgebra

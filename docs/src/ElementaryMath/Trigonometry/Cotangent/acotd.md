@@ -1,6 +1,7 @@
 # `acotd`
 
-~~TODO: Here is a One line description.~~
+Compute the principal value of the arc cotangent of `x`,
+return in degrees.
 
 ```@setup repl_only
 using LinearAlgebra
