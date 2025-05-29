@@ -58,7 +58,7 @@ julia> cispi(0+0im)
 
 ## Version History
 
-Introduced in Julia v1.0 (2018)
+[Introduced in Julia v1.6 (2021)](https://github.com/JuliaLang/julia/blob/v1.6.0/NEWS.md?plain=1#L98)
 
 
 ## External Links
