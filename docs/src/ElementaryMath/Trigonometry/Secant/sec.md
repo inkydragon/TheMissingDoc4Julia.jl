@@ -1,6 +1,6 @@
 # `sec`
 
-Compute the secant of `x`, return in radians.
+Compute the secant of `x` expressed in radians.
 
 ```@setup repl_only
 using LinearAlgebra
