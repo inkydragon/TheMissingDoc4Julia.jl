@@ -1,0 +1,62 @@
+# `acsc`
+
+~~TODO: Here is a One line description.~~
+
+```@setup repl_only
+using LinearAlgebra
+```
+```@docs
+Base.acsc
+```
+
+
+## Methods
+
+```@repl
+methods(acsc, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
+```
+
+
+## Examples
+
+### Real Numbers
+```jldoctest
+julia> acsc(0)
+
+julia> acsc(-0.0)
+```
+
+### Complex
+```jldoctest
+julia> acsc(0+0im)
+```
+
+## Tips
+
+
+## See Also
+
+
+## Extended Inputs
+
+### Matrix
+With `Array` like input:
+```@repl repl_only
+methods(acsc, (Any,), [LinearAlgebra])
+```
+
+
+## Tech Notes
+
+- `acsc(::Real)`: by pure julia
+- `acsc(::BigFloat)`: by MPFR
+
+
+## Version History
+
+Introduced in 2018 (1.0)
+
+
+## External Links
+- 🔗[acsc - Wikipedia](https://en.wikipedia.org/wiki/ )
+- 🔗[acsc - MathWorld](https://mathworld.wolfram.com/ )
