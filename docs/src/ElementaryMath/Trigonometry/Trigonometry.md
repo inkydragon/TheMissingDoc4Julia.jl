@@ -8,6 +8,7 @@
 - [`sinpi`](@ref)
 - [`asin`](@ref)
 - [`asind`](@ref)
+- `asinpi`
 - [`sinh`](@ref)
 - [`asinh`](@ref)
 
@@ -27,6 +28,7 @@ sin like
 - [`cospi`](@ref)
 - [`acos`](@ref)
 - [`acosd`](@ref)
+- `acospi`
 - [`cosh`](@ref)
 - [`acosh`](@ref)
 
@@ -40,6 +42,7 @@ cos like
 - [`atan`](@ref)
 - [`atand`](@ref)
   - `atan2(y, x)` => `atand(y, x)`
+- `atanpi`
 - [`tanh`](@ref)
 - [`atanh`](@ref)
 

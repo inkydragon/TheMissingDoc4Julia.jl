@@ -1,0 +1,62 @@
+# `csch`
+
+~~TODO: Here is a One line description.~~
+
+```@setup repl_only
+using LinearAlgebra
+```
+```@docs
+Base.csch
+```
+
+
+## Methods
+
+```@repl
+methods(csch, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
+```
+
+
+## Examples
+
+### Real Numbers
+```jldoctest
+julia> csch(0)
+
+julia> csch(-0.0)
+```
+
+### Complex
+```jldoctest
+julia> csch(0+0im)
+```
+
+## Tips
+
+
+## See Also
+
+
+## Extended Inputs
+
+### Matrix
+With `Array` like input:
+```@repl repl_only
+methods(csch, (Any,), [LinearAlgebra])
+```
+
+
+## Tech Notes
+
+- `csch(::Real)`: by pure julia
+- `csch(::BigFloat)`: by MPFR
+
+
+## Version History
+
+Introduced in 2018 (1.0)
+
+
+## External Links
+- 🔗[csch - Wikipedia](https://en.wikipedia.org/wiki/ )
+- 🔗[csch - MathWorld](https://mathworld.wolfram.com/ )

@@ -53,12 +53,44 @@ all_pages = [
                 "ElementaryMath/Trigonometry/Cosine/acosh.md",
                 "ElementaryMath/Trigonometry/Cosine/cosc.md",
             ],
-            "Tangent" => "ElementaryMath/Trigonometry/Tangent.md",
-            "Cotangent" => "ElementaryMath/Trigonometry/Cotangent.md",
-            "Secant" => "ElementaryMath/Trigonometry/Secant.md",
-            "Cosecant" => "ElementaryMath/Trigonometry/Cosecant.md",
-            "Hypotenuse" => "ElementaryMath/Trigonometry/Hypotenuse.md",
-            "Conversions" => "ElementaryMath/Trigonometry/Conversions.md",
+            "Tangent" => Any[
+                "ElementaryMath/Trigonometry/Tangent/tan.md",
+                "ElementaryMath/Trigonometry/Tangent/tand.md",
+                "ElementaryMath/Trigonometry/Tangent/tanpi.md",
+                "ElementaryMath/Trigonometry/Tangent/atan.md",
+                "ElementaryMath/Trigonometry/Tangent/atand.md",
+                "ElementaryMath/Trigonometry/Tangent/tanh.md",
+                "ElementaryMath/Trigonometry/Tangent/atanh.md",
+            ],
+            "Secant" => Any[
+                "ElementaryMath/Trigonometry/Secant/sec.md",
+                "ElementaryMath/Trigonometry/Secant/secd.md",
+                "ElementaryMath/Trigonometry/Secant/asec.md",
+                "ElementaryMath/Trigonometry/Secant/asecd.md",
+                "ElementaryMath/Trigonometry/Secant/sech.md",
+                "ElementaryMath/Trigonometry/Secant/asech.md",
+            ],
+            "Cosecant" => Any[
+                "ElementaryMath/Trigonometry/Cosecant/csc.md",
+                "ElementaryMath/Trigonometry/Cosecant/cscd.md",
+                "ElementaryMath/Trigonometry/Cosecant/acsc.md",
+                "ElementaryMath/Trigonometry/Cosecant/acscd.md",
+                "ElementaryMath/Trigonometry/Cosecant/csch.md",
+                "ElementaryMath/Trigonometry/Cosecant/acsch.md",
+            ],
+            "Cotangent" => Any[
+                "ElementaryMath/Trigonometry/Cotangent/cot.md",
+                "ElementaryMath/Trigonometry/Cotangent/cotd.md",
+                "ElementaryMath/Trigonometry/Cotangent/acot.md",
+                "ElementaryMath/Trigonometry/Cotangent/acotd.md",
+                "ElementaryMath/Trigonometry/Cotangent/coth.md",
+                "ElementaryMath/Trigonometry/Cotangent/acoth.md",
+            ],
+            "Hypotenuse" => "ElementaryMath/Trigonometry/hypot.md",
+            "Conversions" => Any[
+                "ElementaryMath/Trigonometry/Conversions/rad2deg.md",
+                "ElementaryMath/Trigonometry/Conversions/deg2rad.md",
+            ],
         ],
         "Exponents and Logarithms" => Any[
             "ElementaryMath/Exp-and-Log/exp-and-log.md",
@@ -75,6 +107,7 @@ all_pages = [
         "ElementaryMath/Polynomials/Polynomials.md",
 
         "ElementaryMath/Constants/Constants.md",
+        "ElementaryMath/impl-notes.md",
         hide("ElementaryMath/index.md")
     ],
 
