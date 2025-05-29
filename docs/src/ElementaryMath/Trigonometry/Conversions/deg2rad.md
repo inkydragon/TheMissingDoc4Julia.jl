@@ -28,7 +28,7 @@ julia> deg2rad(90) / pi
 0.5
 
 julia> deg2rad.([30 45 60]) / pi
-1×3 Array{Float64,2}:
+1×3 Matrix{Float64}:
  0.166667  0.25  0.333333
 
 julia> deg2rad(-0.0)

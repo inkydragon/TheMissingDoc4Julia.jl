@@ -28,7 +28,7 @@ julia> rad2deg(pi/2)
 90.0
 
 julia> rad2deg.([1/6  1/4  1/3] * pi)
-1×3 Array{Float64,2}:
+1×3 Matrix{Float64}:
  30.0  45.0  60.0
 
 julia> rad2deg(-0.0)

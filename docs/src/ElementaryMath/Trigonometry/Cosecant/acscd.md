@@ -39,7 +39,7 @@ julia> acscd(1.0)
 
 julia> acscd(0)
 ERROR: DomainError with Inf:
-asin(x) is not defined for |x|>1.
+asin(x) is not defined for |x| > 1.
 Stacktrace:
 [...]
 ```
