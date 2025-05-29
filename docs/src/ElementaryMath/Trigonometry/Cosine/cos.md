@@ -1,5 +1,6 @@
 # `cos`
-Compute cosine of parameter in radians.
+
+Compute the cosine of `x`, return in radians.
 
 ```@setup repl_only
 using LinearAlgebra

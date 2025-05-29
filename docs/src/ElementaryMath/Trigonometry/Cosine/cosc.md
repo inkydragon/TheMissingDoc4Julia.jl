@@ -1,6 +1,6 @@
 # `cosc`
 
-~~TODO: Here is a One line description.~~
+Compute the normalized `cosc` function.
 
 ```@setup repl_only
 using LinearAlgebra

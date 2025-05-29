@@ -1,6 +1,6 @@
 # `cosh`
 
-~~TODO: Here is a One line description.~~
+Compute the hyperbolic cosine of `x`.
 
 ```@setup repl_only
 using LinearAlgebra
