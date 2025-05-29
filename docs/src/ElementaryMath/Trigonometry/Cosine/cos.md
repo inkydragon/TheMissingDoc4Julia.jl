@@ -6,7 +6,7 @@ Compute the cosine of `x` expressed in radians.
 using LinearAlgebra
 ```
 ```@docs
-Base.cos(x::Number)
+Base.cos
 ```
 
 
@@ -82,10 +82,6 @@ surfaceplot(-2pi:0.01:2pi, -pi:0.01:pi, cos_real)
 With `Array` like input:
 ```@repl repl_only
 methods(cos, (Any,), [LinearAlgebra])
-```
-
-```@docs
-cos(A::AbstractMatrix)
 ```
 
 ```jldoctest
