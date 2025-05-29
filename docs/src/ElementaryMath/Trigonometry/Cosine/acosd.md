@@ -22,14 +22,23 @@ methods(acosd, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ### Real Numbers
 ```jldoctest
-julia> acosd(0)
+julia> acosd(1.0)
+0.0
 
-julia> acosd(-0.0)
+julia> acosd(0.0)
+90.0
+
+julia> acosd(0.5)
+60.00000000000001
+
+julia> acosd(-1.0)
+180.0
 ```
 
 ### Complex
 ```jldoctest
 julia> acosd(0+0im)
+90.0 - 0.0im
 ```
 
 ## Tips
