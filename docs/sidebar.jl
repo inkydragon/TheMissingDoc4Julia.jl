@@ -111,6 +111,12 @@ all_pages = [
         hide("ElementaryMath/index.md")
     ],
 
+    "Guide" => Any[
+        "guide/index.md",
+        # Wolfram
+        "guide/wolfram/TrigonometricFunctions.md",
+    ],
+
     "Packages" => Any[
         "Special Functions" => Any[
             "Pkg/SpecialFunctions/index.md",
