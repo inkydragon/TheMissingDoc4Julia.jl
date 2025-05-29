@@ -61,8 +61,7 @@ methods(asech, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `asech(::Real)`: by pure julia
-- `asech(::BigFloat)`: by MPFR
+- Implemented in terms of [`acosh`](@ref): `asech(x) = inv(acosh(x))`
 
 
 ## Version History

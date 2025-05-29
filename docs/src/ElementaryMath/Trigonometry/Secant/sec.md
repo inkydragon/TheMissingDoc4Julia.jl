@@ -61,8 +61,7 @@ methods(sec, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `sec(::Real)`: by pure julia
-- `sec(::BigFloat)`: by MPFR
+- Implemented in terms of [`cos`](@ref): `sec(x) = inv(cos(x))`
 
 
 ## Version History
