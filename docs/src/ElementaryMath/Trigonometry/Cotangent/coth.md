@@ -22,13 +22,19 @@ methods(coth, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> coth(0)
+Inf
 
 julia> coth(-0.0)
+-Inf
+
+julia> coth(1.0)
+1.3130352854993315
 ```
 
 ### Complex
 ```jldoctest
 julia> coth(0+0im)
+NaN + NaN*im
 ```
 
 ## Tips

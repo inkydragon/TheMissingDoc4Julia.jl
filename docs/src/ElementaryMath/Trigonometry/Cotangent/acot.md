@@ -22,14 +22,23 @@ methods(acot, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ### Real Numbers
 ```jldoctest
-julia> acot(0)
+julia> acot(Inf)
+0.0
 
-julia> acot(-0.0)
+julia> acot(-Inf)
+-0.0
+
+julia> acot(0.0) / pi
+0.5
+
+julia> acot(1.0) / pi
+0.25
 ```
 
 ### Complex
 ```jldoctest
 julia> acot(0+0im)
+NaN + NaN*im
 ```
 
 ## Tips

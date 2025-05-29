@@ -22,13 +22,25 @@ methods(cot, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> cot(0)
+Inf
 
 julia> cot(-0.0)
+-Inf
+
+julia> cot(pi)
+-Inf
+
+julia> cot(pi/2)
+6.123233995736766e-17
+
+julia> cot(pi/4)
+1.0000000000000002
 ```
 
 ### Complex
 ```jldoctest
 julia> cot(0+0im)
+NaN + NaN*im
 ```
 
 ## Tips
