@@ -38,14 +38,7 @@ julia> acotd(0+0im)
 ## See Also
 
 
-
 ## Extended Inputs
-
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(acotd, (Any,), [LinearAlgebra])
-```
 
 
 ## Tech Notes

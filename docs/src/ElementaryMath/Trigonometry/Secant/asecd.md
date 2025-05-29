@@ -38,14 +38,7 @@ julia> asecd(0+0im)
 ## See Also
 
 
-
 ## Extended Inputs
-
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(asecd, (Any,), [LinearAlgebra])
-```
 
 
 ## Tech Notes

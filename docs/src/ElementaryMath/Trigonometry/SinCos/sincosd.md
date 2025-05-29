@@ -37,14 +37,7 @@ julia> sincosd(0+0im)
 ## See Also
 
 
-
 ## Extended Inputs
-
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(sincosd, (Any,), [LinearAlgebra])
-```
 
 
 ## Tech Notes

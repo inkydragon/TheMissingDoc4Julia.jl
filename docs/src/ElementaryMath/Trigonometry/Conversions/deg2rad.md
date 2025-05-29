@@ -40,7 +40,6 @@ julia> deg2rad(0+0im)
 ## Extended Inputs
 
 
-
 ## Tech Notes
 
 - `deg2rad(::Real)`: by pure julia

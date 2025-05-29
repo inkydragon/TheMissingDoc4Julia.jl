@@ -37,14 +37,7 @@ julia> cscd(0+0im)
 ## See Also
 
 
-
 ## Extended Inputs
-
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(cscd, (Any,), [LinearAlgebra])
-```
 
 
 ## Tech Notes

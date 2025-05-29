@@ -38,14 +38,7 @@ julia> cispi(0+0im)
 ## See Also
 
 
-
 ## Extended Inputs
-
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(cispi, (Any,), [LinearAlgebra])
-```
 
 
 ## Tech Notes

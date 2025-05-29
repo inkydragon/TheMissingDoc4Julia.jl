@@ -40,12 +40,6 @@ julia> acscd(0+0im)
 
 ## Extended Inputs
 
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(acscd, (Any,), [LinearAlgebra])
-```
-
 
 ## Tech Notes
 

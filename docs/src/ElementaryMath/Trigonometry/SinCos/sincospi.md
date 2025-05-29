@@ -37,14 +37,7 @@ julia> sincospi(0+0im)
 ## See Also
 
 
-
 ## Extended Inputs
-
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(sincospi, (Any,), [LinearAlgebra])
-```
 
 
 ## Tech Notes

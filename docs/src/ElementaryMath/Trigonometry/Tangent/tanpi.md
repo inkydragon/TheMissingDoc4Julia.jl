@@ -41,12 +41,6 @@ julia> tanpi(0+0im)
 
 ## Extended Inputs
 
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(tanpi, (Any,), [LinearAlgebra])
-```
-
 
 ## Tech Notes
 
