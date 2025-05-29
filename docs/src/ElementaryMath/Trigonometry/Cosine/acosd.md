@@ -54,7 +54,7 @@ julia> acosd(0+0im)
 
 ## Tech Notes
 
-- Implemented in terms of [`acos`](@ref): `acosd(deg) = rad2deg(acos(deg))`
+- Implemented in terms of [`acos`](@ref): `acosd(x) = rad2deg(acos(x))`
 
 
 ## Version History

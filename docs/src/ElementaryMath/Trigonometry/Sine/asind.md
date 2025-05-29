@@ -51,7 +51,7 @@ julia> asind(0+0im)
 
 ## Tech Notes
 
-- Implemented in terms of [`asin`](@ref): `asind(deg) = rad2deg(asin(deg))`
+- Implemented in terms of [`asin`](@ref): `asind(x) = rad2deg(asin(x))`
 
 
 ## Version History
