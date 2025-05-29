@@ -57,8 +57,7 @@ NaN + NaN*im
 
 ## Tech Notes
 
-- `cotd(::Real)`: by pure julia
-- `cotd(::BigFloat)`: by MPFR
+- Implemented in terms of [`tand`](@ref): `cotd(x) = inv(tand(x))`
 
 
 ## Version History

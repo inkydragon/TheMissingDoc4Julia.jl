@@ -54,8 +54,7 @@ julia> secd(0+0im)
 
 ## Tech Notes
 
-- `secd(::Real)`: by pure julia
-- `secd(::BigFloat)`: by MPFR
+- Implemented in terms of [`cosd`](@ref): `secd(x) = inv(cosd(x))`
 
 
 ## Version History

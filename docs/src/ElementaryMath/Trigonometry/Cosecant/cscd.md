@@ -54,8 +54,7 @@ julia> cscd(90+0im)
 
 ## Tech Notes
 
-- `cscd(::Real)`: by pure julia
-- `cscd(::BigFloat)`: by MPFR
+- Implemented in terms of [`sind`](@ref): `cscd(x) = inv(sind(x))`
 
 
 ## Version History
