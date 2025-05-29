@@ -1,6 +1,6 @@
 # `cscd`
 
-~~TODO: Here is a One line description.~~
+Compute the cosecant of `x`, return in degrees.
 
 ```@setup repl_only
 using LinearAlgebra
