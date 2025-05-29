@@ -1,6 +1,6 @@
 # `deg2rad`
 
-~~TODO: Here is a One line description.~~
+Convert `x` from degrees to radians.
 
 ```@setup repl_only
 using LinearAlgebra
@@ -38,7 +38,6 @@ julia> deg2rad(0+0im)
 
 
 ## Extended Inputs
-
 
 
 ## Tech Notes

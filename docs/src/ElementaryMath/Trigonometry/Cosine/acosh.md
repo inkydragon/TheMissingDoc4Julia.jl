@@ -1,6 +1,6 @@
 # `acosh`
 
-~~TODO: Here is a One line description.~~
+Compute the arc hyperbolic cosine of `x`.
 
 ```@setup repl_only
 using LinearAlgebra

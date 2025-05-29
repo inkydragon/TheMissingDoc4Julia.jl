@@ -1,6 +1,7 @@
 # `atand`
 
-~~TODO: Here is a One line description.~~
+Compute the principal value of the arc tangent of `x`,
+return in degrees.
 
 ```@setup repl_only
 using LinearAlgebra
@@ -37,14 +38,7 @@ julia> atand(0+0im)
 ## See Also
 
 
-
 ## Extended Inputs
-
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(atand, (Any,), [LinearAlgebra])
-```
 
 
 ## Tech Notes

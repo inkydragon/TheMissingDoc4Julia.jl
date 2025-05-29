@@ -1,6 +1,6 @@
 # `sincosd`
 
-~~TODO: Here is a One line description.~~
+Compute the sine and cosine of `x` expressed in degrees.
 
 ```@setup repl_only
 using LinearAlgebra
@@ -37,14 +37,7 @@ julia> sincosd(0+0im)
 ## See Also
 
 
-
 ## Extended Inputs
-
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(sincosd, (Any,), [LinearAlgebra])
-```
 
 
 ## Tech Notes

@@ -1,6 +1,7 @@
 # `cispi`
 
-~~TODO: Here is a One line description.~~
+Compute `exp(im*π*x)`, where `im` is the imaginary unit,
+return in half-revolutions.
 
 ```@setup repl_only
 using LinearAlgebra
@@ -37,14 +38,7 @@ julia> cispi(0+0im)
 ## See Also
 
 
-
 ## Extended Inputs
-
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(cispi, (Any,), [LinearAlgebra])
-```
 
 
 ## Tech Notes

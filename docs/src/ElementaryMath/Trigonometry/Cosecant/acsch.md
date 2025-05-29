@@ -1,6 +1,6 @@
 # `acsch`
 
-~~TODO: Here is a One line description.~~
+Compute the arc hyperbolic cosecant of `x`.
 
 ```@setup repl_only
 using LinearAlgebra

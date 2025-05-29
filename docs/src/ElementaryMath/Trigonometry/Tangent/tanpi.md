@@ -1,6 +1,6 @@
 # `tanpi`
 
-~~TODO: Here is a One line description.~~
+Compute the tangent of `π*x`, where `x` expressed in half-revolutions.
 
 ```@setup repl_only
 using LinearAlgebra
@@ -40,12 +40,6 @@ julia> tanpi(0+0im)
 
 
 ## Extended Inputs
-
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(tanpi, (Any,), [LinearAlgebra])
-```
 
 
 ## Tech Notes

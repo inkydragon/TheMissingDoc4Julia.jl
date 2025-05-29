@@ -1,6 +1,6 @@
 # `cot`
 
-~~TODO: Here is a One line description.~~
+Compute the cotangent of `x` expressed in radians.
 
 ```@setup repl_only
 using LinearAlgebra

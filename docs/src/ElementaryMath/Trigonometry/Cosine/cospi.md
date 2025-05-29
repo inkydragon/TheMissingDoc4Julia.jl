@@ -1,6 +1,6 @@
 # `cospi`
 
-~~TODO: Here is a One line description.~~
+Compute the cosine of `π*x`, where `x` expressed in half-revolutions.
 
 ```@setup repl_only
 using LinearAlgebra

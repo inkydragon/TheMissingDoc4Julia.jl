@@ -1,6 +1,6 @@
 # `hypot`
 
-~~TODO: Here is a One line description.~~
+Compute the hypotenuse ``\sqrt{x^2+y^2}`` avoiding overflow and underflow.
 
 ```@setup repl_only
 using LinearAlgebra

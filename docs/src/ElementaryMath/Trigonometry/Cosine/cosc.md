@@ -1,6 +1,15 @@
 # `cosc`
 
-~~TODO: Here is a One line description.~~
+Compute the `cosc(x)` function, the derivative of `sinc(x)`,
+where `x` expressed in radians.
+
+Returns:
+```math
+\begin{cases}
+\frac{\cos(\pi x)}{x}-\frac{\sin(\pi x)}{\pi x^2},  & x \ne 0\\
+0,  & x=0\\
+\end{cases}
+```
 
 ```@setup repl_only
 using LinearAlgebra

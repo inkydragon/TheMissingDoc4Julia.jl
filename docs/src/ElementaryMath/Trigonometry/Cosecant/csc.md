@@ -1,6 +1,6 @@
 # `csc`
 
-~~TODO: Here is a One line description.~~
+Compute the cosecant of `x` expressed in radians.
 
 ```@setup repl_only
 using LinearAlgebra

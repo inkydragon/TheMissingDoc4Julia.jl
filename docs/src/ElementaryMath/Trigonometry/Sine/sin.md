@@ -1,11 +1,12 @@
 # `sin`
-Compute sine of parameter in radians.
+
+Compute the sine of `x` expressed in radians.
 
 ```@setup repl_only
 using LinearAlgebra
 ```
 ```@docs
-Base.sin(x::Number)
+Base.sin
 ```
 
 
@@ -95,10 +96,6 @@ surfaceplot(-2pi:0.01:2pi, -pi:0.01:pi, sin_real)
 With `Array` like input:
 ```@repl repl_only
 methods(sin, (Any,), [LinearAlgebra])
-```
-
-```@docs
-sin(A::AbstractMatrix)
 ```
 
 ```jldoctest

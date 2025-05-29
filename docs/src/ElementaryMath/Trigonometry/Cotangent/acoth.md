@@ -1,6 +1,6 @@
 # `acoth`
 
-~~TODO: Here is a One line description.~~
+Compute the arc hyperbolic cotangent of `x`.
 
 ```@setup repl_only
 using LinearAlgebra

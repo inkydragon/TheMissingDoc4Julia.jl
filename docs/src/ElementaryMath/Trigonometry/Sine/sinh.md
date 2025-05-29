@@ -1,6 +1,6 @@
 # `sinh`
 
-Compute hyperbolic sine of `x`.
+Compute the hyperbolic sine of `x`.
 
 ```@setup repl_only
 using LinearAlgebra

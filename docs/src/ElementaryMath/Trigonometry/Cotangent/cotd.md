@@ -1,6 +1,6 @@
 # `cotd`
 
-~~TODO: Here is a One line description.~~
+Compute the cotangent of `x` expressed in degrees.
 
 ```@setup repl_only
 using LinearAlgebra
@@ -37,14 +37,7 @@ julia> cotd(0+0im)
 ## See Also
 
 
-
 ## Extended Inputs
-
-### Matrix
-With `Array` like input:
-```@repl repl_only
-methods(cotd, (Any,), [LinearAlgebra])
-```
 
 
 ## Tech Notes

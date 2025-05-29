@@ -1,6 +1,6 @@
 # `sind`
 
-Compute sine of x, where x is in degrees.
+Compute the sine of `x` expressed in degrees.
 
 ```@setup repl_only
 using LinearAlgebra

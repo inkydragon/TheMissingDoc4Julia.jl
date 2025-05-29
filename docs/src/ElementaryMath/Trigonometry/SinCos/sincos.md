@@ -1,6 +1,6 @@
 # `sincos`
 
-~~TODO: Here is a One line description.~~
+Compute the sine and cosine of `x` expressed in radians.
 
 ```@setup repl_only
 using LinearAlgebra

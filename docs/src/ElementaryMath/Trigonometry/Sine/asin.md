@@ -1,5 +1,7 @@
 # `asin`
-Compute the inverse sine of parameter in radians.
+
+Compute the principal value of the arc sine of `x`,
+return in radians.
 
 ```@setup repl_only
 using LinearAlgebra
