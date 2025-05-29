@@ -55,8 +55,7 @@ methods(coth, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `coth(::Real)`: by pure julia
-- `coth(::BigFloat)`: by MPFR
+- Implemented in terms of [`tanh`](@ref): `coth(x) = inv(tanh(x))`
 
 
 ## Version History

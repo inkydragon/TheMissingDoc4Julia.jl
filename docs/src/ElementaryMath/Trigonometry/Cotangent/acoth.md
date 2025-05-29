@@ -55,8 +55,7 @@ methods(acoth, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `acoth(::Real)`: by pure julia
-- `acoth(::BigFloat)`: by MPFR
+- Implemented in terms of [`atanh`](@ref): `acoth(x) = inv(atanh(x))`
 
 
 ## Version History

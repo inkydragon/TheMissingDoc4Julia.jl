@@ -61,8 +61,7 @@ methods(cot, (Any,), [LinearAlgebra])
 
 ## Tech Notes
 
-- `cot(::Real)`: by pure julia
-- `cot(::BigFloat)`: by MPFR
+- Implemented in terms of [`tan`](@ref): `cot(x) = inv(tan(x))`
 
 
 ## Version History
