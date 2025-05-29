@@ -86,7 +86,7 @@ all_pages = [
                 "ElementaryMath/Trigonometry/Cotangent/coth.md",
                 "ElementaryMath/Trigonometry/Cotangent/acoth.md",
             ],
-            "Hypotenuse" => "ElementaryMath/Trigonometry/Hypotenuse.md",
+            "Hypotenuse" => "ElementaryMath/Trigonometry/hypot.md",
             "Conversions" => "ElementaryMath/Trigonometry/Conversions.md",
         ],
         "Exponents and Logarithms" => Any[
