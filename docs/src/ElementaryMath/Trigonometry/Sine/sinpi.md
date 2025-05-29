@@ -22,13 +22,19 @@ methods(sinpi, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> sinpi(0)
+0.0
 
-julia> sinpi(-0.0)
+julia> sinpi(0.5)
+1.0
+
+julia> sinpi(1)
+0.0
 ```
 
 ### Complex
 ```jldoctest
 julia> sinpi(0+0im)
+0.0 + 0.0im
 ```
 
 ## Tips

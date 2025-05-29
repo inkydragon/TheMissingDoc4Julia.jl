@@ -22,13 +22,16 @@ methods(asinh, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> asinh(0)
+0.0
 
-julia> asinh(-0.0)
+julia> asinh(1)
+0.881373587019543
 ```
 
 ### Complex
 ```jldoctest
 julia> asinh(0+0im)
+0.0 - 0.0im
 ```
 
 ## Tips
