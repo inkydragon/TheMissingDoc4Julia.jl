@@ -65,5 +65,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[tanh - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[tanh - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.28.4](https://dlmf.nist.gov/4.28#E4)
+- 🔗[Hyperbolic Tangent - MathWorld](https://mathworld.wolfram.com/HyperbolicTangent.html)
+- 🔗[Hyperbolic functions - Wikipedia](https://en.wikipedia.org/wiki/Hyperbolic_functions)

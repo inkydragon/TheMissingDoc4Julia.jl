@@ -63,5 +63,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[csch - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[csch - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.28.5](https://dlmf.nist.gov/4.28#E5)
+- 🔗[Hyperbolic Cosecant - MathWorld](https://mathworld.wolfram.com/HyperbolicCosecant.html)
+- 🔗[Hyperbolic functions - Wikipedia](https://en.wikipedia.org/wiki/Hyperbolic_functions)

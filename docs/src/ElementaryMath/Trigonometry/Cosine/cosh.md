@@ -63,5 +63,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[cosh - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[cosh - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.28.2](https://dlmf.nist.gov/4.28#E2)
+- 🔗[Hyperbolic Cosine - MathWorld](https://mathworld.wolfram.com/HyperbolicCosine.html)
+- 🔗[Hyperbolic functions - Wikipedia](https://en.wikipedia.org/wiki/Hyperbolic_functions)
