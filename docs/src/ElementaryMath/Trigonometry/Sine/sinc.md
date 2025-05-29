@@ -1,6 +1,6 @@
 # `sinc`
 
-Compute the normalized `sinc` function.
+Compute the normalized `sinc(x)` function, where `x` expressed in radians.
 
 ```@setup repl_only
 using LinearAlgebra
