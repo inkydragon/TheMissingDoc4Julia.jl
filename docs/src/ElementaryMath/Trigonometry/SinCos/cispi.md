@@ -1,6 +1,7 @@
 # `cispi`
 
-~~TODO: Here is a One line description.~~
+Compute `exp(im*π*x)`, where `im` is the imaginary unit,
+return in half-revolutions.
 
 ```@setup repl_only
 using LinearAlgebra

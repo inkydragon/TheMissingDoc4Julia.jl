@@ -1,6 +1,7 @@
 # `cis`
 
-~~TODO: Here is a One line description.~~
+Compute `exp(im*x)`, where `im` is the imaginary unit,
+return in radians.
 
 ```@setup repl_only
 using LinearAlgebra

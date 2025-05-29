@@ -1,6 +1,6 @@
 # `sincosd`
 
-~~TODO: Here is a One line description.~~
+Compute the sine and cosine of `x`, return in degrees.
 
 ```@setup repl_only
 using LinearAlgebra
