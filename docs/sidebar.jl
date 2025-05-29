@@ -87,7 +87,10 @@ all_pages = [
                 "ElementaryMath/Trigonometry/Cotangent/acoth.md",
             ],
             "Hypotenuse" => "ElementaryMath/Trigonometry/hypot.md",
-            "Conversions" => "ElementaryMath/Trigonometry/Conversions.md",
+            "Conversions" => Any[
+                "ElementaryMath/Trigonometry/Conversions/rad2deg.md",
+                "ElementaryMath/Trigonometry/Conversions/deg2rad.md",
+            ],
         ],
         "Exponents and Logarithms" => Any[
             "ElementaryMath/Exp-and-Log/exp-and-log.md",
