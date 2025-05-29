@@ -22,13 +22,22 @@ methods(cospi, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> cospi(0)
+1.0
 
 julia> cospi(-0.0)
+1.0
+
+julia> cospi(0.5)
+0.0
+
+julia> cospi(1)
+-1.0
 ```
 
 ### Complex
 ```jldoctest
 julia> cospi(0+0im)
+1.0 - 0.0im
 ```
 
 ## Tips

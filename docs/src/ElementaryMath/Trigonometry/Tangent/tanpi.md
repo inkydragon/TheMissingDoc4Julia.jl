@@ -22,13 +22,25 @@ methods(tanpi, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> tanpi(0)
+0.0
 
 julia> tanpi(-0.0)
+-0.0
+
+julia> tanpi(0.5)
+Inf
+
+julia> tanpi(1.0)
+-0.0
+
+julia> tanpi(2.0)
+0.0
 ```
 
 ### Complex
 ```jldoctest
 julia> tanpi(0+0im)
+0.0 + 0.0im
 ```
 
 ## Tips

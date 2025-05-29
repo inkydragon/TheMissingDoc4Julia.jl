@@ -22,14 +22,23 @@ methods(acotd, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ### Real Numbers
 ```jldoctest
-julia> acotd(0)
+julia> acotd(Inf)
+0.0
 
-julia> acotd(-0.0)
+julia> acotd(-Inf)
+-0.0
+
+julia> acotd(0.0)
+90.0
+
+julia> acotd(1.0)
+45.0
 ```
 
 ### Complex
 ```jldoctest
 julia> acotd(0+0im)
+NaN + NaN*im
 ```
 
 ## Tips

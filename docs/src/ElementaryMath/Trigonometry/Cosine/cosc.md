@@ -31,13 +31,19 @@ methods(cosc, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> cosc(0)
+-0.0
 
 julia> cosc(-0.0)
+0.0
+
+julia> cosc(1.0)
+-1.0
 ```
 
 ### Complex
 ```jldoctest
 julia> cosc(0+0im)
+-0.0 + 0.0im
 ```
 
 ## Tips

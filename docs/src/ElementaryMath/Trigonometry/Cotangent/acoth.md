@@ -21,14 +21,20 @@ methods(acoth, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ### Real Numbers
 ```jldoctest
-julia> acoth(0)
+julia> acoth(Inf)
+0.0
 
-julia> acoth(-0.0)
+julia> acoth(-Inf)
+-0.0
+
+julia> acoth(1.313)
+1.0000487358456431
 ```
 
 ### Complex
 ```jldoctest
-julia> acoth(0+0im)
+julia> acoth(Inf+0im)
+0.0 - 0.0im
 ```
 
 ## Tips

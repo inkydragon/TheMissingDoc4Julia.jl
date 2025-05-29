@@ -30,13 +30,16 @@ methods(sinc, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> sinc(0)
+1
 
-julia> sinc(-0.0)
+julia> sinc(1.0)
+0.0
 ```
 
 ### Complex
 ```jldoctest
 julia> sinc(0+0im)
+1.0 - 0.0im
 ```
 
 ## Tips

@@ -22,13 +22,19 @@ methods(tanh, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> tanh(0)
+0.0
 
 julia> tanh(-0.0)
+-0.0
+
+julia> tanh(1.0)
+0.7615941559557649
 ```
 
 ### Complex
 ```jldoctest
 julia> tanh(0+0im)
+0.0 + 0.0im
 ```
 
 ## Tips

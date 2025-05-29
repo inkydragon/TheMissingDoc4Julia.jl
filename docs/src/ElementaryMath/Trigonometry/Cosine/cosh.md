@@ -22,13 +22,16 @@ methods(cosh, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> cosh(0)
+1.0
 
-julia> cosh(-0.0)
+julia> cosh(1.0)
+1.5430806348152437
 ```
 
 ### Complex
 ```jldoctest
 julia> cosh(0+0im)
+1.0 - 0.0im
 ```
 
 ## Tips

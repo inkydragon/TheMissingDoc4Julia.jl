@@ -22,13 +22,19 @@ methods(csch, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> csch(0)
+Inf
 
 julia> csch(-0.0)
+-Inf
+
+julia> csch(1.0)
+0.8509181282393216
 ```
 
 ### Complex
 ```jldoctest
-julia> csch(0+0im)
+julia> csch(1+0im)
+0.8509181282393217 - 0.0im
 ```
 
 ## Tips

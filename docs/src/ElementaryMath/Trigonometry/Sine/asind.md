@@ -23,13 +23,19 @@ methods(asind, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> asind(0)
+0.0
 
-julia> asind(-0.0)
+julia> asind(0.5)
+30.000000000000004
+
+julia> asind(1)
+90.0
 ```
 
 ### Complex
 ```jldoctest
 julia> asind(0+0im)
+0.0 + 0.0im
 ```
 
 ## Tips

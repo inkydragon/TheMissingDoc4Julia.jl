@@ -22,13 +22,19 @@ methods(sincos, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> sincos(0)
+(0.0, 1.0)
+
+julia> sincos(pi)
+(0.0, -1.0)
 
 julia> sincos(-0.0)
+(-0.0, 1.0)
 ```
 
 ### Complex
 ```jldoctest
 julia> sincos(0+0im)
+(0.0 + 0.0im, 1.0 - 0.0im)
 ```
 
 ## Tips

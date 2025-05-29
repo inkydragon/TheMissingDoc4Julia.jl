@@ -23,13 +23,19 @@ methods(atan, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> atan(0)
+0.0
 
 julia> atan(-0.0)
+-0.0
+
+julia> atan(1.0) / pi
+0.25
 ```
 
 ### Complex
 ```jldoctest
 julia> atan(0+0im)
+0.0 - 0.0im
 ```
 
 ## Tips

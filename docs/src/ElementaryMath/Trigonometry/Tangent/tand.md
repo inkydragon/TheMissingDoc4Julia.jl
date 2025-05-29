@@ -22,13 +22,22 @@ methods(tand, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> tand(0)
+0.0
 
 julia> tand(-0.0)
+-0.0
+
+julia> tand(45)
+1.0
+
+julia> tand(90)
+Inf
 ```
 
 ### Complex
 ```jldoctest
 julia> tand(0+0im)
+0.0 + 0.0im
 ```
 
 ## Tips

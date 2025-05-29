@@ -21,15 +21,16 @@ methods(hypot, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ### Real Numbers
 ```jldoctest
-julia> hypot(0)
+julia> hypot(3, 4)
+5.0
 
-julia> hypot(-0.0)
+julia> hypot(5, 12)
+13.0
+
+julia> hypot(65, 72)
+97.0
 ```
 
-### Complex
-```jldoctest
-julia> hypot(0+0im)
-```
 
 ## Tips
 

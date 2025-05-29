@@ -22,13 +22,25 @@ methods(atanh, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> atanh(0)
+0.0
 
 julia> atanh(-0.0)
+-0.0
+
+julia> atanh(0.76)
+0.9962150823451031
+
+julia> atanh(2)
+ERROR: DomainError with 2.0:
+atanh(x) is only defined for |x| ≤ 1.
+Stacktrace:
+[...]
 ```
 
 ### Complex
 ```jldoctest
 julia> atanh(0+0im)
+0.0 + 0.0im
 ```
 
 ## Tips

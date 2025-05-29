@@ -21,15 +21,20 @@ methods(deg2rad, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ### Real Numbers
 ```jldoctest
-julia> deg2rad(0)
+julia> deg2rad(180) / pi
+1.0
+
+julia> deg2rad(90) / pi
+0.5
+
+julia> deg2rad.([30 45 60]) / pi
+1×3 Matrix{Float64}:
+ 0.166667  0.25  0.333333
 
 julia> deg2rad(-0.0)
+-0.0
 ```
 
-### Complex
-```jldoctest
-julia> deg2rad(0+0im)
-```
 
 ## Tips
 

@@ -22,13 +22,25 @@ methods(cscd, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 ### Real Numbers
 ```jldoctest
 julia> cscd(0)
+Inf
 
 julia> cscd(-0.0)
+-Inf
+
+julia> cscd(45)
+1.414213562373095
+
+julia> cscd(90)
+1.0
+
+julia> cscd(180)
+Inf
 ```
 
 ### Complex
 ```jldoctest
-julia> cscd(0+0im)
+julia> cscd(90+0im)
+1.0 - 0.0im
 ```
 
 ## Tips
