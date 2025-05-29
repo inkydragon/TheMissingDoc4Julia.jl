@@ -1,5 +1,7 @@
 # The Missing Doc 4 Julia
 
+[![CI](https://github.com/inkydragon/TheMissingDoc4Julia.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/inkydragon/TheMissingDoc4Julia.jl/actions/workflows/CI.yml)
+
 This project is intended to be a supplement to [the official julia documentation](https://docs.julialang.org/).
 When possible, much of the project will be merged into the julia documentation.
 
