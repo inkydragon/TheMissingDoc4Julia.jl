@@ -1,6 +1,7 @@
 # `cosc`
 
-Compute the normalized `cosc` function.
+Compute the `cosc(x)` function, the derivative of `sinc(x)`,
+where `x` expressed in radians.
 
 ```@setup repl_only
 using LinearAlgebra
