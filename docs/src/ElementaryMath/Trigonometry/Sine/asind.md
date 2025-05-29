@@ -51,8 +51,7 @@ julia> asind(0+0im)
 
 ## Tech Notes
 
-- `asind(::Real)`: by pure julia
-- `asind(::BigFloat)`: by MPFR
+- Implemented in terms of [`asin`](@ref): `asind(deg) = rad2deg(asin(deg))`
 
 
 ## Version History

@@ -61,8 +61,7 @@ julia> acscd(1+0im)
 
 ## Tech Notes
 
-- `acscd(::Real)`: by pure julia
-- `acscd(::BigFloat)`: by MPFR
+- Implemented in terms of [`acsc`](@ref): `acscd(x) = rad2deg(acsc(x))`
 
 
 ## Version History

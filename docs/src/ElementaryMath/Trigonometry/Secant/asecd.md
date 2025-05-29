@@ -55,8 +55,7 @@ julia> asecd(1+0im)
 
 ## Tech Notes
 
-- `asecd(::Real)`: by pure julia
-- `asecd(::BigFloat)`: by MPFR
+- Implemented in terms of [`asec`](@ref): `asecd(x) = rad2deg(asec(x))`
 
 
 ## Version History

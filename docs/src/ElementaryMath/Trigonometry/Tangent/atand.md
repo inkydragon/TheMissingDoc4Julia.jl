@@ -55,8 +55,9 @@ julia> atand(0+0im)
 
 ## Tech Notes
 
-- `atand(::Real)`: by pure julia
-- `atand(::BigFloat)`: by MPFR
+- Implemented in terms of [`atan`](@ref):
+    `atand(y) = rad2deg(atan(y))`,
+    `atand(y, x) = rad2deg(atan(y, x))`,
 
 
 ## Version History

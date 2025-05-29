@@ -52,8 +52,7 @@ NaN + NaN*im
 
 ## Tech Notes
 
-- `acotd(::Real)`: by pure julia
-- `acotd(::BigFloat)`: by MPFR
+- Implemented in terms of [`acot`](@ref): `acotd(x) = rad2deg(acot(x))`
 
 
 ## Version History
