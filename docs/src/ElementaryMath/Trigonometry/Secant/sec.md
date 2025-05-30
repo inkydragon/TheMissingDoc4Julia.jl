@@ -19,6 +19,11 @@ methods(sec, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ## Examples
 
+```@repl
+using UnicodePlots
+lineplot(-2π, 2π, sec, xlim=(-7, 7), ylim=(-4, 4))
+```
+
 ### Real Numbers
 ```jldoctest
 julia> sec(0)
