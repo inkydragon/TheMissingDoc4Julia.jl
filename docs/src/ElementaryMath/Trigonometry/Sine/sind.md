@@ -51,5 +51,3 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[sind - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[sind - MathWorld](https://mathworld.wolfram.com/ )

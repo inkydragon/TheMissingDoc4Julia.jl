@@ -70,5 +70,3 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[acscd - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[acscd - MathWorld](https://mathworld.wolfram.com/ )

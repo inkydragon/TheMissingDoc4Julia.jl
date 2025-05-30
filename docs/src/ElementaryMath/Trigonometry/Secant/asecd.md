@@ -64,5 +64,3 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[asecd - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[asecd - MathWorld](https://mathworld.wolfram.com/ )
