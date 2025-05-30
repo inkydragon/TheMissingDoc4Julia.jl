@@ -51,7 +51,7 @@ julia> cosc(0+0im)
 
 ## See Also
 
-[`cosc_fast`](@ref)
+[`sinc`](@ref)
 
 
 ## Extended Inputs
@@ -69,5 +69,3 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[cosc - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[cosc - MathWorld](https://mathworld.wolfram.com/ )
