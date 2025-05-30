@@ -61,5 +61,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[asinh - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[asinh - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.37.1](https://dlmf.nist.gov/4.37#E1)
+- 🔗[Inverse Hyperbolic Sine - MathWorld](https://mathworld.wolfram.com/InverseHyperbolicSine.html)
+- 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)
