@@ -65,5 +65,3 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[sincos - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[sincos - MathWorld](https://mathworld.wolfram.com/ )
