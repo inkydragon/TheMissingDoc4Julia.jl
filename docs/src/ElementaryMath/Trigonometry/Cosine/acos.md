@@ -102,5 +102,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
+- 🔗[DLMF: §4.23.2](https://dlmf.nist.gov/4.23#E2)
+- 🔗[Inverse Cosine - MathWorld](https://mathworld.wolfram.com/InverseCosine.html)
 - 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)
-- 🔗[Inverse Cosine - Wolfram MathWorld](https://mathworld.wolfram.com/InverseCosine.html)

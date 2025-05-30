@@ -70,5 +70,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[acsc - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[acsc - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.23.7](https://dlmf.nist.gov/4.23#E7)
+- 🔗[Inverse Cosecant - MathWorld](https://mathworld.wolfram.com/InverseCosecant.html)
+- 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)
