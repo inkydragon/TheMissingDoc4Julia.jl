@@ -20,6 +20,11 @@ methods(acot, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ## Examples
 
+```@repl
+using UnicodePlots
+lineplot(-10, 10, acot, ylim=(-π/2, π/2))
+```
+
 ### Real Numbers
 ```jldoctest
 julia> acot(Inf)
