@@ -60,5 +60,4 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[sinpi - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[sinpi - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[sinpi - cppreference.com](https://en.cppreference.com/w/c/numeric/math/sinpi.html)

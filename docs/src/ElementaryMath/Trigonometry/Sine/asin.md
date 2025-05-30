@@ -97,6 +97,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[DLMF 4.23.E1](https://dlmf.nist.gov/4.23.E1)
-- 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)
+- 🔗[DLMF: §4.23.1](https://dlmf.nist.gov/4.23#E1)
 - 🔗[Inverse Sine - Wolfram MathWorld](https://mathworld.wolfram.com/InverseSine.html)
+- 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)

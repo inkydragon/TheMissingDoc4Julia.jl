@@ -63,5 +63,3 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[acosd - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[acosd - MathWorld](https://mathworld.wolfram.com/ )

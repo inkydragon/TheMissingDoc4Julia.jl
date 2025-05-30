@@ -53,5 +53,5 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[hypot - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[hypot - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[hypot - cppreference.com](https://en.cppreference.com/w/c/numeric/math/hypot)
+- 🔗[Hypotenuse - Wikipedia](https://en.wikipedia.org/wiki/Hypotenuse)

@@ -61,5 +61,3 @@ julia> sincospi(0+0im)
 
 
 ## External Links
-- 🔗[sincospi - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[sincospi - MathWorld](https://mathworld.wolfram.com/ )

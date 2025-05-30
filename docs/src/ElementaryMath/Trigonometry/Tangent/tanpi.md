@@ -66,5 +66,4 @@ julia> tanpi(0+0im)
 
 
 ## External Links
-- 🔗[tanpi - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[tanpi - MathWorld](https://mathworld.wolfram.com/ )
+- C23 F.10.1.14

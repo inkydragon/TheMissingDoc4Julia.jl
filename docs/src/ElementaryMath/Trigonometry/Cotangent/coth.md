@@ -64,5 +64,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[coth - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[coth - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.28.7](https://dlmf.nist.gov/4.28#E7)
+- 🔗[Hyperbolic Cotangent - MathWorld](https://mathworld.wolfram.com/HyperbolicCotangent.html)
+- 🔗[Hyperbolic functions - Wikipedia](https://en.wikipedia.org/wiki/Hyperbolic_functions)

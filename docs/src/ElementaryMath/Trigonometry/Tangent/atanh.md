@@ -71,5 +71,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[atanh - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[atanh - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.37.3](https://dlmf.nist.gov/4.37#E3)
+- 🔗[Inverse Hyperbolic Tangent - MathWorld](https://mathworld.wolfram.com/InverseHyperbolicTangent.html)
+- 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)

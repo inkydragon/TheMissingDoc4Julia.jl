@@ -67,5 +67,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[sech - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[sech - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.28.6](https://dlmf.nist.gov/4.28#E6)
+- 🔗[Hyperbolic Secant - MathWorld](https://mathworld.wolfram.com/HyperbolicSecant.html)
+- 🔗[Hyperbolic functions - Wikipedia](https://en.wikipedia.org/wiki/Hyperbolic_functions)

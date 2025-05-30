@@ -62,5 +62,3 @@ julia> cispi(0+0im)
 
 
 ## External Links
-- 🔗[cispi - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[cispi - MathWorld](https://mathworld.wolfram.com/ )

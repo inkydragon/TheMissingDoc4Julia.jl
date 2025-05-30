@@ -66,5 +66,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[cis - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[cis - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.14.3](https://dlmf.nist.gov/4.14#E3)
+- 🔗[Cis - MathWorld](https://mathworld.wolfram.com/Cis.html)
+- 🔗[cis (mathematics) - Wikipedia](https://en.wikipedia.org/wiki/Cis_(mathematics))

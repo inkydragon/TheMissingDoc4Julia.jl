@@ -63,5 +63,4 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[cospi - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[cospi - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[cospi - cppreference.com](https://en.cppreference.com/w/c/numeric/math/cospi)

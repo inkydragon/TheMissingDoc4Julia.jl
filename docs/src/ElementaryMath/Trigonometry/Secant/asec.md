@@ -71,5 +71,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[asec - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[asec - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.23.8](https://dlmf.nist.gov/4.23#E8)
+- 🔗[Inverse Secant - MathWorld](https://mathworld.wolfram.com/InverseSecant.html)
+- 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)

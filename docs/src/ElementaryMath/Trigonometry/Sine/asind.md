@@ -60,5 +60,3 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[asind - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[asind - MathWorld](https://mathworld.wolfram.com/ )

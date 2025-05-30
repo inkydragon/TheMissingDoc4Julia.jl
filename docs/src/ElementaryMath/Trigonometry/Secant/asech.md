@@ -70,5 +70,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[asech - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[asech - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.37.8](https://dlmf.nist.gov/4.37#E8)
+- 🔗[Inverse Hyperbolic Secant - MathWorld](https://mathworld.wolfram.com/InverseHyperbolicSecant.html)
+- 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)

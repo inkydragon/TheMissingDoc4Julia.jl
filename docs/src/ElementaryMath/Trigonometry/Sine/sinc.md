@@ -63,5 +63,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[sinc - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[sinc - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §3.3.44](https://dlmf.nist.gov/3.3#E44)
+- 🔗[Sinc Function MathWorld](https://mathworld.wolfram.com/SincFunction.html)
+- 🔗[Sinc function - Wikipedia](https://en.wikipedia.org/wiki/Sinc_function)

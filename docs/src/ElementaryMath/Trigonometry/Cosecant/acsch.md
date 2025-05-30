@@ -63,5 +63,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[acsch - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[acsch - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.37.7](https://dlmf.nist.gov/4.37#E7)
+- 🔗[Inverse Hyperbolic Cosecant - MathWorld](https://mathworld.wolfram.com/InverseHyperbolicCosecant.html)
+- 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)

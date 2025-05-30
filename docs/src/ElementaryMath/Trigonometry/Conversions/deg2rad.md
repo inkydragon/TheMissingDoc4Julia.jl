@@ -54,5 +54,7 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[deg2rad - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[deg2rad - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[Degree - MathWorld](https://mathworld.wolfram.com/Degree.html)
+- 🔗[Radian - MathWorld](https://mathworld.wolfram.com/Radian.html)
+- 🔗[Degree (angle) - Wikipedia](https://en.wikipedia.org/wiki/Degree_(angle))
+- 🔗[Radian - Wikipedia](https://en.wikipedia.org/wiki/Radian)

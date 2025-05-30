@@ -66,5 +66,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[csc - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[csc - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.14.5](https://dlmf.nist.gov/4.14#E5)
+- 🔗[Cosecant - MathWorld](https://mathworld.wolfram.com/Cosecant.html)
+- 🔗[Trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Trigonometric_functions)

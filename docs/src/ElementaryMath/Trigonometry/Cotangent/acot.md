@@ -68,5 +68,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[acot - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[acot - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.23.9](https://dlmf.nist.gov/4.23#E9)
+- 🔗[Inverse Cotangent - MathWorld](https://mathworld.wolfram.com/InverseCotangent.html)
+- 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)

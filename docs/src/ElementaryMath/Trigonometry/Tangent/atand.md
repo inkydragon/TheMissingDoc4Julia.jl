@@ -66,5 +66,3 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[atand - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[atand - MathWorld](https://mathworld.wolfram.com/ )

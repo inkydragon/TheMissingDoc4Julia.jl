@@ -60,5 +60,3 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[tand - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[tand - MathWorld](https://mathworld.wolfram.com/ )

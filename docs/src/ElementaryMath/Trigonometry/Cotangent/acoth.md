@@ -64,5 +64,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[acoth - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[acoth - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.37.9](https://dlmf.nist.gov/4.37#E9)
+- 🔗[Inverse Hyperbolic Cotangent - MathWorld](https://mathworld.wolfram.com/InverseHyperbolicCotangent.html)
+- 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)

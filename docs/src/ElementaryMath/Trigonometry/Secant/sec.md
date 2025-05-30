@@ -70,5 +70,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[sec - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[sec - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.14.6](https://dlmf.nist.gov/4.14#E6)
+- 🔗[Secant - MathWorld](https://mathworld.wolfram.com/Secant.html)
+- 🔗[Trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Trigonometric_functions)

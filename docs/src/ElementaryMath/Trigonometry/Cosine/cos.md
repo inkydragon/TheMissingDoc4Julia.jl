@@ -111,5 +111,5 @@ Introduced in Julia v1.0 (2018)
 
 ## External Links
 - 🔗[DLMF 4.14.2](https://dlmf.nist.gov/4.14.2)
-- 🔗[Cosine - Wikipedia](https://en.wikipedia.org/wiki/Sine_and_cosine)
 - 🔗[Cosine - MathWorld](https://mathworld.wolfram.com/Cosine.html)
+- 🔗[Cosine - Wikipedia](https://en.wikipedia.org/wiki/Sine_and_cosine)

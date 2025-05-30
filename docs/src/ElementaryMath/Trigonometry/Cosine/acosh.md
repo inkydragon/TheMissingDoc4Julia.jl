@@ -46,7 +46,6 @@ julia> acosh(1+0im)
 ## See Also
 
 
-
 ## Extended Inputs
 
 ### Matrix
@@ -68,5 +67,6 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[acosh - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[acosh - MathWorld](https://mathworld.wolfram.com/ )
+- 🔗[DLMF: §4.37.2](https://dlmf.nist.gov/4.37#E2)
+- 🔗[Inverse Hyperbolic Cosine - MathWorld](https://mathworld.wolfram.com/InverseHyperbolicCosine.html)
+- 🔗[Inverse trigonometric functions - Wikipedia](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions)

@@ -64,5 +64,3 @@ julia> sincosd(0+0im)
 
 
 ## External Links
-- 🔗[sincosd - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[sincosd - MathWorld](https://mathworld.wolfram.com/ )

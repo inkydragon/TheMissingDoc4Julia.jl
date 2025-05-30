@@ -66,5 +66,3 @@ Introduced in Julia v1.0 (2018)
 
 
 ## External Links
-- 🔗[cotd - Wikipedia](https://en.wikipedia.org/wiki/ )
-- 🔗[cotd - MathWorld](https://mathworld.wolfram.com/ )
