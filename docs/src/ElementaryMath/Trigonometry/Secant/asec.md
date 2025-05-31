@@ -20,6 +20,14 @@ methods(asec, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ## Examples
 
+```@repl
+using UnicodePlots
+plot = Plot(; xlim=(-10, 10), ylim=(0, pi));
+lineplot!(plot, 1, 10, asec);
+lineplot!(plot, -10, -1, asec);
+lineplot!(plot, -10, 10, x->pi/2, name="π/2")
+```
+
 ### Real Numbers
 ```jldoctest
 julia> asec(1.0)

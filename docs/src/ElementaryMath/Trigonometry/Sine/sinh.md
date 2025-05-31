@@ -19,6 +19,11 @@ methods(sinh, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ## Examples
 
+```@repl
+using UnicodePlots
+lineplot(-3, 3, sinh, ylim=(-10, 10))
+```
+
 ### Real Numbers
 ```jldoctest
 julia> sinh(0)

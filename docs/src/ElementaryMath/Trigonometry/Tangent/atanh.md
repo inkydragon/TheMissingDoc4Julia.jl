@@ -19,6 +19,11 @@ methods(atanh, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ## Examples
 
+```@repl
+using UnicodePlots
+lineplot(-1, 1, atanh)
+```
+
 ### Real Numbers
 ```jldoctest
 julia> atanh(0)

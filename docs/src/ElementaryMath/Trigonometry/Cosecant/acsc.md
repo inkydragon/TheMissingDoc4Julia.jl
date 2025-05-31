@@ -20,6 +20,13 @@ methods(acsc, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ## Examples
 
+```@repl
+using UnicodePlots
+plot = Plot(; xlim=(-10, 10), ylim=(-pi/2, pi/2));
+lineplot!(plot, 1, 10, acsc);
+lineplot!(plot, -10, -1, acsc)
+```
+
 ### Real Numbers
 ```jldoctest
 julia> acsc(Inf)

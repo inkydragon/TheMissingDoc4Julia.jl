@@ -21,7 +21,7 @@ methods(cos, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ```@repl
 using UnicodePlots
-lineplot(0, 2π, cos)
+lineplot(-π, π, cos)
 ```
 
 ### Real Numbers

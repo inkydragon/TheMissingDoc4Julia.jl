@@ -19,6 +19,11 @@ methods(csc, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ## Examples
 
+```@repl
+using UnicodePlots
+lineplot(-2π, 2π, csc, xlim=(-7, 7), ylim=(-4, 4))
+```
+
 ### Real Numbers
 ```jldoctest
 julia> csc(0)
