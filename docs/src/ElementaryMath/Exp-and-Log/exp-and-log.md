@@ -33,5 +33,7 @@
 
 ## Float Point
 - [`exponent`](@ref)
+- [`significand`](@ref)
 - [`frexp`](@ref)
 - [`ldexp`](@ref)
+- [`modf`](@ref)
