@@ -68,6 +68,11 @@
 - [`isless`](@ref)
 - [`isunordered`](@ref)
 
+- [`min`](@ref)
+- [`max`](@ref)
+- [`minmax`](@ref)
+
+
 ## Logical Operations
 
 ### Boolean Operations
