@@ -51,6 +51,8 @@
 - [`ceil`](@ref)
 - [`floor`](@ref)
 - [`round`](@ref)
+- [`clamp`](@ref)
+- [`clamp!`](@ref)
 
 
 ## Relational Operations

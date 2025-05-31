@@ -16,6 +16,8 @@ cld
 ceil
 floor
 round
+clamp
+clamp!
 ```
 
 ## Roungding
