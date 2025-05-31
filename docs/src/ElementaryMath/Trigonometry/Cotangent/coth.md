@@ -19,6 +19,11 @@ methods(coth, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ## Examples
 
+```@repl
+using UnicodePlots
+lineplot(-3, 3, coth, ylim=(-5, 5))
+```
+
 ### Real Numbers
 ```jldoctest
 julia> coth(0)
