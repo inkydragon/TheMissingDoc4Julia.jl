@@ -19,6 +19,11 @@ methods(acosh, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ## Examples
 
+```@repl
+using UnicodePlots
+lineplot(1, 4, acosh, xlim=(-4, 4) , ylim=(-2, 2))
+```
+
 ### Real Numbers
 ```jldoctest
 julia> acosh(1.0)
