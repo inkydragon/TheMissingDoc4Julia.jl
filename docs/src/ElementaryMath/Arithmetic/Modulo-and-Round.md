@@ -3,8 +3,10 @@
 ```@docs
 mod
 mod1
+mod2pi
 invmod
 rem
+rem2pi
 Base.div
 Base.:÷
 divrem

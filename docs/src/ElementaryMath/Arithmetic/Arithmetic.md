@@ -38,8 +38,10 @@
 ## Modulo Division and Rounding
 - [`mod`](@ref)
 - [`mod1`](@ref)
+- [`mod2pi`](@ref)
 - [`invmod`](@ref)
 - [`rem`](@ref)
+- [`rem2pi`](@ref)
 - [`div`](@ref)
 - [`÷`](@ref)
 - [`divrem`](@ref)
