@@ -19,6 +19,11 @@ methods(sech, (Any,), [Base, Base.Math, Base.MathConstants, Base.MPFR])
 
 ## Examples
 
+```@repl
+using UnicodePlots
+lineplot(-3, 3, sech, ylim=(-3, 3))
+```
+
 ### Real Numbers
 ```jldoctest
 julia> sech(0)
