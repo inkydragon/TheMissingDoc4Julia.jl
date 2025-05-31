@@ -29,6 +29,7 @@
 - [`sqrt`](@ref)
 - [`isqrt`](@ref)
 - [`cbrt`](@ref)
+- [`fourthroot`](@ref)
 
 ## Float Point
 - [`exponent`](@ref)
