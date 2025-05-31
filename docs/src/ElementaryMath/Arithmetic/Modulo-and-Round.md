@@ -3,8 +3,10 @@
 ```@docs
 mod
 mod1
+mod2pi
 invmod
 rem
+rem2pi
 Base.div
 Base.:÷
 divrem
@@ -16,6 +18,8 @@ cld
 ceil
 floor
 round
+clamp
+clamp!
 ```
 
 ## Roungding

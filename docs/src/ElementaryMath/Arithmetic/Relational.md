@@ -12,4 +12,7 @@
 isequal
 isless
 isunordered
+max
+min
+minmax
 ```

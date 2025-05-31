@@ -38,8 +38,10 @@
 ## Modulo Division and Rounding
 - [`mod`](@ref)
 - [`mod1`](@ref)
+- [`mod2pi`](@ref)
 - [`invmod`](@ref)
 - [`rem`](@ref)
+- [`rem2pi`](@ref)
 - [`div`](@ref)
 - [`÷`](@ref)
 - [`divrem`](@ref)
@@ -51,6 +53,8 @@
 - [`ceil`](@ref)
 - [`floor`](@ref)
 - [`round`](@ref)
+- [`clamp`](@ref)
+- [`clamp!`](@ref)
 
 
 ## Relational Operations
@@ -65,6 +69,11 @@
 - [`isequal`](@ref)
 - [`isless`](@ref)
 - [`isunordered`](@ref)
+
+- [`min`](@ref)
+- [`max`](@ref)
+- [`minmax`](@ref)
+
 
 ## Logical Operations
 
