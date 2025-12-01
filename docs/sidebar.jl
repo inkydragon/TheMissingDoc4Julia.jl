@@ -111,24 +111,24 @@ all_pages = [
         hide("ElementaryMath/index.md")
     ],
 
-    "Guide" => Any[
-        "guide/index.md",
-        # Wolfram
-        "guide/wolfram/TrigonometricFunctions.md",
-        "guide/wolfram/HyperbolicFunctions.md",
-    ],
+    # "Guide" => Any[
+    #     "guide/index.md",
+    #     # Wolfram
+    #     "guide/wolfram/TrigonometricFunctions.md",
+    #     "guide/wolfram/HyperbolicFunctions.md",
+    # ],
 
-    "Packages" => Any[
-        "Special Functions" => Any[
-            "Pkg/SpecialFunctions/index.md",
-            "Pkg/SpecialFunctions/functions.md",
-        ],
-    ],
+    # "Packages" => Any[
+    #     "Special Functions" => Any[
+    #         "Pkg/SpecialFunctions/index.md",
+    #         "Pkg/SpecialFunctions/functions.md",
+    #     ],
+    # ],
 
     # Dev...
-    "Base" => Any[
-        "Base/Types.md",
-        "Base/Numbers.md",
-        "Base/Errors.md",
-    ],
+    # "Base" => Any[
+    #     "Base/Types.md",
+    #     "Base/Numbers.md",
+    #     "Base/Errors.md",
+    # ],
 ] # all_pages
